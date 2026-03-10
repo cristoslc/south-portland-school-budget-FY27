@@ -1,7 +1,7 @@
 ---
 title: "Disruption-Averse Parent"
 artifact: PERSONA-008
-status: Draft
+status: Validated
 author: cristos
 created: 2026-03-09
 last-updated: 2026-03-09
@@ -52,3 +52,4 @@ Triggered into engagement by specific proposals or credible rumors, not by routi
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-09 | _pending_ | Initial creation |
+| Validated | 2026-03-10 | _pending_ | Promoted — persona-specific briefing validates traits against evidence pools |

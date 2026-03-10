@@ -1,7 +1,7 @@
 ---
 title: "High School Teacher"
 artifact: PERSONA-004
-status: Draft
+status: Validated
 author: cristos
 created: 2026-03-09
 last-updated: 2026-03-09
@@ -51,3 +51,4 @@ Engages with budget information through union communications, district budget pr
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-09 | _pending_ | Initial creation |
+| Validated | 2026-03-10 | _pending_ | Promoted — persona-specific briefing validates traits against evidence pools |

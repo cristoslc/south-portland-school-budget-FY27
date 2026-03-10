@@ -1,7 +1,7 @@
 ---
 title: "Tax-Conscious Resident"
 artifact: PERSONA-006
-status: Draft
+status: Validated
 author: cristos
 created: 2026-03-09
 last-updated: 2026-03-09
@@ -52,3 +52,4 @@ Encounters budget information through local media (Sentry, Forecaster), municipa
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-09 | _pending_ | Initial creation |
+| Validated | 2026-03-10 | _pending_ | Promoted — persona-specific briefing validates traits against evidence pools |
