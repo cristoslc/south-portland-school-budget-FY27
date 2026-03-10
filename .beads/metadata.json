@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "server",
+  "dolt_database": "bd_2026_south_portland_school_budget",
+  "project_id": "dc3d9cce-6dde-4983-9668-2024fc7b6e03"
+}
