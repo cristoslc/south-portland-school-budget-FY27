@@ -50,4 +50,4 @@ Engages with budget data on a laptop, usually in the evening. Prefers structured
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-09 | _pending_ | Initial creation |
-| Validated | 2026-03-10 | _pending_ | Promoted — persona-specific briefing validates traits against evidence pools |
+| Validated | 2026-03-10 | b22ce56 | Promoted — persona-specific briefing validates traits against evidence pools |
