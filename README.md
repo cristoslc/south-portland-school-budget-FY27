@@ -72,6 +72,10 @@ This analysis covers the FY27 budget as proposed through March 2026. Key upcomin
 
 The budget process typically runs March through June, ending with a public referendum vote.
 
-## License
+## How This Project Is Built
+
+This project uses [swain](https://github.com/cristoslc/swain), an AI-agent skill framework designed for software product development -- not municipal government or civic advocacy. Swain provides structured workflows for things like vision documents, user personas, evidence pools, and implementation specs. Repurposing it for school budget analysis means the terminology and artifact structure can feel odd: budget stakeholders are modeled as "user personas," meeting transcripts go through "evidence pool" pipelines, and briefings are treated as product deliverables. It works, but if you browse the `docs/` folder and wonder why a budget analysis project has software-style artifacts, that's why.
+
+## Disclaimer
 
 This is an independent, volunteer analysis. It is not affiliated with or endorsed by the South Portland School Department or City of South Portland.
