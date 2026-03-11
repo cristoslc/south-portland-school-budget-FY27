@@ -1,6 +1,9 @@
+name: github-runners
+
 services:
   runner:
     build: .
+    container_name: ${RUNNER_NAME:-sopo-budget-runner}
     restart: unless-stopped
     env_file: .env
     volumes:
