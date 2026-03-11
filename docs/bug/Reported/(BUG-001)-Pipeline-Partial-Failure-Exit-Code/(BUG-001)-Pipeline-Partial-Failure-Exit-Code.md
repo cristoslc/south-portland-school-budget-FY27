@@ -56,4 +56,4 @@ Blocks scheduled automation from committing new evidence pool updates. Every sch
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Reported | 2026-03-11 | _pending_ | Discovered during first self-hosted runner test |
+| Reported | 2026-03-11 | 3894795 | Discovered during first self-hosted runner test |
