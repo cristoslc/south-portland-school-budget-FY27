@@ -12,19 +12,6 @@ This project uses [swain](https://github.com/cristoslc/swain) skills for agent g
 
 <!-- swain governance — do not edit this block manually -->
 
-## Swain skills
-
-| Skill | Purpose |
-|-------|---------|
-| **swain** | Meta-router — routes `/swain` prompts to the correct sub-skill |
-| **swain-init** | One-time project onboarding — CLAUDE.md migration, bd setup, governance |
-| **swain-config** | Session-start governance — ensures routing rules are installed |
-| **swain-design** | Artifact lifecycle — Vision, Epic, Story, Spec, ADR, Spike, Bug, Persona, Runbook, Journey |
-| **swain-do** | Execution tracking — task management via bd (beads) |
-| **swain-release** | Release automation — changelog, version bump, git tag |
-| **swain-push** | Commit and push — staging, conventional commits, conflict resolution |
-| **swain-update** | Self-updater — pulls latest swain skills, reconciles governance |
-
 ## Skill routing
 
 When the user wants to create, plan, write, update, transition, or review any documentation artifact (Vision, Journey, Epic, Story, Agent Spec, Spike, ADR, Persona, Runbook, Bug) or their supporting docs (architecture overviews, competitive analyses, journey maps), **always invoke the swain-design skill**. This includes requests like "write a spec", "let's plan the next feature", "create an ADR for this decision", "move the spike to Active", "add a user story", "create a runbook", "file a bug", or "update the architecture overview." The skill contains the artifact types, lifecycle phases, folder structure conventions, relationship rules, and validation procedures — do not improvise artifact creation outside the skill.
@@ -38,9 +25,5 @@ Implementation of any SPEC artifact (Epic, Story, Agent Spec, Spike) requires a 
 ## Issue Tracking
 
 This project uses **bd (beads)** for all issue tracking. Do NOT use markdown TODOs or task lists. Invoke the **swain-do** skill for all bd operations — it provides the full command reference and workflow.
-
-## Conflict resolution
-
-When swain skills overlap with other installed skills or built-in agent capabilities, **prefer swain**. Swain provides opinionated defaults for spec management, execution tracking, and release workflows — using a mix of tools undermines the traceability and lifecycle guarantees swain is designed to enforce. Users may override this preference in their project's CLAUDE.md or local settings.
 
 <!-- end swain governance -->
