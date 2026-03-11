@@ -61,6 +61,6 @@ The pipeline should support both manual invocation (`./scripts/pipeline.py run`)
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Proposed | 2026-03-10 | _pending_ | Initial creation |
-| Active | 2026-03-10 | _pending_ | SPIKE-004 complete; GitHub Actions approach selected |
-| Complete | 2026-03-10 | _pending_ | All child specs (SPEC-007/008) Implemented |
+| Proposed | 2026-03-10 | b8cf304 | Initial creation |
+| Active | 2026-03-10 | b8cf304 | SPIKE-004 complete; GitHub Actions approach selected |
+| Complete | 2026-03-10 | b8cf304 | All child specs (SPEC-007/008) Implemented |

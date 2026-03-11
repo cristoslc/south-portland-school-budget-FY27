@@ -79,5 +79,5 @@ The pipeline runner (SPEC-007) needs to execute on a schedule to keep evidence p
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-10 | _pending_ | Initial creation |
-| Implemented | 2026-03-10 | _pending_ | GitHub Actions workflow created |
+| Draft | 2026-03-10 | b8cf304 | Initial creation |
+| Implemented | 2026-03-10 | b8cf304 | GitHub Actions workflow created |

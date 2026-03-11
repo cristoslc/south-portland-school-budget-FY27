@@ -99,5 +99,5 @@ Source connectors (EPIC-001) download raw files and normalizers (EPIC-002) conve
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-10 | _pending_ | Initial creation |
-| Implemented | 2026-03-10 | _pending_ | Pipeline runner tested with --check-only against all connectors |
+| Draft | 2026-03-10 | b8cf304 | Initial creation |
+| Implemented | 2026-03-10 | b8cf304 | Pipeline runner tested with --check-only against all connectors |
