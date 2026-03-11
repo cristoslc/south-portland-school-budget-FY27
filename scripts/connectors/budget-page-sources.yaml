@@ -1,0 +1,94 @@
+# Budget page document sources for the budget_page.py connector
+# Each entry maps a Google Drive/Docs URL to its local output path.
+#
+# To add a new document: append an entry with the URL, document type,
+# and the relative path under data/ where the file should be saved.
+#
+# URL types supported:
+#   - drive.google.com/file/d/{ID}/view  → downloaded directly
+#   - docs.google.com/presentation/d/{ID}/edit → exported as PDF
+#   - docs.google.com/spreadsheets/d/{ID}/edit → exported as XLSX
+
+page_url: "https://www.spsdme.org/page/budget27"
+
+sources:
+  # Meeting packets (Google Drive PDFs)
+  - url: "https://drive.google.com/file/d/1asJgVrdZ8ZSbdys2C9XtCWH9BDJaHxC4/view?usp=sharing"
+    type: meeting-packet
+    date: "2026-03-09"
+    label: "Regular Meeting"
+    output: "data/school-board/budget-fy27/meetings/2026-03-09-regular/packet.pdf"
+
+  - url: "https://drive.google.com/file/d/1yEonUkkVIXCXoaiy_82ST6H-09XNFSYB/view?usp=sharing"
+    type: meeting-agenda
+    date: "2026-03-02"
+    label: "Budget Workshop I"
+    output: "data/school-board/budget-fy27/meetings/2026-03-02-budget-workshop-1/agenda.pdf"
+
+  - url: "https://drive.google.com/file/d/1PT8525woktsDNRlAOXvAdbvHU3pocTQx/view?usp=sharing"
+    type: meeting-packet
+    date: "2026-02-09"
+    label: "Regular Meeting"
+    output: "data/school-board/budget-fy27/meetings/2026-02-09-regular/packet.pdf"
+
+  - url: "https://drive.google.com/file/d/19ORibrGggcYXg5I2hUsPhGmbTS8muOQX/view?usp=sharing"
+    type: meeting-packet
+    date: "2026-01-12"
+    label: "Regular Meeting"
+    output: "data/school-board/budget-fy27/meetings/2026-01-12-regular/packet.pdf"
+
+  - url: "https://drive.google.com/file/d/1e5CKR4HgTowanZx3y47zgqe6SIqBsaoN/view?usp=sharing"
+    type: meeting-packet
+    date: "2025-12-17"
+    label: "Board Workshop"
+    output: "data/school-board/budget-fy27/meetings/2025-12-17-workshop/packet.pdf"
+
+  # Presentations (Google Slides → PDF export, or Google Drive PDFs)
+  - url: "https://docs.google.com/presentation/d/1lNX2v1rq33OxDSmGwbsmSTjoI9z-My6mDO9qgSo3QIA/edit?usp=sharing"
+    type: presentation
+    date: "2026-03-09"
+    label: "Budget Slides (Regular Meeting)"
+    output: "data/school-board/budget-fy27/presentations/2026-03-09-budget-presentation.pdf"
+
+  - url: "https://docs.google.com/presentation/d/1OqtmJXktp3o9fJ_EJN6sR3r_EhFpBDd1iDYXWemR9-o/edit?usp=sharing"
+    type: presentation
+    date: "2026-03-02"
+    label: "Budget Workshop I Slides"
+    output: "data/school-board/budget-fy27/presentations/2026-03-02-workshop-slides.pdf"
+
+  - url: "https://docs.google.com/presentation/d/1Uf9R0DMGWn5skCxKgSQ4xu3MrO_zN1VfwgJeh4TMTQA/edit?usp=sharing"
+    type: presentation
+    date: "2026-02-10"
+    label: "City Council and Board Preliminary Budget Discussion"
+    output: "data/school-board/budget-fy27/presentations/2026-02-10-council-board-discussion.pdf"
+
+  - url: "https://drive.google.com/file/d/1eJ8rM3zst-_1zM7reiEPFv38Bg5F4-SB/view?usp=sharing"
+    type: presentation
+    date: "2026-02-09"
+    label: "Regular Meeting Slides"
+    output: "data/school-board/budget-fy27/presentations/2026-02-09-regular-meeting-slides.pdf"
+
+  - url: "https://docs.google.com/presentation/d/1AVxEHiioC2riUl2uAtQ-fTIwacpAbmA6sKELb9e06bY/edit?usp=sharing"
+    type: presentation
+    date: "2026-02-04"
+    label: "Public School Budget Forum Slides"
+    output: "data/school-board/budget-fy27/presentations/2026-02-04-budget-forum-slides.pdf"
+
+  - url: "https://drive.google.com/file/d/1eu9lOhnjb9W380CRubLAERPB7696gbij/view?usp=drive_link"
+    type: presentation
+    date: "2026-01-12"
+    label: "Regular Meeting Slides"
+    output: "data/school-board/budget-fy27/presentations/2026-01-12-regular-meeting-slides.pdf"
+
+  - url: "https://drive.google.com/file/d/1Ga4ILpGoWh72QChVPP8WiQ24aC5dIjHG/view?usp=drive_link"
+    type: presentation
+    date: "2025-12-17"
+    label: "Workshop Slides"
+    output: "data/school-board/budget-fy27/presentations/2025-12-17-workshop-slides.pdf"
+
+  # Documents (Google Sheets → XLSX export)
+  - url: "https://docs.google.com/spreadsheets/d/1KsEJXJSrjpKTKkcbN0M9knAG_yUWt2E6WGy_gT6_Y3k/edit?usp=sharing"
+    type: document
+    date: "2026-03-02"
+    label: "Models and Matrix"
+    output: "data/school-board/budget-fy27/documents/2026-03-02-models-and-matrix.xlsx"
