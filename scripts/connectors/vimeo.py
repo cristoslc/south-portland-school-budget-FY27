@@ -178,15 +178,21 @@ def infer_metadata(video):
     if upload_date and len(upload_date) == 8:
         date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
     else:
-        # Try to extract date from title
-        m = re.search(r"(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})", video.get("title", ""))
+        # Try YYYYMMDD embedded in title (SPC-TV convention: "spboe_20260309 - ...")
+        m = re.search(r"(\d{8})", video.get("title", ""))
         if m:
-            month, day, year = m.group(1), m.group(2), m.group(3)
-            if len(year) == 2:
-                year = f"20{year}"
-            date = f"{year}-{int(month):02d}-{int(day):02d}"
+            d = m.group(1)
+            date = f"{d[:4]}-{d[4:6]}-{d[6:8]}"
         else:
-            date = "unknown"
+            # Try M/D/YYYY or M-D-YYYY
+            m = re.search(r"(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})", video.get("title", ""))
+            if m:
+                month, day, year = m.group(1), m.group(2), m.group(3)
+                if len(year) == 2:
+                    year = f"20{year}"
+                date = f"{year}-{int(month):02d}-{int(day):02d}"
+            else:
+                date = "unknown"
 
     # Build output path
     dir_name = date
@@ -228,14 +234,53 @@ def save_config(config_path, config):
         f.write(body)
 
 
-def discover_and_update(config_path):
+def matches_filters(video, prefixes, after_date):
+    """Check if a video matches the discovery filters.
+
+    Args:
+        video: dict with 'title' and 'upload_date' keys
+        prefixes: list of title prefixes to match (e.g., ['spboe_', 'spcc_'])
+        after_date: minimum date string (YYYY-MM-DD) or None
+    """
+    title = video.get("title", "").lower()
+
+    # Prefix filter
+    if prefixes:
+        if not any(title.startswith(p.lower()) for p in prefixes):
+            return False
+
+    # Date filter — extract date from upload_date or title (SPC-TV embeds YYYYMMDD in titles)
+    if after_date:
+        video_date = None
+        upload = video.get("upload_date", "")
+        if upload and len(upload) == 8:
+            video_date = f"{upload[:4]}-{upload[4:6]}-{upload[6:8]}"
+        else:
+            # Extract YYYYMMDD from title (e.g., "spboe_20260309" or "spcc_ws_20251113")
+            m = re.search(r'(\d{8})', title)
+            if m:
+                d = m.group(1)
+                video_date = f"{d[:4]}-{d[4:6]}-{d[6:8]}"
+        if video_date and video_date < after_date:
+            return False
+
+    return True
+
+
+def discover_and_update(config_path, dry_run=False):
     """Discover new channel videos and add them to config.
 
-    Returns the number of new entries added.
+    Args:
+        config_path: path to vimeo-sources.yaml
+        dry_run: if True, report findings without writing to config
+
+    Returns the number of new entries found/added.
     """
     config = load_config(config_path)
     channel_id = config.get("channel", "spctv")
     sources = config.get("sources", [])
+    prefixes = config.get("discover_prefixes", [])
+    after_date = config.get("discover_after", None)
 
     # Get known video IDs
     known_ids = {str(s["vimeo_id"]) for s in sources}
@@ -246,10 +291,16 @@ def discover_and_update(config_path):
         log.info("No videos found on channel (or channel listing failed)")
         return 0
 
+    # Filter to relevant videos only
+    relevant = [v for v in videos if matches_filters(v, prefixes, after_date)]
+    if prefixes or after_date:
+        log.info("Filtered to %d relevant video(s) (from %d total)",
+                 len(relevant), len(videos))
+
     # Find new videos
-    new_videos = [v for v in videos if v["id"] not in known_ids]
+    new_videos = [v for v in relevant if v["id"] not in known_ids]
     if not new_videos:
-        log.info("All %d channel videos are already in config", len(videos))
+        log.info("All %d relevant channel videos are already in config", len(relevant))
         return 0
 
     log.info("Found %d new video(s) not in config:", len(new_videos))
@@ -261,13 +312,17 @@ def discover_and_update(config_path):
                  video.get("title", "?"), meta["type"], meta["subtype"],
                  meta["date"], meta["vimeo_id"])
 
-        sources.append(meta)
+        if not dry_run:
+            sources.append(meta)
         added += 1
 
-    # Save updated config
-    config["sources"] = sources
-    save_config(config_path, config)
-    log.info("Added %d new entry/entries to %s", added, os.path.basename(config_path))
+    if dry_run:
+        log.info("Dry run — %d new entry/entries found (config not modified)", added)
+    else:
+        # Save updated config
+        config["sources"] = sources
+        save_config(config_path, config)
+        log.info("Added %d new entry/entries to %s", added, os.path.basename(config_path))
 
     return added
 
@@ -278,9 +333,11 @@ def run(config_path, check_only=False, single_id=None, discover=False):
 
     # Discovery phase: find new videos and add to config
     if discover:
-        new_count = discover_and_update(config_path)
-        if new_count > 0:
+        new_count = discover_and_update(config_path, dry_run=check_only)
+        if new_count > 0 and not check_only:
             log.info("Discovery added %d new source(s) — proceeding to download", new_count)
+        elif new_count > 0:
+            log.info("Discovery found %d new source(s) (dry run)", new_count)
         else:
             log.info("Discovery complete — no new sources found")
 

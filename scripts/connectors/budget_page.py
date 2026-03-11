@@ -226,10 +226,15 @@ def save_config(config_path, config):
         f.write(body)
 
 
-def auto_add_sources(config_path, page_url):
+def auto_add_sources(config_path, page_url, dry_run=False):
     """Discover new links, generate metadata, append to config.
 
-    Returns the number of new entries added.
+    Args:
+        config_path: path to budget-page-sources.yaml
+        page_url: URL of the budget page to scrape
+        dry_run: if True, report findings without writing to config
+
+    Returns the number of new entries found/added.
     """
     config = load_config(config_path)
     sources = config.get("sources", [])
@@ -253,12 +258,16 @@ def auto_add_sources(config_path, page_url):
     for link_info in new_links:
         meta = infer_source_metadata(link_info["url"], link_info.get("label", ""))
         log.info("  NEW: %s — %s (%s)", meta["label"], meta["type"], meta["url"][:80])
-        sources.append(meta)
+        if not dry_run:
+            sources.append(meta)
         added += 1
 
-    config["sources"] = sources
-    save_config(config_path, config)
-    log.info("Added %d new entry/entries to %s", added, os.path.basename(config_path))
+    if dry_run:
+        log.info("Dry run — %d new entry/entries found (config not modified)", added)
+    else:
+        config["sources"] = sources
+        save_config(config_path, config)
+        log.info("Added %d new entry/entries to %s", added, os.path.basename(config_path))
 
     return added
 
@@ -270,11 +279,13 @@ def run(config_path, check_only=False, discover=False):
 
     # Discovery phase: find new links and add to config
     if discover and page_url:
-        new_count = auto_add_sources(config_path, page_url)
-        if new_count > 0:
+        new_count = auto_add_sources(config_path, page_url, dry_run=check_only)
+        if new_count > 0 and not check_only:
             log.info("Discovery added %d new source(s) — proceeding to download", new_count)
             # Reload config with new entries
             config = load_config(config_path)
+        elif new_count > 0:
+            log.info("Discovery found %d new source(s) (dry run)", new_count)
         else:
             log.info("Discovery complete — no new sources found")
     elif discover and not page_url:

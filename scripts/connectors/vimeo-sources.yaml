@@ -4,73 +4,101 @@
 # To add a new meeting: append an entry with the Vimeo ID, meeting type,
 # date, and the relative path under data/ where the VTT should be saved.
 
-channel: spctv  # SPC-TV Vimeo channel
 
+channel: spctv
+discover_prefixes:
+- spboe_
+- spcc_
+- spccws_
+discover_after: '2025-12-01'
 sources:
-  # School Board meetings
-  - vimeo_id: "1153991297"
-    type: school-board
-    subtype: regular-meeting
-    date: "2026-01-12"
-    output: "data/school-board/meetings/2026-01-12/transcript.en-x-autogen.vtt"
-
-  - vimeo_id: "1162233926"
-    type: school-board
-    subtype: budget-forum
-    date: "2026-02-04"
-    output: "data/school-board/meetings/2026-02-04-budget-forum/transcript.en-x-autogen.vtt"
-
-  - vimeo_id: "1163649035"
-    type: school-board
-    subtype: regular-meeting
-    date: "2026-02-09"
-    output: "data/school-board/meetings/2026-02-09/transcript.en-x-autogen.vtt"
-
-  - vimeo_id: "1169968145"
-    type: school-board
-    subtype: budget-workshop
-    date: "2026-03-02"
-    output: "data/school-board/meetings/2026-03-02-budget-workshop-1/transcript.en-x-autogen.vtt"
-
-  # City Council meetings
-  - vimeo_id: "1152242786"
-    type: city-council
-    subtype: regular-meeting
-    date: "2026-01-06"
-    output: "data/city-council/meetings/2026-01-06/transcript.en-x-autogen.vtt"
-
-  - vimeo_id: "1154342913"
-    type: city-council
-    subtype: workshop
-    date: "2026-01-13"
-    output: "data/city-council/meetings/2026-01-13/transcript.en-x-autogen.vtt"
-
-  - vimeo_id: "1156886474"
-    type: city-council
-    subtype: regular-meeting
-    date: "2026-01-20"
-    output: "data/city-council/meetings/2026-01-20/transcript.en-x-autogen.vtt"
-
-  - vimeo_id: "1161848722"
-    type: city-council
-    subtype: regular-meeting
-    date: "2026-02-03"
-    output: "data/city-council/meetings/2026-02-03/transcript.en-x-autogen.vtt"
-
-  - vimeo_id: "1164030636"
-    type: city-council
-    subtype: workshop
-    date: "2026-02-10"
-    output: "data/city-council/meetings/2026-02-10/transcript.en-x-autogen.vtt"
-
-  - vimeo_id: "1166041955"
-    type: city-council
-    subtype: regular-meeting
-    date: "2026-02-17"
-    output: "data/city-council/meetings/2026-02-17/transcript.en-x-autogen.vtt"
-
-  - vimeo_id: "1171016267"
-    type: city-council
-    subtype: regular-meeting
-    date: "2026-03-05"
-    output: "data/city-council/meetings/2026-03-05/transcript.en-x-autogen.vtt"
+- vimeo_id: '1153991297'
+  type: school-board
+  subtype: regular-meeting
+  date: '2026-01-12'
+  output: data/school-board/meetings/2026-01-12/transcript.en-x-autogen.vtt
+- vimeo_id: '1162233926'
+  type: school-board
+  subtype: budget-forum
+  date: '2026-02-04'
+  output: data/school-board/meetings/2026-02-04-budget-forum/transcript.en-x-autogen.vtt
+- vimeo_id: '1163649035'
+  type: school-board
+  subtype: regular-meeting
+  date: '2026-02-09'
+  output: data/school-board/meetings/2026-02-09/transcript.en-x-autogen.vtt
+- vimeo_id: '1169968145'
+  type: school-board
+  subtype: budget-workshop
+  date: '2026-03-02'
+  output: data/school-board/meetings/2026-03-02-budget-workshop-1/transcript.en-x-autogen.vtt
+- vimeo_id: '1152242786'
+  type: city-council
+  subtype: regular-meeting
+  date: '2026-01-06'
+  output: data/city-council/meetings/2026-01-06/transcript.en-x-autogen.vtt
+- vimeo_id: '1154342913'
+  type: city-council
+  subtype: workshop
+  date: '2026-01-13'
+  output: data/city-council/meetings/2026-01-13/transcript.en-x-autogen.vtt
+- vimeo_id: '1156886474'
+  type: city-council
+  subtype: regular-meeting
+  date: '2026-01-20'
+  output: data/city-council/meetings/2026-01-20/transcript.en-x-autogen.vtt
+- vimeo_id: '1161848722'
+  type: city-council
+  subtype: regular-meeting
+  date: '2026-02-03'
+  output: data/city-council/meetings/2026-02-03/transcript.en-x-autogen.vtt
+- vimeo_id: '1164030636'
+  type: city-council
+  subtype: workshop
+  date: '2026-02-10'
+  output: data/city-council/meetings/2026-02-10/transcript.en-x-autogen.vtt
+- vimeo_id: '1166041955'
+  type: city-council
+  subtype: regular-meeting
+  date: '2026-02-17'
+  output: data/city-council/meetings/2026-02-17/transcript.en-x-autogen.vtt
+- vimeo_id: '1171016267'
+  type: city-council
+  subtype: regular-meeting
+  date: '2026-03-05'
+  output: data/city-council/meetings/2026-03-05/transcript.en-x-autogen.vtt
+- vimeo_id: '1172187121'
+  type: school-board
+  subtype: regular-meeting
+  date: '2026-03-09'
+  output: data/school-board/meetings/2026-03-09/transcript.en-x-autogen.vtt
+- vimeo_id: '1147746091'
+  type: school-board
+  subtype: budget-workshop
+  date: '2025-12-17'
+  output: data/school-board/meetings/2025-12-17-budget-workshop/transcript.en-x-autogen.vtt
+- vimeo_id: '1145688900'
+  type: school-board
+  subtype: workshop
+  date: '2025-12-10'
+  output: data/school-board/meetings/2025-12-10-workshop/transcript.en-x-autogen.vtt
+- vimeo_id: '1145310933'
+  type: city-council
+  subtype: regular-meeting
+  date: '2025-12-09'
+  output: data/city-council/meetings/2025-12-09/transcript.en-x-autogen.vtt
+- vimeo_id: '1144908926'
+  type: school-board
+  subtype: regular-meeting
+  date: '2025-12-08'
+  output: data/school-board/meetings/2025-12-08/transcript.en-x-autogen.vtt
+- vimeo_id: '1143814471'
+  type: city-council
+  subtype: regular-meeting
+  date: '2025-12-04'
+  output: data/city-council/meetings/2025-12-04/transcript.en-x-autogen.vtt
+- vimeo_id: '1142479808'
+  type: city-council
+  subtype: regular-meeting
+  date: '2025-12-01'
+  output: data/city-council/meetings/2025-12-01/transcript.en-x-autogen.vtt
