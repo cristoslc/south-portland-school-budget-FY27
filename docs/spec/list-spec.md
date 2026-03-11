@@ -5,13 +5,6 @@
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
 
-## Approved
-
-| ID | Title | Last Updated | Commit |
-|----|-------|-------------|--------|
-| SPEC-009 | Vimeo Channel Auto-Discovery | 2026-03-11 | e4b15d4 |
-| SPEC-010 | Budget Page Auto-Discovery | 2026-03-11 | e4b15d4 |
-
 ## Implemented
 
 | ID | Title | Last Updated | Commit |
@@ -24,3 +17,5 @@
 | SPEC-006 | HTML-to-Markdown Normalizer | 2026-03-10 | 63397e4 |
 | SPEC-007 | Pipeline Runner | 2026-03-10 | b8cf304 |
 | SPEC-008 | Pipeline Scheduling | 2026-03-10 | b8cf304 |
+| SPEC-009 | Vimeo Channel Auto-Discovery | 2026-03-11 | _pending_ |
+| SPEC-010 | Budget Page Auto-Discovery | 2026-03-11 | _pending_ |

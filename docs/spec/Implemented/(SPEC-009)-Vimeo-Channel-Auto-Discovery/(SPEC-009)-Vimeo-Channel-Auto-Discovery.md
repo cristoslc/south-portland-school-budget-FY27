@@ -1,7 +1,7 @@
 ---
 title: "Vimeo Channel Auto-Discovery"
 artifact: SPEC-009
-status: Approved
+status: Implemented
 author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
@@ -61,6 +61,11 @@ The Vimeo connector (`scripts/connectors/vimeo.py`) only processes video IDs lis
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1: New video appended to config | discover_and_update() compares channel videos against known_ids, calls infer_metadata() and appends to sources list | pass |
+| AC2: VTT downloaded for new video | After discovery, run() reloads config and download loop picks up new entries via download_vtt() | pass |
+| AC3: Idempotent when all known | discover_and_update() returns 0 when no new videos found, config unchanged | pass |
+| AC4: No-captions video handled | download_vtt() logs warning and returns False, stats["failed"] increments but run continues | pass |
+| AC5: Pipeline integration | pipeline.py passes --discover to vimeo connector via supports_discover flag | pass |
 
 ## Scope & Constraints
 
@@ -86,3 +91,4 @@ The Vimeo connector (`scripts/connectors/vimeo.py`) only processes video IDs lis
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | be16135 | Initial creation |
 | Approved | 2026-03-11 | e4b15d4 | Fully designed; ready for implementation |
+| Implemented | 2026-03-11 | _pending_ | discover_channel(), infer_metadata(), --discover CLI flag |

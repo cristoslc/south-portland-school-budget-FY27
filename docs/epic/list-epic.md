@@ -9,7 +9,6 @@
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
-| EPIC-004 | Source Auto-Discovery | 2026-03-11 | e4b15d4 |
 
 ## Complete
 
@@ -18,3 +17,4 @@
 | EPIC-001 | Source Connectors | 2026-03-10 | 4e32287 |
 | EPIC-002 | Content Normalization | 2026-03-10 | 63397e4 |
 | EPIC-003 | Pipeline Orchestration | 2026-03-10 | b8cf304 |
+| EPIC-004 | Source Auto-Discovery | 2026-03-11 | _pending_ |

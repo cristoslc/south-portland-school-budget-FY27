@@ -1,7 +1,7 @@
 ---
 title: "Budget Page Auto-Discovery"
 artifact: SPEC-010
-status: Approved
+status: Implemented
 author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
@@ -60,6 +60,11 @@ The budget page connector (`scripts/connectors/budget_page.py`) has a `--discove
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1: New link appended to config | auto_add_sources() compares discovered links against configured_bases, calls infer_source_metadata() and appends | pass |
+| AC2: New document downloaded | After discovery, run() reloads config and download loop picks up new entries via download_file() | pass |
+| AC3: Idempotent when all known | auto_add_sources() returns 0 when no new links found, config unchanged | pass |
+| AC4: Download failure handled gracefully | download_file() returns False on error, stats["failed"] increments, loop continues to next source | pass |
+| AC5: Pipeline integration | pipeline.py passes --discover to budget_page connector via supports_discover flag | pass |
 
 ## Scope & Constraints
 
@@ -84,3 +89,4 @@ The budget page connector (`scripts/connectors/budget_page.py`) has a `--discove
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | be16135 | Initial creation |
 | Approved | 2026-03-11 | e4b15d4 | Fully designed; ready for implementation |
+| Implemented | 2026-03-11 | _pending_ | auto_add_sources(), infer_source_metadata(), merged discover+download |
