@@ -3,12 +3,12 @@
 
 Documents are hosted on Google Drive/Docs/Sheets with public sharing.
 This connector uses a YAML config file mapping URLs to local output paths,
-and can also discover new links by scraping the budget page HTML.
+and can discover new links by scraping the budget page HTML and auto-adding them.
 
 Usage:
     python3 scripts/connectors/budget_page.py                  # download all missing docs
     python3 scripts/connectors/budget_page.py --check-only     # list what would be downloaded
-    python3 scripts/connectors/budget_page.py --discover       # find new links not in config
+    python3 scripts/connectors/budget_page.py --discover        # find new links, add to config, download
 """
 
 import argparse
@@ -16,6 +16,7 @@ import logging
 import os
 import re
 import sys
+from datetime import date
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
@@ -43,6 +44,17 @@ SHEETS_RE = re.compile(r"docs\.google\.com/spreadsheets/d/([a-zA-Z0-9_-]+)")
 PAGE_LINK_RE = re.compile(
     r'(https://(?:drive\.google\.com/file/d/|docs\.google\.com/'
     r'(?:presentation|spreadsheets)/d/)[a-zA-Z0-9_-]+(?:/[a-zA-Z0-9_?=&%-]*)*)'
+)
+
+# For extracting surrounding text from HTML near a link
+LINK_CONTEXT_RE = re.compile(
+    r'(?:>([^<]{1,100})<[^>]*(?:href|src)=["\']?'
+    r'(https://(?:drive\.google\.com|docs\.google\.com)[^"\'>\s]+)'
+    r'|'
+    r'(?:href|src)=["\']?'
+    r'(https://(?:drive\.google\.com|docs\.google\.com)[^"\'>\s]+)'
+    r'["\']?[^>]*>([^<]{1,100})<)',
+    re.IGNORECASE
 )
 
 
@@ -109,9 +121,9 @@ def download_file(url, output_path):
 
 
 def discover_page_links(page_url):
-    """Fetch the budget page and extract all Google document links.
+    """Fetch the budget page and extract all Google document links with context.
 
-    Returns a list of URL strings found on the page.
+    Returns a list of dicts with keys: url, label (surrounding text or "").
     """
     req = Request(page_url, headers={
         "User-Agent": "Mozilla/5.0 (compatible; budget-connector/1.0)",
@@ -124,16 +136,26 @@ def discover_page_links(page_url):
         log.error("Failed to fetch budget page %s: %s", page_url, e)
         return []
 
+    # Build a map of URL -> surrounding text from link context
+    url_labels = {}
+    for m in LINK_CONTEXT_RE.finditer(html):
+        pre_text, pre_url, post_url, post_text = m.groups()
+        url = pre_url or post_url
+        label = (pre_text or post_text or "").strip()
+        if url and label:
+            base = url.split("?")[0]
+            url_labels[base] = label
+
+    # Extract all Google document links
     links = PAGE_LINK_RE.findall(html)
-    # Deduplicate while preserving order
     seen = set()
     unique = []
     for link in links:
-        # Normalize: strip query params for comparison
         base = link.split("?")[0]
         if base not in seen:
             seen.add(base)
-            unique.append(link)
+            label = url_labels.get(base, "")
+            unique.append({"url": link, "label": label})
 
     if not unique:
         log.warning("Zero document links found on %s — page structure may have changed", page_url)
@@ -141,25 +163,125 @@ def discover_page_links(page_url):
     return unique
 
 
+def infer_source_metadata(url, label=""):
+    """Infer type, date, label, and output path for a discovered URL."""
+    today = date.today().isoformat()
+
+    # Determine document type from URL
+    if SLIDES_RE.search(url):
+        doc_type = "presentation"
+        ext = ".pdf"
+    elif SHEETS_RE.search(url):
+        doc_type = "document"
+        ext = ".xlsx"
+    else:
+        doc_type = "document"
+        ext = ".pdf"
+
+    # Clean up label for use as filename slug
+    if not label:
+        label = f"discovered-{doc_type}"
+
+    slug = re.sub(r'[^a-z0-9]+', '-', label.lower()).strip('-')[:60]
+
+    # Map to output path directory
+    if doc_type == "presentation":
+        subdir = "presentations"
+    else:
+        subdir = "documents" if SHEETS_RE.search(url) else "meetings"
+        if DRIVE_FILE_RE.search(url):
+            subdir = "documents"
+
+    output = f"data/school-board/budget-fy27/{subdir}/{today}-{slug}{ext}"
+
+    return {
+        "url": url,
+        "type": doc_type,
+        "date": today,
+        "label": label or f"Discovered {doc_type}",
+        "output": output,
+    }
+
+
+def save_config(config_path, config):
+    """Write the config back to YAML, preserving header comments."""
+    with open(config_path, "r") as f:
+        original = f.read()
+
+    header_lines = []
+    for line in original.split("\n"):
+        if line.startswith("#") or line.strip() == "":
+            header_lines.append(line)
+        else:
+            break
+
+    header = "\n".join(header_lines)
+    if header:
+        header += "\n\n"
+
+    body = yaml.dump(config, default_flow_style=False, sort_keys=False)
+
+    with open(config_path, "w") as f:
+        f.write(header)
+        f.write(body)
+
+
+def auto_add_sources(config_path, page_url):
+    """Discover new links, generate metadata, append to config.
+
+    Returns the number of new entries added.
+    """
+    config = load_config(config_path)
+    sources = config.get("sources", [])
+
+    # Known URL bases
+    configured_bases = {s["url"].split("?")[0] for s in sources}
+
+    # Discover
+    page_links = discover_page_links(page_url)
+    if not page_links:
+        return 0
+
+    new_links = [l for l in page_links if l["url"].split("?")[0] not in configured_bases]
+    if not new_links:
+        log.info("All %d page links are already in config", len(page_links))
+        return 0
+
+    log.info("Found %d new link(s) not in config:", len(new_links))
+
+    added = 0
+    for link_info in new_links:
+        meta = infer_source_metadata(link_info["url"], link_info.get("label", ""))
+        log.info("  NEW: %s — %s (%s)", meta["label"], meta["type"], meta["url"][:80])
+        sources.append(meta)
+        added += 1
+
+    config["sources"] = sources
+    save_config(config_path, config)
+    log.info("Added %d new entry/entries to %s", added, os.path.basename(config_path))
+
+    return added
+
+
 def run(config_path, check_only=False, discover=False):
     """Main connector logic."""
     config = load_config(config_path)
-    sources = config.get("sources", [])
     page_url = config.get("page_url", "")
 
-    stats = {"skipped": 0, "downloaded": 0, "failed": 0, "would_download": 0}
-
+    # Discovery phase: find new links and add to config
     if discover and page_url:
-        page_links = discover_page_links(page_url)
-        configured_bases = {s["url"].split("?")[0] for s in sources}
-        new_links = [l for l in page_links if l.split("?")[0] not in configured_bases]
-        if new_links:
-            log.info("Found %d new link(s) not in config:", len(new_links))
-            for link in new_links:
-                log.info("  NEW: %s", link)
+        new_count = auto_add_sources(config_path, page_url)
+        if new_count > 0:
+            log.info("Discovery added %d new source(s) — proceeding to download", new_count)
+            # Reload config with new entries
+            config = load_config(config_path)
         else:
-            log.info("All %d page links are already in config", len(page_links))
-        return 0
+            log.info("Discovery complete — no new sources found")
+    elif discover and not page_url:
+        log.warning("--discover requested but no page_url in config — skipping discovery")
+
+    sources = config.get("sources", [])
+    stats = {"skipped": 0, "downloaded": 0, "failed": 0, "would_download": 0}
 
     for source in sources:
         url = source["url"]
@@ -208,24 +330,13 @@ def main():
     )
     parser.add_argument(
         "--discover", action="store_true",
-        help="Scrape budget page for new links not in config",
+        help="Discover new links on the budget page, add to config, and download",
     )
     parser.add_argument(
         "--config", type=str, default=DEFAULT_CONFIG,
         help="Path to budget-page-sources.yaml",
     )
-    parser.add_argument(
-        "--url", type=str,
-        help="Override budget page URL for --discover",
-    )
     args = parser.parse_args()
-
-    if args.url:
-        # Temporarily override page_url in config
-        config = load_config(args.config)
-        config["page_url"] = args.url
-        # Write to temp — not ideal, just use discover directly
-        pass
 
     sys.exit(run(args.config, check_only=args.check_only, discover=args.discover))
 
