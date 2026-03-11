@@ -60,9 +60,9 @@ CONNECTORS = {
     "budget_page": {
         "script": os.path.join(SCRIPT_DIR, "connectors", "budget_page.py"),
         "watch_dirs": [
-            os.path.join(PROJECT_ROOT, "data", "school-board", "budget-fy27"),
+            os.path.join(PROJECT_ROOT, "data", "school-board", "budget-fy27", "documents"),
         ],
-        "watch_pattern": "**/*.pdf",
+        "watch_pattern": "**/*",
     },
 }
 
