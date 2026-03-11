@@ -10,6 +10,8 @@ Usage:
     python3 scripts/pipeline.py run --check-only         # dry run
     python3 scripts/pipeline.py run --connector vimeo    # single connector
     python3 scripts/pipeline.py run --stage              # stage changes in git
+
+Discovery is always-on — connectors enumerate sources live on every run.
 """
 
 import argparse
@@ -47,7 +49,6 @@ CONNECTORS = {
             os.path.join(PROJECT_ROOT, "data", "city-council", "meetings"),
         ],
         "watch_pattern": "**/*.vtt",
-        "supports_discover": True,
     },
     "diligent": {
         "script": os.path.join(SCRIPT_DIR, "connectors", "diligent.py"),
@@ -62,7 +63,6 @@ CONNECTORS = {
             os.path.join(PROJECT_ROOT, "data", "school-board", "budget-fy27"),
         ],
         "watch_pattern": "**/*.pdf",
-        "supports_discover": True,
     },
 }
 
@@ -77,7 +77,7 @@ def snapshot_files(watch_dirs, pattern):
     return files
 
 
-def run_connector(name, check_only=False, discover=False):
+def run_connector(name, check_only=False):
     """Run a connector script, return (exit_code, new_files).
 
     Snapshots the watch directories before and after to detect new files.
@@ -86,8 +86,6 @@ def run_connector(name, check_only=False, discover=False):
     before = snapshot_files(cfg["watch_dirs"], cfg["watch_pattern"])
 
     cmd = [sys.executable, cfg["script"]]
-    if discover and cfg.get("supports_discover"):
-        cmd.append("--discover")
     if check_only:
         cmd.append("--check-only")
 
@@ -308,7 +306,7 @@ def normalize_all(connector_names=None, stage=False):
     return 0
 
 
-def run(connector_names=None, check_only=False, stage=False, discover=False,
+def run(connector_names=None, check_only=False, stage=False,
         normalize_all_flag=False):
     """Run the full pipeline."""
     if connector_names is None:
@@ -337,7 +335,7 @@ def run(connector_names=None, check_only=False, stage=False, discover=False,
             stats["connectors_failed"] += 1
             continue
 
-        exit_code, new_files = run_connector(name, check_only=check_only, discover=discover)
+        exit_code, new_files = run_connector(name, check_only=check_only)
         if exit_code == 0:
             stats["connectors_ok"] += 1
         else:
@@ -403,10 +401,8 @@ def run(connector_names=None, check_only=False, stage=False, discover=False,
     log.info("=" * 60)
 
     if stats["connectors_failed"] > 0 and stats["connectors_ok"] == 0:
-        return 2  # total failure
-    elif stats["connectors_failed"] > 0:
-        return 1  # partial failure
-    return 0
+        return 1  # total failure — all connectors failed
+    return 0  # success or partial success
 
 
 def main():
@@ -427,10 +423,6 @@ def main():
     run_parser.add_argument(
         "--stage", action="store_true",
         help="Stage changes in git index after processing",
-    )
-    run_parser.add_argument(
-        "--discover", action="store_true",
-        help="Run source auto-discovery before downloading (finds new content)",
     )
     run_parser.add_argument(
         "--normalize-all", action="store_true",
@@ -457,7 +449,6 @@ def main():
             connector_names=args.connectors,
             check_only=args.check_only,
             stage=args.stage,
-            discover=args.discover,
             normalize_all_flag=args.normalize_all,
         )
     elif args.command == "normalize":
