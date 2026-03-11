@@ -1,7 +1,7 @@
 ---
 title: "Pipeline exits non-zero on partial connector failure"
 artifact: BUG-001
-status: Reported
+status: Verified
 severity: medium
 author: cristos
 created: 2026-03-11
@@ -10,7 +10,7 @@ affected-artifacts:
   - SPEC-007
   - SPEC-003
 discovered-in: "GitHub Actions run 22962846728"
-fix-ref: ""
+fix-ref: "SPEC-013, EPIC-006"
 depends-on: []
 swain-do: required
 ---
@@ -57,3 +57,5 @@ Blocks scheduled automation from committing new evidence pool updates. Every sch
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Reported | 2026-03-11 | 3894795 | Discovered during first self-hosted runner test |
+| Fixed | 2026-03-11 | TBD | Resolved by SPEC-013 (exit code fix) and EPIC-006 (live discovery eliminates stale configs) |
+| Verified | 2026-03-11 | TBD | All PRs merged; pipeline runs successfully with partial failures |
