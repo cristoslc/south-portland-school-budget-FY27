@@ -1,53 +1,67 @@
 pool: school-board-budget-meetings
 created: 2026-03-09
-refreshed: 2026-03-09
+refreshed: '2026-03-11'
 tags:
-  - school-board
-  - meetings
-  - budget
-  - fy27
-  - deliberation
-  - transcripts
+- school-board
+- meetings
+- budget
+- fy27
+- deliberation
+- transcripts
 freshness-ttl:
   media: never
-
 sources:
-  - id: "001"
-    file: sources/001-regular-meeting-2026-01-12.md
-    title: "School Board Regular Meeting — January 12, 2026"
-    type: media
-    path: data/school-board/meetings/2026-01-12/transcript.en-x-autogen.vtt
-    hash: "sha256:4c96e47cc44caff3c4212ced5d5a8540f285c4546690d01e8aed15d408b0c4b5"
-    duration: "02:00:36"
-    fetched: 2026-03-09T00:00:00Z
-    notes: "Auto-generated Vimeo captions. May contain transcription errors, especially with proper nouns."
-
-  - id: "002"
-    file: sources/002-budget-forum-2026-02-04.md
-    title: "School Board Public Budget Forum — February 4, 2026"
-    type: media
-    path: data/school-board/meetings/2026-02-04-budget-forum/transcript.en-x-autogen.vtt
-    hash: "sha256:8e2b5e575c84f10a2e5ef7d3edb2582c0ff5ff5161ae162c391eec7f329ade7c"
-    duration: "00:41:25"
-    fetched: 2026-03-09T00:00:00Z
-    notes: "Auto-generated Vimeo captions. May contain transcription errors, especially with proper nouns."
-
-  - id: "003"
-    file: sources/003-regular-meeting-2026-02-09.md
-    title: "School Board Regular Meeting — February 9, 2026"
-    type: media
-    path: data/school-board/meetings/2026-02-09/transcript.en-x-autogen.vtt
-    hash: "sha256:3a44b99fe6dcb31ca75f660d8d088e3a34e93129ca73e7e06106ed37113c047b"
-    duration: "02:28:40"
-    fetched: 2026-03-09T00:00:00Z
-    notes: "Auto-generated Vimeo captions. May contain transcription errors, especially with proper nouns."
-
-  - id: "004"
-    file: sources/004-budget-workshop-1-2026-03-02.md
-    title: "School Board Budget Workshop I — March 2, 2026"
-    type: media
-    path: data/school-board/meetings/2026-03-02-budget-workshop-1/transcript.en-x-autogen.vtt
-    hash: "sha256:d5edcb1fe398a00ee7a0646b95e1bdc9ea2e94f62133af99089dcea8f5af730f"
-    duration: "03:32:09"
-    fetched: 2026-03-09T00:00:00Z
-    notes: "Auto-generated Vimeo captions. May contain transcription errors, especially with proper nouns."
+- id: '001'
+  file: sources/001-regular-meeting-2026-01-12.md
+  title: School Board Regular Meeting — January 12, 2026
+  type: media
+  path: data/school-board/meetings/2026-01-12/transcript.en-x-autogen.vtt
+  hash: sha256:4c96e47cc44caff3c4212ced5d5a8540f285c4546690d01e8aed15d408b0c4b5
+  duration: 02:00:36
+  fetched: 2026-03-09 00:00:00+00:00
+  notes: Auto-generated Vimeo captions. May contain transcription errors, especially
+    with proper nouns.
+- id: '002'
+  file: sources/002-budget-forum-2026-02-04.md
+  title: School Board Public Budget Forum — February 4, 2026
+  type: media
+  path: data/school-board/meetings/2026-02-04-budget-forum/transcript.en-x-autogen.vtt
+  hash: sha256:8e2b5e575c84f10a2e5ef7d3edb2582c0ff5ff5161ae162c391eec7f329ade7c
+  duration: 00:41:25
+  fetched: 2026-03-09 00:00:00+00:00
+  notes: Auto-generated Vimeo captions. May contain transcription errors, especially
+    with proper nouns.
+- id: '003'
+  file: sources/003-regular-meeting-2026-02-09.md
+  title: School Board Regular Meeting — February 9, 2026
+  type: media
+  path: data/school-board/meetings/2026-02-09/transcript.en-x-autogen.vtt
+  hash: sha256:3a44b99fe6dcb31ca75f660d8d088e3a34e93129ca73e7e06106ed37113c047b
+  duration: 02:28:40
+  fetched: 2026-03-09 00:00:00+00:00
+  notes: Auto-generated Vimeo captions. May contain transcription errors, especially
+    with proper nouns.
+- id: '004'
+  file: sources/004-budget-workshop-1-2026-03-02.md
+  title: School Board Budget Workshop I — March 2, 2026
+  type: media
+  path: data/school-board/meetings/2026-03-02-budget-workshop-1/transcript.en-x-autogen.vtt
+  hash: sha256:d5edcb1fe398a00ee7a0646b95e1bdc9ea2e94f62133af99089dcea8f5af730f
+  duration: 03:32:09
+  fetched: 2026-03-09 00:00:00+00:00
+  notes: Auto-generated Vimeo captions. May contain transcription errors, especially
+    with proper nouns.
+- source-id: '005'
+  title: School Board Meeting — 2025-12-08
+  type: media
+  path: data/school-board/meetings/2025-12-08/transcript.en-x-autogen.vtt
+  hash: sha256:36fbfdee6902dc3877faeb886e1188c26a75b6272498b0286f4a1b15dd154e2a
+  file: sources/005-school-board-meeting-2025-12-08-2026-south.md
+  duration: 01:36:55
+- source-id: '006'
+  title: School Board Workshop — 2025-12-10
+  type: media
+  path: data/school-board/meetings/2025-12-10-workshop/transcript.en-x-autogen.vtt
+  hash: sha256:1d0cc26069529ca4bc8e6ae257a52d0570caf43aabf3a704bbc67b1e46ef25a8
+  file: sources/006-school-board-workshop-2025-12-10-2026-south.md
+  duration: 03:53:07

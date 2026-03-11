@@ -1,133 +1,138 @@
 pool: city-council-meetings-2026
 created: 2026-03-09
-refreshed: 2026-03-09
+refreshed: '2026-03-11'
 tags:
-  - city-council
-  - meetings
-  - budget
-  - governance
-  - south-portland
-  - agendas
+- city-council
+- meetings
+- budget
+- governance
+- south-portland
+- agendas
 freshness-ttl:
   media: never
   local: never
-
 sources:
-  - source-id: "001"
-    title: "City Council Regular Meeting — January 6, 2026"
-    type: media
-    path: "data/city-council/meetings/2026-01-06/transcript.en-x-autogen.vtt"
-    hash: "sha256:bff9dabb577c7a20648e4a3d2b4c8af324f1728e4a6c549484e1de9b273bed45"
-    file: "sources/001-council-meeting-2026-01-06.md"
-    duration: "00:59:17"
-
-  - source-id: "002"
-    title: "City Council Workshop — January 13, 2026"
-    type: media
-    path: "data/city-council/meetings/2026-01-13/transcript.en-x-autogen.vtt"
-    hash: "sha256:25aa4cc2d831748f88a530dccc960f8c1ebf300b08a488227b768628dbfc1e59"
-    file: "sources/002-council-workshop-2026-01-13.md"
-    duration: "04:05:49"
-
-  - source-id: "003"
-    title: "City Council Regular Meeting — January 20, 2026"
-    type: media
-    path: "data/city-council/meetings/2026-01-20/transcript.en-x-autogen.vtt"
-    hash: "sha256:a790cfbe8fd24a3cae4e46121d33b0c2912037b62e7244c34c8cf8afffdcb9a5"
-    file: "sources/003-council-meeting-2026-01-20.md"
-    duration: "03:03:07"
-
-  - source-id: "004"
-    title: "City Council Regular Meeting — February 3, 2026"
-    type: media
-    path: "data/city-council/meetings/2026-02-03/transcript.en-x-autogen.vtt"
-    hash: "sha256:6edc3ce9b40dec10d1dd1285478fe35105f152bbc59fecd7da45cf8457fddfc7"
-    file: "sources/004-council-meeting-2026-02-03.md"
-    duration: "04:01:06"
-
-  - source-id: "005"
-    title: "City Council Workshop — February 10, 2026"
-    type: media
-    path: "data/city-council/meetings/2026-02-10/transcript.en-x-autogen.vtt"
-    hash: "sha256:246d350c3f5a945bf228d4f40b9dd193e2f25a9c62187f86f681976158eb8a53"
-    file: "sources/005-council-workshop-2026-02-10.md"
-    duration: "03:46:11"
-
-  - source-id: "006"
-    title: "City Council Regular Meeting — February 17, 2026"
-    type: media
-    path: "data/city-council/meetings/2026-02-17/transcript.en-x-autogen.vtt"
-    hash: "sha256:01fe32f2ab41782464521a52a418b6b8ebbd8d7e2fa19deaa3ab216e92622773"
-    file: "sources/006-council-meeting-2026-02-17.md"
-    duration: "05:07:07"
-
-  - source-id: "007"
-    title: "City Council Regular Meeting — March 5, 2026"
-    type: media
-    path: "data/city-council/meetings/2026-03-05/transcript.en-x-autogen.vtt"
-    hash: "sha256:da654e25c713261e634bc161a2d994cc168fe8842a98e5e146a944342cae65a3"
-    file: "sources/007-council-meeting-2026-03-05.md"
-    duration: "03:41:13"
-
-  - source-id: "008"
-    title: "City Council Agenda — January 6, 2026"
-    type: local
-    path: "data/city-council/meetings/2026-01-06/agenda.txt"
-    hash: "sha256:337d2456c07914fa61afc931950f236c96feb9b274dffe90fcdb96244cea9eb9"
-    file: "sources/008-council-agenda-2026-01-06.md"
-
-  - source-id: "009"
-    title: "City Council Agenda — January 13, 2026"
-    type: local
-    path: "data/city-council/meetings/2026-01-13/agenda.txt"
-    hash: "sha256:131fd71faae43a35a96f908055851988b1b06528322ef2d4bc6194ecaf161fe9"
-    file: "sources/009-council-agenda-2026-01-13.md"
-
-  - source-id: "010"
-    title: "City Council Goal Setting Workshop Agenda — January 15, 2026"
-    type: local
-    path: "data/city-council/meetings/2026-01-15/agenda.txt"
-    hash: "sha256:5b9905835125f5f9f6d889dfc4a4735b21d22be674c1900adbc1f832b9887d5d"
-    file: "sources/010-council-agenda-2026-01-15.md"
-
-  - source-id: "011"
-    title: "City Council Agenda — January 20, 2026"
-    type: local
-    path: "data/city-council/meetings/2026-01-20/agenda.txt"
-    hash: "sha256:cbde09624cf4184781a4e68af8edf97478bacf8b1fa52f1647f3852f4efe6a86"
-    file: "sources/011-council-agenda-2026-01-20.md"
-
-  - source-id: "012"
-    title: "City Council Agenda — February 3, 2026"
-    type: local
-    path: "data/city-council/meetings/2026-02-03/agenda.txt"
-    hash: "sha256:85452e054a86fd4d226e5d93ec220d92dbe527ad1cbd461d62190164782c2070"
-    file: "sources/012-council-agenda-2026-02-03.md"
-
-  - source-id: "013"
-    title: "City Council Agenda — February 10, 2026"
-    type: local
-    path: "data/city-council/meetings/2026-02-10/agenda.txt"
-    hash: "sha256:dedd84fbb23c9703051b0f4f89db27ed3440133b39bced2e13c1939c785e3d48"
-    file: "sources/013-council-agenda-2026-02-10.md"
-
-  - source-id: "014"
-    title: "City Council Agenda — February 17, 2026"
-    type: local
-    path: "data/city-council/meetings/2026-02-17/agenda.txt"
-    hash: "sha256:c44aad5d12224b20564ad31536739bb1ef3e0c50ccffc3af33631e69d6ef3e00"
-    file: "sources/014-council-agenda-2026-02-17.md"
-
-  - source-id: "015"
-    title: "City Council Agenda — March 5, 2026"
-    type: local
-    path: "data/city-council/meetings/2026-03-05/agenda.txt"
-    hash: "sha256:bbb9968b9183f033d0f84b955401697b8fb9f11d64601a1be5dc58a34faa0f2b"
-    file: "sources/015-council-agenda-2026-03-05.md"
-
-  - source-id: "016"
-    title: "City Council Agenda — March 10, 2026"
-    type: local
-    path: "data/city-council/meetings/2026-03-10/agenda.txt"
-    hash: "sha256:7b75657cae0ea5f3ce9bd4b1b4933fb0ee73d483b521620fcc88cf59e0824570"
-    file: "sources/016-council-agenda-2026-03-10.md"
+- source-id: '001'
+  title: City Council Regular Meeting — January 6, 2026
+  type: media
+  path: data/city-council/meetings/2026-01-06/transcript.en-x-autogen.vtt
+  hash: sha256:bff9dabb577c7a20648e4a3d2b4c8af324f1728e4a6c549484e1de9b273bed45
+  file: sources/001-council-meeting-2026-01-06.md
+  duration: 00:59:17
+- source-id: '002'
+  title: City Council Workshop — January 13, 2026
+  type: media
+  path: data/city-council/meetings/2026-01-13/transcript.en-x-autogen.vtt
+  hash: sha256:25aa4cc2d831748f88a530dccc960f8c1ebf300b08a488227b768628dbfc1e59
+  file: sources/002-council-workshop-2026-01-13.md
+  duration: 04:05:49
+- source-id: '003'
+  title: City Council Regular Meeting — January 20, 2026
+  type: media
+  path: data/city-council/meetings/2026-01-20/transcript.en-x-autogen.vtt
+  hash: sha256:a790cfbe8fd24a3cae4e46121d33b0c2912037b62e7244c34c8cf8afffdcb9a5
+  file: sources/003-council-meeting-2026-01-20.md
+  duration: 03:03:07
+- source-id: '004'
+  title: City Council Regular Meeting — February 3, 2026
+  type: media
+  path: data/city-council/meetings/2026-02-03/transcript.en-x-autogen.vtt
+  hash: sha256:6edc3ce9b40dec10d1dd1285478fe35105f152bbc59fecd7da45cf8457fddfc7
+  file: sources/004-council-meeting-2026-02-03.md
+  duration: 04:01:06
+- source-id: '005'
+  title: City Council Workshop — February 10, 2026
+  type: media
+  path: data/city-council/meetings/2026-02-10/transcript.en-x-autogen.vtt
+  hash: sha256:246d350c3f5a945bf228d4f40b9dd193e2f25a9c62187f86f681976158eb8a53
+  file: sources/005-council-workshop-2026-02-10.md
+  duration: 03:46:11
+- source-id: '006'
+  title: City Council Regular Meeting — February 17, 2026
+  type: media
+  path: data/city-council/meetings/2026-02-17/transcript.en-x-autogen.vtt
+  hash: sha256:01fe32f2ab41782464521a52a418b6b8ebbd8d7e2fa19deaa3ab216e92622773
+  file: sources/006-council-meeting-2026-02-17.md
+  duration: 05:07:07
+- source-id: '007'
+  title: City Council Regular Meeting — March 5, 2026
+  type: media
+  path: data/city-council/meetings/2026-03-05/transcript.en-x-autogen.vtt
+  hash: sha256:da654e25c713261e634bc161a2d994cc168fe8842a98e5e146a944342cae65a3
+  file: sources/007-council-meeting-2026-03-05.md
+  duration: 03:41:13
+- source-id: 008
+  title: City Council Agenda — January 6, 2026
+  type: local
+  path: data/city-council/meetings/2026-01-06/agenda.txt
+  hash: sha256:337d2456c07914fa61afc931950f236c96feb9b274dffe90fcdb96244cea9eb9
+  file: sources/008-council-agenda-2026-01-06.md
+- source-id: 009
+  title: City Council Agenda — January 13, 2026
+  type: local
+  path: data/city-council/meetings/2026-01-13/agenda.txt
+  hash: sha256:131fd71faae43a35a96f908055851988b1b06528322ef2d4bc6194ecaf161fe9
+  file: sources/009-council-agenda-2026-01-13.md
+- source-id: '010'
+  title: City Council Goal Setting Workshop Agenda — January 15, 2026
+  type: local
+  path: data/city-council/meetings/2026-01-15/agenda.txt
+  hash: sha256:5b9905835125f5f9f6d889dfc4a4735b21d22be674c1900adbc1f832b9887d5d
+  file: sources/010-council-agenda-2026-01-15.md
+- source-id: '011'
+  title: City Council Agenda — January 20, 2026
+  type: local
+  path: data/city-council/meetings/2026-01-20/agenda.txt
+  hash: sha256:cbde09624cf4184781a4e68af8edf97478bacf8b1fa52f1647f3852f4efe6a86
+  file: sources/011-council-agenda-2026-01-20.md
+- source-id: '012'
+  title: City Council Agenda — February 3, 2026
+  type: local
+  path: data/city-council/meetings/2026-02-03/agenda.txt
+  hash: sha256:85452e054a86fd4d226e5d93ec220d92dbe527ad1cbd461d62190164782c2070
+  file: sources/012-council-agenda-2026-02-03.md
+- source-id: '013'
+  title: City Council Agenda — February 10, 2026
+  type: local
+  path: data/city-council/meetings/2026-02-10/agenda.txt
+  hash: sha256:dedd84fbb23c9703051b0f4f89db27ed3440133b39bced2e13c1939c785e3d48
+  file: sources/013-council-agenda-2026-02-10.md
+- source-id: '014'
+  title: City Council Agenda — February 17, 2026
+  type: local
+  path: data/city-council/meetings/2026-02-17/agenda.txt
+  hash: sha256:c44aad5d12224b20564ad31536739bb1ef3e0c50ccffc3af33631e69d6ef3e00
+  file: sources/014-council-agenda-2026-02-17.md
+- source-id: '015'
+  title: City Council Agenda — March 5, 2026
+  type: local
+  path: data/city-council/meetings/2026-03-05/agenda.txt
+  hash: sha256:bbb9968b9183f033d0f84b955401697b8fb9f11d64601a1be5dc58a34faa0f2b
+  file: sources/015-council-agenda-2026-03-05.md
+- source-id: '016'
+  title: City Council Agenda — March 10, 2026
+  type: local
+  path: data/city-council/meetings/2026-03-10/agenda.txt
+  hash: sha256:7b75657cae0ea5f3ce9bd4b1b4933fb0ee73d483b521620fcc88cf59e0824570
+  file: sources/016-council-agenda-2026-03-10.md
+- source-id: '017'
+  title: City Council Meeting — 2025-12-01
+  type: media
+  path: data/city-council/meetings/2025-12-01/transcript.en-x-autogen.vtt
+  hash: sha256:e3b21147b5c3f5fe40ee56cd8e65ff42c49529a4b534c47b7d99eddf91a0be46
+  file: sources/017-city-council-meeting-2025-12-01-2026-south.md
+  duration: 01:02:53
+- source-id: 018
+  title: City Council Meeting — 2025-12-04
+  type: media
+  path: data/city-council/meetings/2025-12-04/transcript.en-x-autogen.vtt
+  hash: sha256:f6546c6fab0abea378f5995a6ad28ff027da7422dcd4dfec16ac9bf5e8e6b9cf
+  file: sources/018-city-council-meeting-2025-12-04-2026-south.md
+  duration: 02:24:01
+- source-id: 019
+  title: City Council Meeting — 2025-12-09
+  type: media
+  path: data/city-council/meetings/2025-12-09/transcript.en-x-autogen.vtt
+  hash: sha256:8ae2d11a3e102235579040f0685724664b5f33eb85e33b9575a8bf2e76e596d9
+  file: sources/019-city-council-meeting-2025-12-09-2026-south.md
+  duration: 02:09:24

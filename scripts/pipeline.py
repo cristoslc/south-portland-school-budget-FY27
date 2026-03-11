@@ -239,7 +239,72 @@ def stage_changes():
         log.warning("git add failed: %s", result.stderr.strip())
 
 
-def run(connector_names=None, check_only=False, stage=False, discover=False):
+def collect_all_files(connector_names=None):
+    """Collect all existing files from watch directories.
+
+    Used by --normalize-all and the normalize subcommand to find files
+    that may not have been normalized yet (e.g., downloaded outside
+    the pipeline).
+    """
+    if connector_names is None:
+        connector_names = list(CONNECTORS.keys())
+
+    all_files = set()
+    for name in connector_names:
+        if name not in CONNECTORS:
+            continue
+        cfg = CONNECTORS[name]
+        files = snapshot_files(cfg["watch_dirs"], cfg["watch_pattern"])
+        all_files.update(files)
+
+    # Also pick up XLSX files in budget-fy27 (not matched by *.pdf pattern)
+    xlsx_dir = os.path.join(PROJECT_ROOT, "data", "school-board", "budget-fy27")
+    if os.path.exists(xlsx_dir):
+        for f in glob.glob(os.path.join(xlsx_dir, "**/*.xlsx"), recursive=True):
+            all_files.add(os.path.abspath(f))
+
+    return sorted(all_files)
+
+
+def normalize_all(connector_names=None, stage=False):
+    """Normalize all existing files, skipping those already in their pool.
+
+    The normalizers handle deduplication via manifest hash checks,
+    so it's safe to pass all files — duplicates are logged and skipped.
+    """
+    all_files = collect_all_files(connector_names)
+
+    if not all_files:
+        log.info("No files found to normalize")
+        return 0
+
+    stats = {"normalized": 0, "skipped_or_failed": 0}
+
+    log.info("=" * 60)
+    log.info("Normalizing all %d file(s) (duplicates will be skipped)", len(all_files))
+    log.info("=" * 60)
+
+    for filepath in all_files:
+        if normalize_file(filepath):
+            stats["normalized"] += 1
+        else:
+            stats["skipped_or_failed"] += 1
+
+    if stage:
+        log.info("")
+        stage_changes()
+
+    log.info("")
+    log.info("=" * 60)
+    log.info("Normalize-all complete: %d normalized, %d skipped/failed",
+             stats["normalized"], stats["skipped_or_failed"])
+    log.info("=" * 60)
+
+    return 0
+
+
+def run(connector_names=None, check_only=False, stage=False, discover=False,
+        normalize_all_flag=False):
     """Run the full pipeline."""
     if connector_names is None:
         connector_names = list(CONNECTORS.keys())
@@ -285,23 +350,33 @@ def run(connector_names=None, check_only=False, stage=False, discover=False):
         log.info("=" * 60)
         return 0 if stats["connectors_failed"] == 0 else 1
 
-    if not all_new_files:
+    # Phase 2: Normalize
+    if normalize_all_flag:
+        # Normalize ALL files in watch dirs (catches files downloaded outside pipeline)
+        all_files = collect_all_files(connector_names)
+        log.info("")
+        log.info("=" * 60)
+        log.info("Phase 2: Normalizing ALL %d file(s) (--normalize-all)", len(all_files))
+        log.info("=" * 60)
+        for filepath in all_files:
+            if normalize_file(filepath):
+                stats["normalized"] += 1
+            else:
+                stats["normalize_failed"] += 1
+    elif all_new_files:
+        log.info("")
+        log.info("=" * 60)
+        log.info("Phase 2: Normalizing %d new file(s)", len(all_new_files))
+        log.info("=" * 60)
+        for filepath in all_new_files:
+            if normalize_file(filepath):
+                stats["normalized"] += 1
+            else:
+                stats["normalize_failed"] += 1
+    else:
         log.info("=" * 60)
         log.info("No new content — nothing to normalize")
         log.info("=" * 60)
-        return 0 if stats["connectors_failed"] == 0 else 1
-
-    # Phase 2: Normalize new files
-    log.info("")
-    log.info("=" * 60)
-    log.info("Phase 2: Normalizing %d new file(s)", len(all_new_files))
-    log.info("=" * 60)
-
-    for filepath in all_new_files:
-        if normalize_file(filepath):
-            stats["normalized"] += 1
-        else:
-            stats["normalize_failed"] += 1
 
     # Phase 3: Stage changes (optional)
     if stage:
@@ -352,19 +427,43 @@ def main():
         "--discover", action="store_true",
         help="Run source auto-discovery before downloading (finds new content)",
     )
+    run_parser.add_argument(
+        "--normalize-all", action="store_true",
+        help="Normalize ALL files (not just new ones) — catches up un-pooled files",
+    )
+
+    # normalize subcommand: skip connectors, just normalize existing files
+    norm_parser = subparsers.add_parser(
+        "normalize", help="Normalize all existing data files into evidence pools",
+    )
+    norm_parser.add_argument(
+        "--connector", action="append", dest="connectors",
+        help="Only normalize files from specific connector watch dirs",
+    )
+    norm_parser.add_argument(
+        "--stage", action="store_true",
+        help="Stage changes in git index after processing",
+    )
 
     args = parser.parse_args()
 
-    if args.command != "run":
+    if args.command == "run":
+        exit_code = run(
+            connector_names=args.connectors,
+            check_only=args.check_only,
+            stage=args.stage,
+            discover=args.discover,
+            normalize_all_flag=args.normalize_all,
+        )
+    elif args.command == "normalize":
+        exit_code = normalize_all(
+            connector_names=args.connectors,
+            stage=args.stage,
+        )
+    else:
         parser.print_help()
         sys.exit(2)
 
-    exit_code = run(
-        connector_names=args.connectors,
-        check_only=args.check_only,
-        stage=args.stage,
-        discover=args.discover,
-    )
     sys.exit(exit_code)
 
 
