@@ -56,5 +56,5 @@ _To be created when EPIC-002 comes up for implementation._
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Proposed | 2026-03-10 | _pending_ | Initial creation |
-| Active | 2026-03-10 | _pending_ | SPIKE-003 complete; script reuse assessed |
+| Proposed | 2026-03-10 | 7e0bc47 | Initial creation |
+| Active | 2026-03-10 | 19807c6 | SPIKE-003 complete; script reuse assessed |
