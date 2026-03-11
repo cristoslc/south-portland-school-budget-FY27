@@ -86,4 +86,4 @@ The budget page connector downloads spreadsheets (Google Sheets exported as XLSX
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | 78dce64 | Initial creation |
-| Implemented | 2026-03-11 | _pending_ | Normalizer created, tested, integrated into pipeline |
+| Implemented | 2026-03-11 | 465b58c | Normalizer created, tested, integrated into pipeline |
