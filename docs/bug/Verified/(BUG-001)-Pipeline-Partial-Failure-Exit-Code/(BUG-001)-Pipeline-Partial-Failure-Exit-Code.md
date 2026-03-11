@@ -57,5 +57,5 @@ Blocks scheduled automation from committing new evidence pool updates. Every sch
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Reported | 2026-03-11 | 3894795 | Discovered during first self-hosted runner test |
-| Fixed | 2026-03-11 | TBD | Resolved by SPEC-013 (exit code fix) and EPIC-006 (live discovery eliminates stale configs) |
-| Verified | 2026-03-11 | TBD | All PRs merged; pipeline runs successfully with partial failures |
+| Fixed | 2026-03-11 | 27a992a | Resolved by SPEC-013 (exit code fix) and EPIC-006 (live discovery eliminates stale configs) |
+| Verified | 2026-03-11 | 27a992a | All PRs merged; pipeline runs successfully with partial failures |

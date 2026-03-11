@@ -14,4 +14,4 @@
 
 | ID | Title | Severity | Last Updated | Commit |
 |----|-------|----------|-------------|--------|
-| BUG-001 | Pipeline exits non-zero on partial connector failure | medium | 2026-03-11 | TBD |
+| BUG-001 | Pipeline exits non-zero on partial connector failure | medium | 2026-03-11 | 27a992a |
