@@ -4,6 +4,7 @@
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
+| EPIC-007 | Budget Lever Analysis and Interactive Dashboard | 2026-03-11 | _pending_ |
 
 ## Active
 
