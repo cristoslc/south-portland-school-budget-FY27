@@ -1,10 +1,10 @@
 ---
 title: "Understanding What's Changing at My Kid's School"
 artifact: JOURNEY-001
-status: Draft
+status: Validated
 author: cristos
 created: 2026-03-10
-last-updated: 2026-03-10
+last-updated: 2026-03-11
 parent-vision: VISION-001
 linked-personas:
   - PERSONA-001
@@ -130,3 +130,4 @@ journey
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-10 | _pending_ | Initial creation |
+| Validated | 2026-03-11 | TBD | Approved by stakeholder review |

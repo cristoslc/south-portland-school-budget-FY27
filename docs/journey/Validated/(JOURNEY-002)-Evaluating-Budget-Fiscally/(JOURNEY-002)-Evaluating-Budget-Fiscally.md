@@ -1,10 +1,10 @@
 ---
 title: "Evaluating the Budget as a Fiscal Document"
 artifact: JOURNEY-002
-status: Draft
+status: Validated
 author: cristos
 created: 2026-03-10
-last-updated: 2026-03-10
+last-updated: 2026-03-11
 parent-vision: VISION-001
 linked-personas:
   - PERSONA-002
@@ -125,3 +125,4 @@ journey
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-10 | _pending_ | Initial creation |
+| Validated | 2026-03-11 | TBD | Approved by stakeholder review |
