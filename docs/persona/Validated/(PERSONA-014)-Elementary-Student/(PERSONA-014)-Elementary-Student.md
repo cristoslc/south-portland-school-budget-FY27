@@ -1,7 +1,7 @@
 ---
 title: "Elementary Student"
 artifact: PERSONA-014
-status: Draft
+status: Validated
 author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
@@ -53,3 +53,4 @@ Lila will never read a budget document or an analysis product. She is not a "use
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | ee27cb1 | Initial creation |
+| Validated | 2026-03-11 | TBD | Validated for interpretation pipeline |
