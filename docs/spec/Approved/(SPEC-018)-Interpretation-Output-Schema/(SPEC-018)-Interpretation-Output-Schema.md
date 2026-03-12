@@ -1,7 +1,7 @@
 ---
 title: "Interpretation Output Schema"
 artifact: SPEC-018
-status: Draft
+status: Approved
 author: cristos
 created: 2026-03-12
 last-updated: 2026-03-12
@@ -62,3 +62,4 @@ Per-meeting interpretation produces three layers of output (structured points, j
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-12 | 7207791 | Initial creation |
+| Approved | 2026-03-12 | _pending_ | Approved for implementation |

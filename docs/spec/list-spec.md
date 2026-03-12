@@ -5,12 +5,17 @@
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
 | SPEC-016 | Meeting Bundle Schema | 2026-03-12 | 7207791 |
-| SPEC-017 | Source-to-Meeting Affiliation | 2026-03-12 | 7207791 |
-| SPEC-018 | Interpretation Output Schema | 2026-03-12 | 7207791 |
-| SPEC-019 | Per-Meeting Interpretation Runner | 2026-03-12 | 7207791 |
-| SPEC-020 | Cumulative Interpretation Format | 2026-03-12 | 7207791 |
-| SPEC-021 | Fold Engine | 2026-03-12 | 7207791 |
-| SPEC-022 | Upcoming-Event Brief Generator | 2026-03-12 | 7207791 |
+
+## Approved
+
+| ID | Title | Last Updated | Commit |
+|----|-------|-------------|--------|
+| SPEC-017 | Source-to-Meeting Affiliation | 2026-03-12 | _pending_ |
+| SPEC-018 | Interpretation Output Schema | 2026-03-12 | _pending_ |
+| SPEC-019 | Per-Meeting Interpretation Runner | 2026-03-12 | _pending_ |
+| SPEC-020 | Cumulative Interpretation Format | 2026-03-12 | _pending_ |
+| SPEC-021 | Fold Engine | 2026-03-12 | _pending_ |
+| SPEC-022 | Upcoming-Event Brief Generator | 2026-03-12 | _pending_ |
 
 ## Implemented
 

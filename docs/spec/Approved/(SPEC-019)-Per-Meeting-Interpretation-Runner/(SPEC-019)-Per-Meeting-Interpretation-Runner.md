@@ -1,7 +1,7 @@
 ---
 title: "Per-Meeting Interpretation Runner"
 artifact: SPEC-019
-status: Draft
+status: Approved
 author: cristos
 created: 2026-03-12
 last-updated: 2026-03-12
@@ -68,3 +68,4 @@ The interpretation pipeline needs an orchestrator that takes a meeting bundle, l
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-12 | 7207791 | Initial creation |
+| Approved | 2026-03-12 | _pending_ | Approved for implementation |

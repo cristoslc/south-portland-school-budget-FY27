@@ -1,7 +1,7 @@
 ---
 title: "Cumulative Interpretation Format"
 artifact: SPEC-020
-status: Draft
+status: Approved
 author: cristos
 created: 2026-03-12
 last-updated: 2026-03-12
@@ -64,3 +64,4 @@ Per-meeting interpretations capture point-in-time snapshots. The cumulative inte
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-12 | 7207791 | Initial creation |
+| Approved | 2026-03-12 | _pending_ | Approved for implementation |
