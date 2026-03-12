@@ -1,0 +1,17 @@
+schema_version: "1.0"
+
+meeting_date: "2026-01-15"
+meeting_type: regular
+body: city-council
+title: "City Council Regular Meeting — January 15, 2026"
+
+agenda_ref: data/city-council/meetings/2026-01-15/agenda.txt
+
+sources:
+  - source_id: "cc-agenda-2026-01-15-010"
+    source_type: agenda
+    title: "City Council Goal Setting Workshop Agenda — January 15, 2026"
+    path: data/city-council/meetings/2026-01-15/agenda.txt
+    normalized_path: docs/evidence-pools/city-council-meetings-2026/sources/010-council-agenda-2026-01-15.md
+    evidence_pool: city-council-meetings-2026
+    hash: "sha256:5b9905835125f5f9f6d889dfc4a4735b21d22be674c1900adbc1f832b9887d5d"

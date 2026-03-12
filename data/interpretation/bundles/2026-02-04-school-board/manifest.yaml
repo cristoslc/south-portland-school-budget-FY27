@@ -1,0 +1,23 @@
+schema_version: "1.0"
+
+meeting_date: "2026-02-04"
+meeting_type: budget-forum
+body: school-board
+title: "School Board Public Budget Forum — February 4, 2026"
+
+sources:
+  - source_id: "sb-transcript-2026-02-04-002"
+    source_type: transcript
+    title: "School Board Public Budget Forum — February 4, 2026"
+    path: data/school-board/meetings/2026-02-04-budget-forum/transcript.en-x-autogen.vtt
+    normalized_path: docs/evidence-pools/school-board-budget-meetings/sources/002-budget-forum-2026-02-04.md
+    evidence_pool: school-board-budget-meetings
+    hash: "sha256:8e2b5e575c84f10a2e5ef7d3edb2582c0ff5ff5161ae162c391eec7f329ade7c"
+    duration: "00:41:25"
+
+  - source_id: "sb-presentation-2026-02-04-007"
+    source_type: presentation
+    title: "FY27 Budget Forum Slides - February 4-5, 2026"
+    path: data/school-board/budget-fy27/presentations/2026-02-04-budget-forum-slides.pdf
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:20c509c57364ef0ecbb24da0f04970c0516c05aaa99932d1a27574ed69c9c938"

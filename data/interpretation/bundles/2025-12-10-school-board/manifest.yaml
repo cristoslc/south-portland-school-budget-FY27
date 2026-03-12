@@ -1,0 +1,16 @@
+schema_version: "1.0"
+
+meeting_date: "2025-12-10"
+meeting_type: workshop
+body: school-board
+title: "School Board Workshop — December 10, 2025"
+
+sources:
+  - source_id: "sb-transcript-2025-12-10-006"
+    source_type: transcript
+    title: "School Board Workshop — 2025-12-10"
+    path: data/school-board/meetings/2025-12-10-workshop/transcript.en-x-autogen.vtt
+    normalized_path: docs/evidence-pools/school-board-budget-meetings/sources/006-school-board-workshop-2025-12-10-2026-south.md
+    evidence_pool: school-board-budget-meetings
+    hash: "sha256:1d0cc26069529ca4bc8e6ae257a52d0570caf43aabf3a704bbc67b1e46ef25a8"
+    duration: "03:53:07"

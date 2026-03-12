@@ -1,0 +1,30 @@
+schema_version: "1.0"
+
+meeting_date: "2026-01-12"
+meeting_type: regular
+body: school-board
+title: "School Board Regular Meeting — January 12, 2026"
+
+sources:
+  - source_id: "sb-transcript-2026-01-12-001"
+    source_type: transcript
+    title: "School Board Regular Meeting — January 12, 2026"
+    path: data/school-board/meetings/2026-01-12/transcript.en-x-autogen.vtt
+    normalized_path: docs/evidence-pools/school-board-budget-meetings/sources/001-regular-meeting-2026-01-12.md
+    evidence_pool: school-board-budget-meetings
+    hash: "sha256:4c96e47cc44caff3c4212ced5d5a8540f285c4546690d01e8aed15d408b0c4b5"
+    duration: "02:00:36"
+
+  - source_id: "sb-packet-2026-01-12-002"
+    source_type: packet
+    title: "Regular Meeting Packet - Board of Education, January 12, 2026"
+    path: data/school-board/budget-fy27/meetings/2026-01-12-regular/packet.pdf
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:288172b4c5f1efed42116ac1b909b673ef929f8c00d57605188282e6e7c1a949"
+
+  - source_id: "sb-presentation-2026-01-12-006"
+    source_type: presentation
+    title: "Board of Education Regular Meeting Slides - January 12, 2026"
+    path: data/school-board/budget-fy27/presentations/2026-01-12-regular-meeting-slides.pdf
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:b1193a6ca6c1af6885df5553df0e04a3d08b99f5416aa669b83b3f52cc05d669"

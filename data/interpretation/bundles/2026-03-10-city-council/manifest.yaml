@@ -1,0 +1,17 @@
+schema_version: "1.0"
+
+meeting_date: "2026-03-10"
+meeting_type: regular
+body: city-council
+title: "City Council Regular Meeting — March 10, 2026"
+
+agenda_ref: data/city-council/meetings/2026-03-10/agenda.txt
+
+sources:
+  - source_id: "cc-agenda-2026-03-10-016"
+    source_type: agenda
+    title: "City Council Agenda — March 10, 2026"
+    path: data/city-council/meetings/2026-03-10/agenda.txt
+    normalized_path: docs/evidence-pools/city-council-meetings-2026/sources/016-council-agenda-2026-03-10.md
+    evidence_pool: city-council-meetings-2026
+    hash: "sha256:7b75657cae0ea5f3ce9bd4b1b4933fb0ee73d483b521620fcc88cf59e0824570"

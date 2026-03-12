@@ -1,0 +1,240 @@
+# Interpretation Output — JSON Schema (YAML encoding)
+#
+# Validates interpretation output documents produced by the
+# per-persona interpretation engine. Each document is a markdown
+# file with YAML frontmatter + three body sections.
+#
+# This schema defines the logical structure; the physical format
+# is YAML frontmatter (delimited by ---) followed by markdown
+# containing the three layers as sections.
+#
+# Spec: SPEC-018 (Interpretation Output Schema)
+# Part of: VISION-003 (Interpretation Pipeline)
+# Depends on: SPIKE-005 (Interpretation Prompt Design)
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "interpretation-output-schema"
+title: "Interpretation Output"
+description: >
+  Schema for a per-persona, per-meeting interpretation document.
+  Each interpretation has YAML frontmatter identifying the meeting
+  and persona, followed by three layers: structured points (machine-
+  parseable facts with emotional metadata), a journey map (chronological
+  emotional arc), and free-form reactions (persona-voice narrative).
+
+type: object
+
+required:
+  - schema_version
+  - meeting_id
+  - persona_id
+  - structured_points
+  - journey_map
+  - reactions
+
+properties:
+
+  # --- Frontmatter fields ---
+
+  schema_version:
+    type: string
+    const: "1.0"
+    description: >
+      Schema version string. Allows future evolution without breaking
+      existing consumers.
+
+  meeting_id:
+    type: string
+    pattern: "^\\d{4}-\\d{2}-\\d{2}-[a-z][a-z0-9-]+$"
+    description: >
+      Meeting identifier matching the bundle directory name
+      (e.g., "2026-03-02-school-board"). Must correspond to an
+      existing bundle in data/interpretation/bundles/.
+
+  persona_id:
+    type: string
+    pattern: "^PERSONA-\\d{3}$"
+    description: >
+      Persona identifier matching a validated persona document
+      (e.g., "PERSONA-001").
+
+  meeting_date:
+    type: string
+    format: date
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+    description: >
+      ISO 8601 date of the meeting (YYYY-MM-DD).
+
+  interpretation_date:
+    type: string
+    format: date
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+    description: >
+      ISO 8601 date when this interpretation was generated.
+
+  interpreter_model:
+    type: string
+    description: >
+      Identifier for the LLM model used to generate this
+      interpretation (e.g., "claude-sonnet-4-20250514").
+
+  meeting_title:
+    type: string
+    description: >
+      Human-readable meeting title for display purposes.
+
+  persona_name:
+    type: string
+    description: >
+      Display name of the persona (e.g., "Maria", "Tom", "Jaylen").
+
+  # --- Layer 1: Structured Points ---
+
+  structured_points:
+    type: array
+    minItems: 5
+    maxItems: 8
+    items:
+      $ref: "#/$defs/structured_point"
+    description: >
+      5-8 structured points, each representing a specific fact,
+      decision, or moment from the meeting that the persona would
+      find significant. Machine-parseable for aggregation across
+      personas.
+
+  # --- Layer 2: Journey Map ---
+
+  journey_map:
+    type: array
+    minItems: 4
+    maxItems: 6
+    items:
+      $ref: "#/$defs/journey_beat"
+    description: >
+      4-6 chronologically ordered beats tracing the persona's
+      emotional experience through the meeting. Captures the
+      temporal narrative arc, not just topics.
+
+  # --- Layer 3: Reactions ---
+
+  reactions:
+    type: string
+    minLength: 100
+    description: >
+      Free-form markdown in the persona's authentic voice. Written
+      as if recounting the meeting to a specific person in the
+      persona's life. 2-3 paragraphs. This section is deliberately
+      unstructured to preserve interpretive richness and voice
+      authenticity.
+
+additionalProperties: false
+
+$defs:
+
+  structured_point:
+    type: object
+    required:
+      - fact
+      - source_reference
+      - emotional_valence
+      - threat_level
+    properties:
+
+      fact:
+        type: string
+        minLength: 10
+        description: >
+          Concise statement of what happened or was said (1-2
+          sentences). Must be grounded in evidence from the
+          meeting bundle.
+
+      source_reference:
+        type: string
+        minLength: 1
+        description: >
+          Timestamp from the transcript (e.g., "[01:23--01:45]")
+          or document reference (e.g., "Source 012, Options Matrix").
+          May combine both forms. Every structured point must be
+          traceable to specific evidence.
+
+      emotional_valence:
+        type: string
+        enum:
+          - alarmed
+          - anxious
+          - frustrated
+          - skeptical
+          - neutral
+          - cautiously_optimistic
+          - reassured
+          - empowered
+        description: >
+          The persona's emotional response to this fact. Eight
+          possible values spanning negative, neutral, and positive
+          affect. The distribution across points characterizes
+          the persona's overall meeting experience.
+
+      threat_level:
+        type: integer
+        minimum: 1
+        maximum: 4
+        description: >
+          How threatening this fact is to the persona's goals and
+          interests. 1 = none, 2 = low, 3 = moderate, 4 = high.
+
+      open_question:
+        type: string
+        description: >
+          A question this point raises for the persona, phrased in
+          their voice (not analyst language). Optional — some points
+          may not naturally generate a question.
+
+    additionalProperties: false
+
+  journey_beat:
+    type: object
+    required:
+      - timestamp_range
+      - beat_label
+      - emotional_state
+      - trigger
+      - internal_monologue
+    properties:
+
+      timestamp_range:
+        type: string
+        pattern: "^\\[\\d{2}:\\d{2}--\\d{2}:\\d{2}\\]$"
+        description: >
+          Approximate start-end time range for this beat in the
+          meeting, formatted as "[HH:MM--HH:MM]" (e.g.,
+          "[00:01--00:15]").
+
+      beat_label:
+        type: string
+        maxLength: 50
+        description: >
+          Short label for this phase of the meeting experience
+          (3-5 words, e.g., "Bracing for it", "The matrix reveal").
+
+      emotional_state:
+        type: string
+        description: >
+          How the persona feels during this phase. Free-form to
+          capture nuanced emotional states (e.g., "Tense, attentive"
+          or "Cautiously relieved"). Not constrained to the
+          emotional_valence enum.
+
+      trigger:
+        type: string
+        description: >
+          What specifically caused this emotional shift — a concrete
+          event, statement, or moment in the meeting.
+
+      internal_monologue:
+        type: string
+        description: >
+          One sentence of what the persona is thinking during this
+          beat, written in their voice. Should feel like an actual
+          thought, not a summary.
+
+    additionalProperties: false

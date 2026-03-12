@@ -1,0 +1,16 @@
+schema_version: "1.0"
+
+meeting_date: "2025-12-08"
+meeting_type: regular
+body: school-board
+title: "School Board Regular Meeting — December 8, 2025"
+
+sources:
+  - source_id: "sb-transcript-2025-12-08-005"
+    source_type: transcript
+    title: "School Board Meeting — 2025-12-08"
+    path: data/school-board/meetings/2025-12-08/transcript.en-x-autogen.vtt
+    normalized_path: docs/evidence-pools/school-board-budget-meetings/sources/005-school-board-meeting-2025-12-08-2026-south.md
+    evidence_pool: school-board-budget-meetings
+    hash: "sha256:36fbfdee6902dc3877faeb886e1188c26a75b6272498b0286f4a1b15dd154e2a"
+    duration: "01:36:55"

@@ -1,0 +1,26 @@
+schema_version: "1.0"
+
+meeting_date: "2026-01-20"
+meeting_type: regular
+body: city-council
+title: "City Council Regular Meeting — January 20, 2026"
+
+agenda_ref: data/city-council/meetings/2026-01-20/agenda.txt
+
+sources:
+  - source_id: "cc-transcript-2026-01-20-003"
+    source_type: transcript
+    title: "City Council Regular Meeting — January 20, 2026"
+    path: data/city-council/meetings/2026-01-20/transcript.en-x-autogen.vtt
+    normalized_path: docs/evidence-pools/city-council-meetings-2026/sources/003-council-meeting-2026-01-20.md
+    evidence_pool: city-council-meetings-2026
+    hash: "sha256:a790cfbe8fd24a3cae4e46121d33b0c2912037b62e7244c34c8cf8afffdcb9a5"
+    duration: "03:03:07"
+
+  - source_id: "cc-agenda-2026-01-20-011"
+    source_type: agenda
+    title: "City Council Agenda — January 20, 2026"
+    path: data/city-council/meetings/2026-01-20/agenda.txt
+    normalized_path: docs/evidence-pools/city-council-meetings-2026/sources/011-council-agenda-2026-01-20.md
+    evidence_pool: city-council-meetings-2026
+    hash: "sha256:cbde09624cf4184781a4e68af8edf97478bacf8b1fa52f1647f3852f4efe6a86"

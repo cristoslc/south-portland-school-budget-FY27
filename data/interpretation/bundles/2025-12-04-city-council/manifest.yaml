@@ -1,0 +1,16 @@
+schema_version: "1.0"
+
+meeting_date: "2025-12-04"
+meeting_type: regular
+body: city-council
+title: "City Council Regular Meeting — December 4, 2025"
+
+sources:
+  - source_id: "cc-transcript-2025-12-04-018"
+    source_type: transcript
+    title: "City Council Meeting — 2025-12-04"
+    path: data/city-council/meetings/2025-12-04/transcript.en-x-autogen.vtt
+    normalized_path: docs/evidence-pools/city-council-meetings-2026/sources/018-city-council-meeting-2025-12-04-2026-south.md
+    evidence_pool: city-council-meetings-2026
+    hash: "sha256:f6546c6fab0abea378f5995a6ad28ff027da7422dcd4dfec16ac9bf5e8e6b9cf"
+    duration: "02:24:01"

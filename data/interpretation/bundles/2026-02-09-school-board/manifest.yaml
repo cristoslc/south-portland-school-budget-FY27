@@ -1,0 +1,30 @@
+schema_version: "1.0"
+
+meeting_date: "2026-02-09"
+meeting_type: regular
+body: school-board
+title: "School Board Regular Meeting — February 9, 2026"
+
+sources:
+  - source_id: "sb-transcript-2026-02-09-003"
+    source_type: transcript
+    title: "School Board Regular Meeting — February 9, 2026"
+    path: data/school-board/meetings/2026-02-09/transcript.en-x-autogen.vtt
+    normalized_path: docs/evidence-pools/school-board-budget-meetings/sources/003-regular-meeting-2026-02-09.md
+    evidence_pool: school-board-budget-meetings
+    hash: "sha256:3a44b99fe6dcb31ca75f660d8d088e3a34e93129ca73e7e06106ed37113c047b"
+    duration: "02:28:40"
+
+  - source_id: "sb-packet-2026-02-09-003"
+    source_type: packet
+    title: "Regular Meeting Packet - Board of Education, February 9, 2026"
+    path: data/school-board/budget-fy27/meetings/2026-02-09-regular/packet.pdf
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:dccb9632b9c114772f0242764c6c9a14158987ab4fe2217f12f3ff42b5e4aeb7"
+
+  - source_id: "sb-presentation-2026-02-09-008"
+    source_type: presentation
+    title: "Board of Education Regular Meeting Slides - February 9, 2026"
+    path: data/school-board/budget-fy27/presentations/2026-02-09-regular-meeting-slides.pdf
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:a7024b03c80990505ba860f1bb7b86dfc7285247d7137c3af4e29c4a3a56e1dc"
