@@ -1,0 +1,46 @@
+schema_version: "1.0"
+
+meeting_date: "2026-03-02"
+meeting_type: budget-workshop
+body: school-board
+title: "School Board Budget Workshop I — March 2, 2026"
+
+agenda_ref: data/school-board/budget-fy27/meetings/2026-03-02-budget-workshop-1/agenda.pdf
+notes: >
+  First dedicated FY27 budget workshop. Covered elementary reconfiguration
+  models, cost matrices, and three budget scenarios. 3.5-hour session.
+
+sources:
+  - source_id: "sb-transcript-2026-03-02"
+    source_type: transcript
+    title: "School Board Budget Workshop I — March 2, 2026 (Transcript)"
+    path: data/school-board/meetings/2026-03-02-budget-workshop-1/transcript.en-x-autogen.vtt
+    normalized_path: docs/evidence-pools/school-board-budget-meetings/sources/004-budget-workshop-1-2026-03-02.md
+    evidence_pool: school-board-budget-meetings
+    description: "Auto-generated Vimeo captions for the full 3.5-hour workshop."
+    hash: "sha256:d5edcb1fe398a00ee7a0646b95e1bdc9ea2e94f62133af99089dcea8f5af730f"
+    duration: "03:32:09"
+
+  - source_id: "sb-agenda-2026-03-02"
+    source_type: agenda
+    title: "FY27 Budget Workshop I Agenda — March 2, 2026"
+    path: data/school-board/budget-fy27/meetings/2026-03-02-budget-workshop-1/agenda.pdf
+    normalized_path: docs/evidence-pools/fy27-budget-documents/sources/004-budget-workshop-1-agenda-2026-03-02.md
+    evidence_pool: fy27-budget-documents
+    description: "Official agenda for the budget workshop."
+
+  - source_id: "sb-slides-2026-03-02"
+    source_type: presentation
+    title: "FY27 Budget Workshop I Slides — March 2, 2026"
+    path: data/school-board/budget-fy27/presentations/2026-03-02-workshop-slides.pdf
+    normalized_path: docs/evidence-pools/fy27-budget-documents/sources/010-workshop-slides-2026-03-02.md
+    evidence_pool: fy27-budget-documents
+    description: "Presentation slides covering budget scenarios and reconfiguration options."
+
+  - source_id: "sb-matrix-2026-03-02"
+    source_type: spreadsheet
+    title: "Elementary School Reconfiguration Models and Evaluation Matrix"
+    path: data/school-board/budget-fy27/documents/2026-03-02-models-and-matrix.xlsx
+    normalized_path: docs/evidence-pools/fy27-budget-documents/sources/012-models-and-matrix-2026-03-02.md
+    evidence_pool: fy27-budget-documents
+    description: "Spreadsheet with reconfiguration models and cost evaluation matrix."

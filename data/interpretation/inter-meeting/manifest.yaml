@@ -1,0 +1,39 @@
+# Inter-Meeting Evidence Manifest
+#
+# Evidence sources that fall between meetings and are not affiliated
+# with a single meeting. Each entry has a date_range indicating which
+# meetings the evidence falls between, so the brief generator can
+# include relevant inter-meeting context.
+#
+# Schema: data/interpretation/schema/inter-meeting-manifest-schema.yaml
+# Spec: SPEC-016 (Meeting Bundle Schema)
+#
+# Entry fields:
+#   entry_id      (required) — unique identifier
+#   date_posted   (required) — date the evidence became available (YYYY-MM-DD)
+#   source_type   (required) — news-article | public-statement | document |
+#                               letter | announcement | other
+#   source_path   (required) — relative path from project root to source file
+#   description   (required) — what this evidence contains
+#   date_range    (required) — posted_after and posted_before meeting dates
+#   title         (optional) — human-readable title
+#   body          (optional) — school-board | city-council | both
+#   normalized_path (optional) — path to normalized markdown
+
+schema_version: "1.0"
+
+entries: []
+# Example entry (uncomment and fill in when inter-meeting evidence is added):
+#
+# - entry_id: "im-001"
+#   date_posted: "2026-03-04"
+#   source_type: news-article
+#   source_path: "data/news/2026-03-04-budget-article.md"
+#   title: "South Portland Budget Coverage — March 4, 2026"
+#   description: >
+#     Local news coverage of the school board budget workshop and
+#     community reactions to proposed elementary reconfiguration.
+#   date_range:
+#     posted_after: "2026-03-02"   # School Board Budget Workshop I
+#     posted_before: "2026-03-05"  # City Council Regular Meeting
+#   body: school-board

@@ -1,0 +1,174 @@
+# Meeting Bundle Manifest — JSON Schema (YAML encoding)
+#
+# Validates manifest.yaml files inside bundle directories:
+#   data/interpretation/bundles/<YYYY-MM-DD>-<body>/manifest.yaml
+#
+# Spec: SPEC-016 (Meeting Bundle Schema)
+# Part of: VISION-003 (Interpretation Pipeline)
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "bundle-manifest-schema"
+title: "Meeting Bundle Manifest"
+description: >
+  Schema for a meeting bundle manifest. Each bundle groups all evidence
+  sources affiliated with a single meeting so downstream pipeline stages
+  (interpretation, fold, briefs) have a consistent input contract.
+
+type: object
+
+required:
+  - schema_version
+  - meeting_date
+  - meeting_type
+  - body
+  - sources
+
+properties:
+
+  schema_version:
+    type: string
+    const: "1.0"
+    description: >
+      Schema version string. Allows future evolution without breaking
+      existing consumers.
+
+  meeting_date:
+    type: string
+    format: date
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+    description: >
+      ISO 8601 date of the meeting (YYYY-MM-DD).
+
+  meeting_type:
+    type: string
+    enum:
+      - workshop
+      - regular
+      - special
+      - budget-forum
+      - budget-workshop
+      - joint
+    description: >
+      Category of meeting. "workshop" for working sessions, "regular"
+      for scheduled regular meetings, "special" for special or emergency
+      meetings, "budget-forum" for public budget forums, "budget-workshop"
+      for dedicated budget workshops, "joint" for joint council-board
+      sessions.
+
+  body:
+    type: string
+    enum:
+      - school-board
+      - city-council
+    description: >
+      Governing body that convened the meeting.
+
+  title:
+    type: string
+    description: >
+      Human-readable meeting title. Optional but recommended.
+
+  sources:
+    type: array
+    minItems: 1
+    items:
+      $ref: "#/$defs/source"
+    description: >
+      List of evidence sources affiliated with this meeting. Each entry
+      references a normalized source (markdown) in the evidence pools
+      and/or a raw data file in data/.
+
+  agenda_ref:
+    type: string
+    description: >
+      Relative path (from project root) to the agenda file for this
+      meeting, if one exists. May overlap with a source entry.
+
+  video_url:
+    type: string
+    format: uri
+    description: >
+      URL of the meeting video recording, if available.
+
+  notes:
+    type: string
+    description: >
+      Free-text notes about this bundle (e.g., data quality caveats,
+      missing sources).
+
+additionalProperties: false
+
+$defs:
+  source:
+    type: object
+    required:
+      - source_id
+      - source_type
+      - title
+      - path
+    properties:
+
+      source_id:
+        type: string
+        description: >
+          Unique identifier for this source within the bundle. Matches
+          source-id or id from the evidence pool manifest.
+
+      source_type:
+        type: string
+        enum:
+          - transcript
+          - agenda
+          - packet
+          - presentation
+          - spreadsheet
+          - document
+          - other
+        description: >
+          Kind of evidence source. "transcript" for VTT/caption-derived
+          text, "agenda" for meeting agendas, "packet" for board packets,
+          "presentation" for slide decks, "spreadsheet" for Excel/CSV,
+          "document" for other PDFs, "other" for anything else.
+
+      title:
+        type: string
+        description: >
+          Human-readable title for the source.
+
+      path:
+        type: string
+        description: >
+          Relative path (from project root) to the raw source file in
+          data/. This is the original file, not the normalized markdown.
+
+      normalized_path:
+        type: string
+        description: >
+          Relative path (from project root) to the normalized markdown
+          in docs/evidence-pools/. Optional — some sources may not yet
+          be normalized.
+
+      evidence_pool:
+        type: string
+        description: >
+          Name of the evidence pool this source belongs to (e.g.,
+          "school-board-budget-meetings").
+
+      description:
+        type: string
+        description: >
+          Optional description providing context about the source.
+
+      hash:
+        type: string
+        pattern: "^sha256:[a-f0-9]{64}$"
+        description: >
+          Content hash of the raw source file (sha256:<hex>).
+
+      duration:
+        type: string
+        pattern: "^\\d{2}:\\d{2}:\\d{2}$"
+        description: >
+          Duration for media sources in HH:MM:SS format.
+
+    additionalProperties: false
