@@ -5,6 +5,10 @@
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
 | EPIC-007 | Budget Lever Analysis and Interactive Dashboard | 2026-03-11 | 0664840 |
+| EPIC-008 | Meeting Bundler | 2026-03-12 | _pending_ |
+| EPIC-009 | Per-Meeting Interpretation Engine | 2026-03-12 | _pending_ |
+| EPIC-010 | Cumulative Narrative Fold | 2026-03-12 | _pending_ |
+| EPIC-011 | Upcoming-Event Brief Generation | 2026-03-12 | _pending_ |
 
 ## Active
 
