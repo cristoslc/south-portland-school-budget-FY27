@@ -1,0 +1,138 @@
+# Upcoming-Event Brief — JSON Schema (YAML encoding)
+#
+# Validates forward-looking per-persona briefs generated before
+# an upcoming meeting. Each brief synthesizes cumulative state,
+# inter-meeting evidence, and (optionally) an agenda into actionable
+# preparation.
+#
+# One brief per persona per upcoming meeting, stored at:
+#   data/interpretation/briefs/<YYYY-MM-DD>/<PERSONA-ID>.md
+#
+# Spec: SPEC-022 (Upcoming-Event Brief Generator)
+# Part of: EPIC-011 / VISION-003 (Interpretation Pipeline)
+# Depends on: SPEC-020 (Cumulative Interpretation Format),
+#             SPEC-016 (Meeting Bundle Schema)
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "brief-schema"
+title: "Upcoming-Event Brief"
+description: >
+  Schema for a forward-looking per-persona brief generated before
+  an upcoming meeting. The brief has YAML frontmatter with metadata,
+  followed by four body sections: since_last_meeting, open_questions,
+  agenda_implications, and watch_for.
+
+type: object
+
+required:
+  - schema_version
+  - persona_id
+  - upcoming_meeting_date
+  - generated_date
+  - has_agenda
+  - since_last_meeting
+  - open_questions
+  - agenda_implications
+  - watch_for
+
+properties:
+
+  # --- Frontmatter fields ---
+
+  schema_version:
+    type: string
+    const: "1.0"
+    description: >
+      Schema version string. Allows future evolution without breaking
+      existing consumers.
+
+  persona_id:
+    type: string
+    pattern: "^PERSONA-\\d{3}$"
+    description: >
+      Persona identifier matching a validated persona document
+      (e.g., "PERSONA-001").
+
+  persona_name:
+    type: string
+    description: >
+      Display name of the persona (e.g., "Maria"). Optional but
+      recommended for human readability.
+
+  upcoming_meeting_date:
+    type: string
+    format: date
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+    description: >
+      ISO 8601 date of the upcoming meeting this brief prepares for.
+
+  generated_date:
+    type: string
+    format: date
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+    description: >
+      ISO 8601 date when this brief was generated.
+
+  has_agenda:
+    type: boolean
+    description: >
+      Whether an agenda was available when the brief was generated.
+      If false, the agenda_implications section will note that the
+      agenda was not available.
+
+  last_cumulative_meeting:
+    type:
+      - string
+      - "null"
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+    description: >
+      Date of the most recent meeting reflected in the cumulative
+      state used to generate this brief. Null if persona has no
+      cumulative records (brief generated from persona definition
+      only).
+
+  inter_meeting_evidence_count:
+    type: integer
+    minimum: 0
+    description: >
+      Number of inter-meeting evidence events included in this brief.
+
+  # --- Body sections ---
+
+  since_last_meeting:
+    type: string
+    minLength: 20
+    description: >
+      Summary of new evidence and developments since the last meeting
+      reflected in the persona's cumulative state. Includes inter-meeting
+      evidence events relevant to this persona's concerns. If no new
+      evidence exists, states that explicitly.
+
+  open_questions:
+    type: string
+    minLength: 20
+    description: >
+      Open threads carried from the persona's cumulative state, plus
+      any new questions raised by inter-meeting evidence. Written as
+      a bulleted list in the persona's voice.
+
+  agenda_implications:
+    type: string
+    minLength: 20
+    description: >
+      Per-persona reading of each agenda item (if agenda available).
+      For each item, explains what it means to this persona and what
+      they should pay attention to. If no agenda is available, notes
+      that explicitly and provides general guidance based on cumulative
+      state.
+
+  watch_for:
+    type: string
+    minLength: 20
+    description: >
+      Specific things to listen for, ask about, or observe at the
+      upcoming meeting. Includes flags for superseded positions that
+      may be revisited. Written as actionable items in the persona's
+      voice.
+
+additionalProperties: false
