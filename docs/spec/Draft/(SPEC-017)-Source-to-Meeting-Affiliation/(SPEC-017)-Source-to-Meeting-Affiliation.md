@@ -63,4 +63,4 @@ Sources in the evidence pool aren't 1:1 with meetings. A budget spreadsheet post
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-12 | _pending_ | Initial creation |
+| Draft | 2026-03-12 | 7207791 | Initial creation |

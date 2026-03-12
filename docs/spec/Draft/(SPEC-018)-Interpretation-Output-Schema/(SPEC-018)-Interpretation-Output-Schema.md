@@ -61,4 +61,4 @@ Per-meeting interpretation produces three layers of output (structured points, j
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-12 | _pending_ | Initial creation |
+| Draft | 2026-03-12 | 7207791 | Initial creation |

@@ -48,4 +48,4 @@ Group evidence pool sources into coherent meeting bundles — one bundle per sch
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Proposed | 2026-03-12 | _pending_ | Initial creation |
+| Proposed | 2026-03-12 | 7207791 | Initial creation |

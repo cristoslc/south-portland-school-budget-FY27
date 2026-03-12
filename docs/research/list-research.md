@@ -4,8 +4,8 @@
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
-| SPIKE-005 | Interpretation Prompt Design | 2026-03-12 | _pending_ |
-| SPIKE-006 | Cumulative Fold Strategy | 2026-03-12 | _pending_ |
+| SPIKE-005 | Interpretation Prompt Design | 2026-03-12 | 7207791 |
+| SPIKE-006 | Cumulative Fold Strategy | 2026-03-12 | 7207791 |
 
 ## Complete
 
