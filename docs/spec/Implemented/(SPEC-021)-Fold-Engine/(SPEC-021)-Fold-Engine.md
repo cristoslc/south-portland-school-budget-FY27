@@ -1,10 +1,12 @@
 ---
 title: "Fold Engine"
 artifact: SPEC-021
-status: Approved
+status: Implemented
 author: cristos
 created: 2026-03-12
-last-updated: 2026-03-12
+last-updated: 2026-03-13
+approved: 2026-03-12
+implemented: 2026-03-13
 parent-epic: EPIC-010
 linked-research:
   - SPIKE-006
@@ -45,6 +47,12 @@ When a new meeting is interpreted, its per-persona interpretations must be integ
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1 — supersession detection | PERSONA-001/2026-03-02.md delta table: supersession row replaces "reconfiguration is one of three big ideas" (2026-02-04) with detailed options; fold prompt explicitly instructs supersession detection | PASS |
+| AC2 — thread resolution | Summary Resolved Threads section tracks resolved threads with dates; fold prompt instructs thread_resolved delta category | PASS |
+| AC3 — new information | PERSONA-001/2026-03-02.md has 7 new_information deltas from the March 2 meeting; fold prompt instructs new_information categorization | PASS |
+| AC4 — all 14 personas | Dry-run iterates all 14 personas: 1 skipped (exists), 2 would process, 11 skipped (no interpretation yet) | PASS |
+| AC5 — narrative arc with dates | Summary Timeline section: 3 dated entries (2026-01-12, 2026-02-04, 2026-03-02) each with 1-2 sentence shift summary | PASS |
+| AC6 — idempotency | record_exists() check skips PERSONA-001 (record already exists); --force flag available for regeneration | PASS |
 
 ## Scope & Constraints
 
@@ -68,3 +76,4 @@ When a new meeting is interpreted, its per-persona interpretations must be integ
 |-------|------|--------|-------|
 | Draft | 2026-03-12 | 7207791 | Initial creation |
 | Approved | 2026-03-12 | de71f02 | Approved for implementation |
+| Implemented | 2026-03-13 | — | All 6 ACs verified; fold_meeting.py handles 14 personas with resume/force, produces records + summary views; validate_cumulative.py --all: 0 errors |

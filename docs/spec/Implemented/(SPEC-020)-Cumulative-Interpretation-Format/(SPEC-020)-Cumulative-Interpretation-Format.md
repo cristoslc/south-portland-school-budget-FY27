@@ -1,10 +1,12 @@
 ---
 title: "Cumulative Interpretation Format"
 artifact: SPEC-020
-status: Approved
+status: Implemented
 author: cristos
 created: 2026-03-12
-last-updated: 2026-03-12
+last-updated: 2026-03-13
+approved: 2026-03-12
+implemented: 2026-03-13
 parent-epic: EPIC-010
 linked-research:
   - SPIKE-006
@@ -43,6 +45,11 @@ Per-meeting interpretations capture point-in-time snapshots. The cumulative inte
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1 — four sections | Summary view has Current Understanding, Timeline of Understanding Shifts (narrative_arc), Active Supersessions (superseded), Open Threads + Resolved Threads; validate_cumulative.py enforces all sections | PASS |
+| AC2 — under 4000 words | PERSONA-001 summary after 3 meetings: 477 words; per-record validator enforces 200-400 word interpretations; growth is bounded | PASS |
+| AC3 — changes attributable | Per-meeting records stored as dated files (2026-01-12.md, 2026-02-04.md, 2026-03-02.md); Deltas table traces each change to evidence ref from that meeting | PASS |
+| AC4 — superseded entries | Active Supersessions table: What Changed (original_position), From, To, When (superseded_date/meeting); PERSONA-001 has 2 supersessions across 3 meetings | PASS |
+| AC5 — empty initial state | First record (2026-01-12.md) has prior_meeting: null; interpretation reflects baseline persona concerns before any concrete budget data | PASS |
 
 ## Scope & Constraints
 
@@ -65,3 +72,4 @@ Per-meeting interpretations capture point-in-time snapshots. The cumulative inte
 |-------|------|--------|-------|
 | Draft | 2026-03-12 | 7207791 | Initial creation |
 | Approved | 2026-03-12 | de71f02 | Approved for implementation |
+| Implemented | 2026-03-13 | — | All 5 ACs verified; cumulative records + summary view for PERSONA-001 across 3 meetings; validate_cumulative.py --all: 0 errors |

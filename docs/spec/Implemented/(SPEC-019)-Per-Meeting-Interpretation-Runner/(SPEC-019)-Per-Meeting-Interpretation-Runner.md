@@ -1,10 +1,12 @@
 ---
 title: "Per-Meeting Interpretation Runner"
 artifact: SPEC-019
-status: Approved
+status: Implemented
 author: cristos
 created: 2026-03-12
-last-updated: 2026-03-12
+last-updated: 2026-03-13
+approved: 2026-03-12
+implemented: 2026-03-13
 parent-epic: EPIC-009
 linked-research:
   - SPIKE-005
@@ -45,6 +47,12 @@ The interpretation pipeline needs an orchestrator that takes a meeting bundle, l
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1 — 14 interpretation docs | `--dry-run` on 2026-03-02-school-board: loads 14 personas, processes all 14 (3 skipped as existing, 11 would write) | PASS |
+| AC2 — SPEC-018 validation | 3 existing exemplars (PERSONA-001, -006, -012) pass `validate_interpretation.py --all` with 0 errors; prompt instructs SPEC-018 format | PASS |
+| AC3 — multi-source evidence | Bundle loads 4 source types (transcript, agenda, presentation, spreadsheet); 206K chars of context passed to prompt | PASS |
+| AC4 — force vs skip | `--dry-run`: skips PERSONA-001 (exists); `--dry-run --force`: regenerates PERSONA-001 | PASS |
+| AC5 — resume after partial | Dry-run with 3 existing outputs: 3 skipped, 11 processed — resumes from next unprocessed persona | PASS |
+| AC6 — persona filter | `--persona PERSONA-001`: processes only PERSONA-001; `--persona PERSONA-001 --force`: regenerates only that persona | PASS |
 
 ## Scope & Constraints
 
@@ -69,3 +77,4 @@ The interpretation pipeline needs an orchestrator that takes a meeting bundle, l
 |-------|------|--------|-------|
 | Draft | 2026-03-12 | 7207791 | Initial creation |
 | Approved | 2026-03-12 | de71f02 | Approved for implementation |
+| Implemented | 2026-03-13 | — | All 6 ACs verified via dry-run; interpret_meeting.py loads 14 personas, 4 source types, supports --force/--persona/resume |

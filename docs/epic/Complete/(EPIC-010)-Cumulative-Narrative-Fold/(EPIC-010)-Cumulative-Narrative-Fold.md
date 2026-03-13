@@ -1,10 +1,10 @@
 ---
 title: "Cumulative Narrative Fold"
 artifact: EPIC-010
-status: Proposed
+status: Complete
 author: cristos
 created: 2026-03-12
-last-updated: 2026-03-12
+last-updated: 2026-03-13
 parent-vision: VISION-003
 success-criteria:
   - Cumulative interpretation is the authoritative "where does this persona stand?" document at any point in time
@@ -53,3 +53,4 @@ Integrate each new meeting's per-persona interpretations into running cumulative
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-12 | 7207791 | Initial creation |
+| Complete | 2026-03-13 | — | SPEC-020 and SPEC-021 both Implemented; cumulative records + summary views validated; fold engine handles supersession/thread/shift detection |
