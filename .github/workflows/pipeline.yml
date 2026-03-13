@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
 
       - name: Run pipeline
-        run: python3 scripts/pipeline.py run --discover --stage
+        run: python3 scripts/pipeline.py run --stage
 
       - name: Check for changes
         id: changes
@@ -64,7 +64,7 @@ jobs:
           pip install yt-dlp
 
       - name: Run pipeline
-        run: python3 scripts/pipeline.py run --discover --stage
+        run: python3 scripts/pipeline.py run --stage
 
       - name: Check for changes
         id: changes
