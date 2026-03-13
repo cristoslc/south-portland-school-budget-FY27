@@ -17,54 +17,54 @@ interpreter_model: "claude-sonnet-4-20250514"
 #### 1. They're cutting 42 teaching positions district-wide
 - **Fact:** The proposed FY27 budget eliminates 78 positions total, including 42 teachers across all levels. This is a 12% reduction in teaching staff. The cuts are not limited to elementary schools -- middle school and high school will be reviewed in upcoming workshops.
 - **Source:** FY27 budget synthesis, Source 011; [00:09--00:14] Superintendent noting upcoming MS/HS workshops
-- **Emotional valence:** anxious
-- **Threat level:** high
-- **Open question:** "42 teachers gone -- does that mean AP classes get cut, or do they just make every class bigger?"
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
 
 #### 2. Most of this meeting was about elementary schools, not his
 - **Fact:** The entire 3.5-hour workshop focused exclusively on elementary school reconfiguration. The superintendent stated that middle school and high school initiatives would be covered in three subsequent workshops later in March. No specific SPHS proposals were discussed.
 - **Source:** [00:09--00:14] Superintendent's framing; [00:14--02:11] Entire presentation and board discussion
-- **Emotional valence:** frustrated
-- **Threat level:** moderate
-- **Open question:** "When do they actually get to the part about the high school?"
+- **Emotional valence:** negative
+- **Threat level:** 3
+- **Open question:** true
 
 #### 3. The budget gap is $7.2 million and even closing a school doesn't fix it
 - **Fact:** The district needs to cut $7.2M to stay within a 6% tax increase. Elementary reconfiguration saves $1.5-2.2M. Operational efficiencies and middle/high school changes add another ~$2M. That still leaves a $3M+ gap. The remaining cuts will come from line-by-line budget review across all cost centers.
 - **Source:** [00:05--00:06] Chair's opening; Budget synthesis on residual gap
-- **Emotional valence:** anxious
-- **Threat level:** high
-- **Open question:** "If closing a whole school doesn't fix the budget, what else are they cutting that they haven't told us about yet?"
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
 
 #### 4. The athletic complex just started its first debt payment
 - **Fact:** The FY27 budget includes a $99K first-year debt service payment for the athletic complex. This was mentioned as one of several new cost drivers alongside health insurance increases ($1.2M) and contractual wage increases ($3M).
 - **Source:** FY27 budget synthesis, Source 011
-- **Emotional valence:** skeptical
-- **Threat level:** low
-- **Open question:** "So we built a new athletic complex and now we can't afford teachers -- did anyone think about that when they approved it?"
+- **Emotional valence:** negative
+- **Threat level:** 2
+- **Open question:** true
 
 #### 5. Student reps are going to help interview the next superintendent
 - **Fact:** The board approved student representatives participating in superintendent search interviews (voted unanimously on February 9). The search is running in parallel with budget deliberations. This means students have some formal role in at least one major district decision.
 - **Source:** Budget synthesis, Feb 9 decisions
-- **Emotional valence:** empowered
-- **Threat level:** none
-- **Open question:** "Can I be one of those reps? And do they get to ask about what happens to programs?"
+- **Emotional valence:** positive
+- **Threat level:** 1
+- **Open question:** true
 
 #### 6. The board chair said 80% of constituents don't have kids in schools
 - **Fact:** Chair DeAngelis stated that over 80% of their constituents are not parents or educators, yet they pay 61% of their property taxes to education. She said the board must represent their interests too. This frames the budget as a civic issue, not just a school issue, and signals that non-parent taxpayers have significant influence.
 - **Source:** [00:05] Chair's opening remarks
 - **Emotional valence:** neutral
-- **Threat level:** moderate
-- **Open question:** "If 80% of voters don't have kids in school, are they going to vote to pay for our education?"
+- **Threat level:** 3
+- **Open question:** true
 
 ### Journey Map
 
-| Beat | Time | Label | Emotional State | Trigger | Internal Monologue |
-|------|------|-------|-----------------|---------|-------------------|
-| 1 | [00:01--00:07] | Wait, this is serious | Surprised, concerned | Chair opens with blunt language about $7M in cuts, 300 fewer students, no savings left, 19% status-quo increase | "Okay this is way worse than I thought. My parents never explained it like THAT." |
-| 2 | [00:09--00:22] | None of this is about me | Disengaged, restless | Five elementary principals present enrollment data and demographics for schools he's never been to | "I don't know any of these schools. When do they talk about the high school?" |
-| 3 | [00:22--01:10] | Connecting the dots | Uneasy | Reconfiguration options show that even $20M in savings over five years isn't enough; he realizes the remaining gap will affect every level | "If elementary is just ONE piece... what are they going to cut at SPHS? Are they going to cut theater?" |
-| 4 | [02:11--03:00] | Parents losing it | Uncomfortable, detached | Public comment is dominated by emotional parents worried about their kindergartners; the concerns feel very remote from his life | "I get that this sucks for them but like... nobody's talking about what happens to actual high school programs." |
-| 5 | [03:00--03:32] | No answers, just 'next week' | Deflated | Meeting ends with direction to "refine models" and more workshops scheduled; no timeline for when SPHS-specific impacts will be discussed | "So I have to watch three more of these before they even get to the stuff that matters to me. Cool." |
+| Position | Meeting Event | Persona Cognitive State | Persona Emotional State |
+|----------|---------------|------------------------|------------------------|
+| 1 | Chair opens with blunt language about $7M in cuts, 300 fewer students, no savings left, 19% status-quo increase | Absorbing the scale for the first time -- this is way beyond the "budget is tight" framing he's heard at home | Surprised, genuinely concerned |
+| 2 | Five elementary principals present enrollment data and demographics for schools he's never attended | Recognizing that this meeting isn't about his world -- none of these buildings or communities connect to his daily experience | Disengaged, restless |
+| 3 | Reconfiguration options show that even $20M in savings over five years isn't enough; the remaining gap affects every level | Making the inferential leap -- if the elementary fix is only one piece, the rest comes from middle and high school budgets, which means his programs | Uneasy, connecting dots |
+| 4 | Public comment is dominated by emotional parents worried about their kindergartners; the concerns feel remote from his life as a high schooler | Feeling invisible in a room full of adults fighting over problems that aren't his, while the problems that ARE his haven't been mentioned | Uncomfortable, detached |
+| 5 | Meeting ends with direction to "refine models" and more workshops; no timeline for when SPHS-specific impacts will be discussed | Realizing the system moves on institutional time, not student time -- he'll have to wait weeks for information that directly affects his junior year | Deflated, impatient |
 
 ### Reactions
 
