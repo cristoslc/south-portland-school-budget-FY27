@@ -160,81 +160,74 @@ $defs:
       emotional_valence:
         type: string
         enum:
-          - alarmed
-          - anxious
-          - frustrated
-          - skeptical
+          - positive
+          - negative
           - neutral
-          - cautiously_optimistic
-          - reassured
-          - empowered
         description: >
-          The persona's emotional response to this fact. Eight
-          possible values spanning negative, neutral, and positive
-          affect. The distribution across points characterizes
-          the persona's overall meeting experience.
+          The persona's emotional response to this fact. Three values
+          (positive, negative, neutral) replacing the eight-value
+          SPIKE-005 draft enum. Obsolete values (alarmed, anxious,
+          frustrated, skeptical, cautiously_optimistic, reassured,
+          empowered) are no longer part of the normative SPEC-018
+          contract.
 
       threat_level:
         type: integer
         minimum: 1
-        maximum: 4
+        maximum: 5
         description: >
           How threatening this fact is to the persona's goals and
-          interests. 1 = none, 2 = low, 3 = moderate, 4 = high.
+          interests. 1 = none/minimal, 2 = low, 3 = moderate,
+          4 = high, 5 = severe.
 
       open_question:
-        type: string
+        type: boolean
         description: >
-          A question this point raises for the persona, phrased in
-          their voice (not analyst language). Optional — some points
-          may not naturally generate a question.
+          Whether this point raises an open question for the persona.
+          Boolean true/false — replaces the SPIKE-005 draft's
+          question-text string field.
 
     additionalProperties: false
 
   journey_beat:
     type: object
     required:
-      - timestamp_range
-      - beat_label
-      - emotional_state
-      - trigger
-      - internal_monologue
+      - position
+      - meeting_event
+      - persona_cognitive_state
+      - persona_emotional_state
     properties:
 
-      timestamp_range:
-        type: string
-        pattern: "^\\[\\d{2}:\\d{2}--\\d{2}:\\d{2}\\]$"
+      position:
+        type: integer
+        minimum: 1
         description: >
-          Approximate start-end time range for this beat in the
-          meeting, formatted as "[HH:MM--HH:MM]" (e.g.,
-          "[00:01--00:15]").
+          Chronological position of this beat within the journey map
+          (1-based integer).
 
-      beat_label:
+      meeting_event:
         type: string
-        maxLength: 50
         description: >
-          Short label for this phase of the meeting experience
-          (3-5 words, e.g., "Bracing for it", "The matrix reveal").
+          What happened in the meeting at this point — a concrete
+          agenda item, statement, or moment.
 
-      emotional_state:
+      persona_cognitive_state:
         type: string
         description: >
-          How the persona feels during this phase. Free-form to
-          capture nuanced emotional states (e.g., "Tense, attentive"
-          or "Cautiously relieved"). Not constrained to the
-          emotional_valence enum.
+          What the persona is thinking or understanding at this beat.
+          Free-form to capture the persona's internal interpretation
+          of the meeting event.
 
-      trigger:
+      persona_emotional_state:
         type: string
         description: >
-          What specifically caused this emotional shift — a concrete
-          event, statement, or moment in the meeting.
-
-      internal_monologue:
-        type: string
-        description: >
-          One sentence of what the persona is thinking during this
-          beat, written in their voice. Should feel like an actual
-          thought, not a summary.
+          How the persona feels at this beat. Free-form to capture
+          nuanced emotional states (e.g., "Tense, attentive" or
+          "Cautiously relieved").
 
     additionalProperties: false
+
+    # Compatibility note: obsolete fields from the SPIKE-005 draft
+    # (timestamp_range, beat_label, emotional_state, trigger,
+    # internal_monologue) are no longer part of the normative
+    # SPEC-018 contract.

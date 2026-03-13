@@ -162,7 +162,7 @@ persona_id: "PERSONA-001"
 persona_name: "Maria"
 meeting_date: 2026-03-02
 meeting_title: "School Board Budget Workshop I"
-interpretation_date: 2026-03-12
+interpretation_date: 2026-03-13
 interpreter_model: "claude-sonnet-4-20250514"
 ---
 
@@ -171,21 +171,23 @@ interpreter_model: "claude-sonnet-4-20250514"
 
 ### Structured Points
 
-#### 1. [Short title]
-- **Fact:** [statement grounded in meeting evidence]
-- **Source:** [timestamp or document reference]
-- **Emotional valence:** [alarmed|anxious|frustrated|skeptical|neutral|cautiously_optimistic|reassured|empowered]
-- **Threat level:** [high|moderate|low|none]
-- **Open question:** [question in persona voice]
+#### 1. Support cuts feel immediate
+- **Fact:** Families heard that several staffing scenarios would change support levels next year.
+- **Source reference:** [00:12--00:18]
+- **Emotional valence:** negative
+- **Threat level:** 5
+- **Open question:** true
 
 [... 5-8 points total ...]
 
 ### Journey Map
 
-| Beat | Time | Label | Emotional State | Trigger | Internal Monologue |
-|------|------|-------|-----------------|---------|-------------------|
-| 1 | [HH:MM--HH:MM] | [3-5 word label] | [state] | [trigger] | [thought in persona voice] |
-| ... | | | | | |
+| Position | Meeting Event | Persona Cognitive State | Persona Emotional State |
+|----------|---------------|------------------------|------------------------|
+| 1 | Budget gap presented | Understands the scale of the shortfall | Alarmed and guarded |
+| 2 | Staffing reductions discussed | Sees support staff as directly at risk | Worried and frustrated |
+| 3 | Board questions transportation impacts | Connecting cuts to daily family logistics | Tense but attentive |
+| 4 | Public comment pushes for clarity | Believes more explanation is still owed | Determined and uneasy |
 
 [... 4-6 beats total ...]
 
@@ -225,21 +227,30 @@ Each point represents a fact, decision, or moment the persona finds significant:
 |---------------------|----------|---------|-------------|
 | `fact`              | yes      | string  | What happened or was said (1-2 sentences) |
 | `source_reference`  | yes      | string  | Timestamp or document reference |
-| `emotional_valence` | yes      | enum    | One of: `alarmed`, `anxious`, `frustrated`, `skeptical`, `neutral`, `cautiously_optimistic`, `reassured`, `empowered` |
-| `threat_level`      | yes      | integer | 1 (none), 2 (low), 3 (moderate), 4 (high) |
-| `open_question`     | no       | string  | Question in persona voice |
+| `emotional_valence` | yes      | enum    | One of: `positive`, `negative`, `neutral` |
+| `threat_level`      | yes      | integer | 1 (none/minimal) through 5 (severe) |
+| `open_question`     | no       | boolean | Whether this point raises an open question (`true` / `false`) |
+
+> **Compatibility note:** Obsolete fields from the SPIKE-005 draft — named
+> threat levels (`high`, `moderate`, `low`, `none`), question-text strings
+> for `open_question`, and the eight-value emotional valence enum (`alarmed`,
+> `anxious`, `frustrated`, `skeptical`, `cautiously_optimistic`, `reassured`,
+> `empowered`) — are no longer part of the normative SPEC-018 contract.
 
 #### Layer 2: Journey Map (4-6 beats)
 
 Chronological emotional arc through the meeting:
 
-| Field               | Required | Type   | Description |
-|---------------------|----------|--------|-------------|
-| `timestamp_range`   | yes      | string | `[HH:MM--HH:MM]` time range |
-| `beat_label`        | yes      | string | Short label (3-5 words) |
-| `emotional_state`   | yes      | string | How persona feels (free-form) |
-| `trigger`           | yes      | string | What caused this emotional shift |
-| `internal_monologue`| yes      | string | One thought sentence in persona voice |
+| Field                    | Required | Type    | Description |
+|--------------------------|----------|---------|-------------|
+| `position`               | yes      | integer | Chronological position (1-based) |
+| `meeting_event`          | yes      | string  | What happened in the meeting at this point |
+| `persona_cognitive_state`| yes      | string  | What the persona is thinking or understanding |
+| `persona_emotional_state`| yes      | string  | How the persona feels (free-form) |
+
+> **Compatibility note:** Obsolete fields from the SPIKE-005 draft
+> (`timestamp_range`, `beat_label`, `emotional_state`, `trigger`,
+> `internal_monologue`) are no longer part of the normative SPEC-018 contract.
 
 #### Layer 3: Reactions
 
@@ -292,11 +303,12 @@ python3 scripts/validate_interpretation.py --all
 The script checks:
 - YAML frontmatter has required fields (schema_version, meeting_id, persona_id)
 - All three body sections exist (Structured Points, Journey Map, Reactions)
-- Structured points have required fields (fact, source, emotional valence, threat level)
-- Emotional valence values are from the allowed enum
-- Threat level values map to valid levels (high, moderate, low, none)
-- Journey map beats have required columns
-- Reactions section is non-empty
+- Structured points have required fields (fact, source reference, emotional valence, threat level)
+- Emotional valence values are one of: `positive`, `negative`, `neutral`
+- Threat level parses as an integer in the range 1–5
+- `open_question` parses as a boolean (`true` / `false`) when present
+- Journey map table has the four SPEC-018 columns: Position, Meeting Event, Persona Cognitive State, Persona Emotional State
+- Reactions section is non-empty (at least 100 characters)
 
 ---
 
