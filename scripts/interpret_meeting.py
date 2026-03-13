@@ -464,21 +464,21 @@ and short title):
 - **Fact:** [A concise statement of what happened or was said, 1-2 sentences]
 - **Source:** [Timestamp from transcript e.g. "[01:23--01:45]" or document \
 reference e.g. "Source 012, Options Matrix". Must be traceable to evidence.]
-- **Emotional valence:** [One of: alarmed, anxious, frustrated, skeptical, \
-neutral, cautiously_optimistic, reassured, empowered]
-- **Threat level:** [One of: high, moderate, low, none]
-- **Open question:** [A question this raises for {persona_name}, in their \
-voice, not analyst language]
+- **Emotional valence:** [One of: positive, negative, neutral]
+- **Threat level:** [Integer from 1-5, where 1 = minimal and 5 = severe]
+- **Open question:** [true or false — does this point raise an unresolved \
+question for {persona_name}?]
 
 ### Journey Map
 
 Produce 4-6 ordered beats that trace {persona_name}'s emotional experience \
-through the meeting chronologically. Use this EXACT table format:
+through the meeting chronologically. Use this EXACT four-column table format:
 
-| Beat | Time | Label | Emotional State | Trigger | Internal Monologue |
-|------|------|-------|-----------------|---------|-------------------|
-| 1 | [HH:MM--HH:MM] | [3-5 word label] | [emotional state] | [what caused \
-the shift] | [one sentence in {persona_name}'s voice] |
+| Position | Meeting Event | Persona Cognitive State | Persona Emotional State |
+|----------|---------------|------------------------|------------------------|
+| 1 | [What happened in the meeting that triggered this beat] | [What \
+{persona_name} is thinking — their cognitive processing of the event] | \
+[{persona_name}'s emotional reaction] |
 
 The journey map should tell a story with an arc -- not just list topics in \
 order.
@@ -673,6 +673,18 @@ def _quick_validate(text):
         errors.append(f"found {point_count} structured points, expected 5-8")
     elif point_count > 8:
         errors.append(f"found {point_count} structured points, expected 5-8")
+
+    # Check journey map uses SPEC-018 four-column header
+    if "### Journey Map" in text:
+        has_spec018_header = bool(re.search(
+            r"\|\s*Position\s*\|\s*Meeting\s+Event\s*\|\s*Persona\s+Cognitive\s+State\s*\|\s*Persona\s+Emotional\s+State\s*\|",
+            text, re.IGNORECASE
+        ))
+        if not has_spec018_header:
+            errors.append(
+                "journey map does not use SPEC-018 columns "
+                "(Position, Meeting Event, Persona Cognitive State, Persona Emotional State)"
+            )
 
     return errors
 

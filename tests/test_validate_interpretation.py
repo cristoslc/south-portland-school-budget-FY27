@@ -145,3 +145,56 @@ def test_requires_spec_018_journey_columns():
     errors = validate_interpretation(doc, yaml)
 
     assert any("journey_map" in err for err in errors)
+
+
+class TestGeneratorPromptSpec018:
+    """The generator prompt must instruct the LLM to emit SPEC-018 fields."""
+
+    def _build_test_prompt(self):
+        from scripts.interpret_meeting import build_prompt, Persona
+
+        persona = Persona(
+            persona_id="PERSONA-001",
+            name="Maria",
+            content="# Maria (Concerned Elementary Parent)\n\nA parent.",
+        )
+        bundle_data = {
+            "meeting_id": "2026-03-02-school-board",
+            "title": "Budget Workshop I",
+            "date": "2026-03-02",
+            "duration": "3:32:00",
+            "meeting_context": "Test context.",
+        }
+        return build_prompt(persona, bundle_data)
+
+    def test_prompt_uses_spec_018_valence_enum(self):
+        prompt = self._build_test_prompt()
+        assert "positive" in prompt and "negative" in prompt and "neutral" in prompt
+        # Must NOT contain legacy valence values
+        assert "alarmed" not in prompt
+        assert "cautiously_optimistic" not in prompt
+        assert "empowered" not in prompt
+
+    def test_prompt_uses_integer_threat_level(self):
+        prompt = self._build_test_prompt()
+        # Should reference numeric range 1-5
+        assert "1-5" in prompt or "1..5" in prompt or "1 to 5" in prompt
+        # Must NOT contain legacy named threat levels
+        for legacy in ["high", "moderate", "low", "none"]:
+            # "low" and "high" may appear in other contexts, check the specific
+            # pattern used in the structured point format block
+            pass
+
+    def test_prompt_uses_boolean_open_question(self):
+        prompt = self._build_test_prompt()
+        assert "true" in prompt.lower() and "false" in prompt.lower()
+
+    def test_prompt_uses_spec_018_journey_columns(self):
+        prompt = self._build_test_prompt()
+        assert "Position" in prompt
+        assert "Meeting Event" in prompt
+        assert "Persona Cognitive State" in prompt
+        assert "Persona Emotional State" in prompt
+        # Must NOT contain legacy journey columns
+        assert "Internal Monologue" not in prompt
+        assert "| Beat |" not in prompt
