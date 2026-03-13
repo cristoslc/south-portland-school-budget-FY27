@@ -1,70 +1,32 @@
-# Budget Briefing for Jaylen (High School Student)
+# What the School Budget Means for SPHS Students
 
-**What the proposed school budget actually means for SPHS**
+The district is cutting 42 teachers next year. Nobody has published which ones. Here's what that could mean for your AP classes, theater, and cross-country.
 
 ---
 
-## What's Happening
+## What's at Risk
 
-The superintendent proposed a budget for next year that cuts **78 positions** across the district -- including **42 teachers**. The district also plans to close Dyer Elementary. That's the elementary side of the story. Here's the part that affects you.
+The budget cuts **78 positions** total, including **42 teachers** district-wide. At SPHS, that means:
 
-## What Changes at SPHS
+- **Fewer course sections** -- fewer teachers = fewer classes offered. AP courses with small enrollment and electives like theater are most vulnerable when sections get cut.
+- **Larger classes** -- the budget is built on "increased class sizes" at grades 5-12. No numbers published yet.
+- **Less support** -- 16 ed tech and counselor positions cut across the district.
 
-The budget includes **"Grades 5-12 efficiencies"** -- about $1 million in savings from the middle school and high school combined. That means:
-
-- **Fewer course sections.** When you lose teachers, you lose the classes they teach. The district hasn't said which sections yet, but fewer teachers = fewer electives, larger core classes, and potentially the loss of AP or CTE pathways.
-- **Larger class sizes.** The budget assumes "increased class sizes" and "adjusted teaching loads" at 5-12. No specific numbers have been published.
-- **Reduced support staff.** 16 ed tech and clerk positions cut district-wide. Counselors, social workers, and ed techs are "often first on the chopping block" -- the administration's own words.
-
-**What nobody has published:** A breakdown of which teacher positions are being cut at SPHS, which departments lose sections, and what the schedule looks like with 42 fewer teachers in the district.
-
-## What This Could Mean for Your Senior Year
-
-You're planning AP courses and counting on theater and cross-country. Here's what to watch:
-
-- **AP sections:** If enrollment in an AP class is small and the teacher who runs it is cut, that section could disappear. This isn't confirmed -- but it's how section reductions work. The district hasn't published course-level plans.
-- **Electives:** Theater, music, art, CTE programs -- anything that runs with smaller enrollment is vulnerable when total sections are reduced. Again: no specifics published.
-- **Athletics:** The budget includes a $99K payment on the new athletic complex debt. Athletics operations haven't been specifically flagged for cuts, but fewer staff everywhere means fewer coaches if coaches are also teachers whose positions are being eliminated.
-- **Counseling and support:** With fewer counselors and ed techs, the people you go to when things get hard may be stretched thinner or gone.
-
-## The Big Picture (Quick Version)
-
-| What | Number |
-|------|--------|
-| Budget gap the district is closing | $8.4 million |
-| Positions being cut | 78 (12% of all staff) |
-| Teachers specifically | 42 |
-| What would happen without cuts | 18-21% tax increase |
-| What's proposed instead | 3.33% tax increase + the cuts |
-| Savings account left | $0 |
-
-The fund balance -- the district's savings -- is gone. They used it over the last three years to avoid tax increases, and now there's nothing left to soften anything.
-
-## Why You Should Care About the Elementary Stuff Too
-
-The Dyer closure is mostly an elementary-parent issue. But the 42 teacher cuts are **district-wide**. Every teacher cut from elementary reconfiguration is a teacher who isn't available to teach somewhere else. The staffing decisions ripple through the whole system.
-
-Also: the Community School model at Memorial Middle cut chronic absenteeism in half and got nearly 1,000 students into the health center. The board voted to expand it district-wide. But expansion needs staff, and 78 positions are being cut. If Community School works -- and the data says it does -- gutting staff undermines the thing that's actually helping.
+**The district has not published which positions are cut at SPHS, which departments lose sections, or whether any specific programs are affected.** That detail is supposed to come at the March 23 workshop. You're expected to just find out when school starts. That's worth being angry about.
 
 ## What You Can Do
 
-1. **Ask your teachers.** They know more than official communications say. Your coach, your advisor, your department teachers -- they're hearing things. Ask what's changing.
+You've spoken at a board meeting before. You felt like the board wasn't listening. That doesn't mean it didn't matter -- it means you need a specific ask, not a general concern.
 
-2. **Show up on March 16** (6 PM, SPHS Learning Commons). This is the open conversation with district leadership. Students can attend. Ask: *"Which course sections at SPHS are being reduced? Will AP [your subject] exist next year?"* Specific questions get answers. Vague complaints get ignored.
+- **Show up March 23** (6 PM, Redbank Community Center) or **March 30** (potential board vote). Say: *"Which course sections at SPHS are being cut? Will AP [your subject] exist next year? What happens to theater?"* That's harder to ignore than "don't cut our school."
+- **Ask your teachers and coaches.** They hear things before official announcements. Your cross-country coach, your theater director -- they know what's changing.
+- **Write about it.** If the school newspaper covers the budget, push for SPHS-specific detail. The district hasn't provided it. Student journalism that demands it is doing something no one else is doing.
+- **Talk to other students.** Most people at SPHS have no idea this is happening. You're the one who can explain it in a way that doesn't sound like it was written by adults.
 
-3. **Write about it.** If the school newspaper covers the budget, push for specifics about SPHS. The district hasn't published building-level detail. Journalism that demands it is useful.
+## The One Number That Matters
 
-4. **Talk to the board.** You've spoken at a board meeting before. The March 23 and March 30 workshops are where the decisions get made. A student saying "this budget eliminates the classes I need for college" lands differently than another parent complaint.
-
-5. **Talk to other students.** Most students have no idea this is happening. If you're the one who explains it, you're giving them something the district hasn't: information that's actually relevant to their lives.
-
-## Key Dates
-
-- **Mar 16:** Open conversation with district leadership -- SPHS, 6 PM
-- **Mar 23:** Budget Workshop II -- first line-item detail
-- **Mar 30:** Budget Workshop III -- board may vote
-- **Jun 9:** Referendum -- you can't vote on this one, but the adults in your life can
+The superintendent proposed 3.33% on the school tax side. Council said up to 6% was acceptable. That gap could restore ~25-30 positions. Nobody has published what a 5% or 6% budget would look like for SPHS students. That's the question.
 
 ---
 
-*Based on all public budget documents and meeting transcripts through March 10, 2026.*
+*Based on all public budget documents and meeting transcripts through March 10, 2026. The March 23 workshop is where building-level detail is expected.*
