@@ -1,10 +1,12 @@
 ---
 title: "Interpretation Output Schema"
 artifact: SPEC-018
-status: Approved
+status: Implemented
 author: cristos
 created: 2026-03-12
-last-updated: 2026-03-12
+last-updated: 2026-03-13
+approved: 2026-03-12
+implemented: 2026-03-13
 parent-epic: EPIC-009
 linked-research:
   - SPIKE-005
@@ -41,6 +43,11 @@ Per-meeting interpretation produces three layers of output (structured points, j
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1 — three sections | validate_interpretation.py checks for Structured Points, Journey Map, Reactions sections; test_validate_interpretation.py confirms | PASS |
+| AC2 — structured point fields | Validator enforces fact, source_reference, emotional_valence (positive/negative/neutral), threat_level (1-5), open_question (boolean); 7 tests pass | PASS |
+| AC3 — journey map beats | Validator requires 4-column table: Position, Meeting Event, Persona Cognitive State, Persona Emotional State; test_interpretation_schema_contract.py confirms | PASS |
+| AC4 — reactions in persona voice | 3 exemplar docs have free-form first-person reactions; validator checks section non-empty (>100 chars) | PASS |
+| AC5 — cross-persona differentiation | test_interpretation_examples.py verifies 3 personas have different point headings and valence/threat variation on shared facts | PASS |
 
 ## Scope & Constraints
 
@@ -63,3 +70,4 @@ Per-meeting interpretation produces three layers of output (structured points, j
 |-------|------|--------|-------|
 | Draft | 2026-03-12 | 7207791 | Initial creation |
 | Approved | 2026-03-12 | de71f02 | Approved for implementation |
+| Implemented | 2026-03-13 | — | All 5 ACs verified; 137 tests pass; validator, schema, exemplars, generator prompt all aligned |
