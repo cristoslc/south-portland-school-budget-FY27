@@ -4,102 +4,112 @@
 
 ---
 
-## The TL;DR (Post This First)
+## Post This First
 
-The superintendent's proposed budget for next year:
-- **78 positions eliminated** (42 teachers, 16 ed techs, 14 facilities/food/transport, 6 admin)
-- **Dyer Elementary closing** -- students redistricted to the other four schools
-- **3.33% tax increase** on the school side
-- **$8.4 million in total cuts** to bridge the gap
-- The fund balance (savings) is **$0**
-- **The board has NOT voted yet.** March 30 is the likely vote.
+78 positions eliminated -- 42 teachers, 16 ed techs, 14 facilities/food/transport, 6 admin (March 9 budget presentation)
 
-Source: Superintendent's March 9 budget presentation.
+Dyer Elementary closing -- students redistricted to the other four schools (March 9 budget presentation)
 
----
+3.33% school tax increase proposed (March 9 budget presentation)
 
-## School-by-School: What We Know So Far
+$8.4 million in total cuts to bridge the gap (March 9 budget presentation)
 
-### Elementary (Biggest Changes)
+The district savings account is $0. Nothing left. (March 9 budget presentation, slide on fund balance)
 
-- **Dyer:** Proposed to close in September 2026. Students would be redistricted to Brown, Kaler, Small, and Skillin. **No redistricting map has been released yet.** No transportation plan either.
-- **Skillin:** Was originally the administration's top pick to close (saved the most money -- $19.6M over 5 years). Board Chair DeAngelis argued it should stay open because it serves the most immigrant and multilingual families. It's staying open.
-- **Brown, Kaler, Small:** Would absorb Dyer students. Class size projections for receiving schools have not been published.
-
-**If someone in your chat says "they're closing two schools"** -- that's not accurate as of March 10. The proposal is one school (Dyer). But class sizes everywhere will increase because 42 fewer teachers across the district.
-
-### Middle School
-
-- Bell-time consolidation (merging the two start times) was studied but **deferred to fall 2027** -- it requires a DOT traffic study and 6-12 months of permitting. So no change for next year.
-- Staffing efficiencies are planned (larger classes, adjusted teaching loads) but specifics haven't been published.
-
-### High School
-
-- Course sections will be reduced -- fewer electives, potentially fewer AP or CTE offerings.
-- Specific cuts by department have not been published.
+THE BOARD HAS NOT VOTED YET. March 30 is the likely vote.
 
 ---
 
-## Numbers You Can Cite
+## School-by-School Quick Reference
 
-| Fact | Number | Source |
-|------|--------|--------|
-| Total budget gap | $8.4M | March 9 presentation |
-| Positions cut | 78 (12% of all staff) | March 9 presentation |
-| Teachers cut | 42 | March 9 presentation |
-| People directly impacted (after vacancies/retirements) | ~58 | March 9 presentation |
-| Elementary enrollment decline since 2021-22 | 23% (1,401 to 1,080) | March 2 workshop |
-| District-wide enrollment decline since 2015-16 | 11% (3,085 to 2,744) | Dec 2025 budget workshop |
-| Fund balance | $0 | March 9 presentation |
-| Status-quo tax increase would have been | 18-21% | Budget documents |
-| Proposed school tax increase | 3.33% | March 9 presentation |
-| Per-pupil cost (highest among comparables) | $26,651 | Dec 2025 budget workshop |
-| Multilingual learners | 17% of students, 40+ languages | Dec 2025 budget workshop |
-| Special education students | 23% of enrollment | Dec 2025 budget workshop |
-| FY25 audit finding | Material weakness in school financials | Feb 9 meeting |
+**Dyer** -- proposed to close September 2026. No redistricting map released yet. No transportation plan released yet. (March 9 budget presentation)
+
+**Skillin** -- was originally the top pick to close (saved the most money). Board Chair DeAngelis argued it should stay open because it serves the most immigrant families. It's staying open. (March 2 workshop)
+
+**Brown, Kaler, Small** -- would absorb Dyer students. Class size projections not published.
+
+**If someone says "they're closing two schools"** -- not accurate as of March 10. One school (Dyer).
+
+**Middle school** -- schedule change (merging two start times) was studied but deferred to fall 2027. Needs DOT traffic study. No change next year.
+
+**High school** -- course sections will be reduced. Specifics not published yet.
 
 ---
 
-## Dates to Put in Your Calendar
+## Live Meeting Cheat Sheet
 
-| Date | What | Why You Should Care |
-|------|------|---------------------|
-| **Mar 16** | Open conversation with district leadership (6 PM, SPHS) | You can ask questions directly -- informal Q&A format |
-| **Mar 23** | Budget Workshop II (6 PM, Redbank Community Center) | First time line-item budget detail is public |
-| **Mar 30** | Budget Workshop III | **The board may vote here** -- this is the big one |
-| Jun 9 | Public referendum | You vote yes or no on the whole city/school budget |
+Keep this open on your phone during meetings. When someone at the podium cites a number, check it here:
+
+- Budget gap: $8.4M (March 9 presentation)
+- Total positions cut: 78 / 12% of all staff (March 9 presentation)
+- Teachers cut: 42 (March 9 presentation)
+- People actually impacted (after vacancies/retirements): ~58 (March 9 presentation)
+- Elementary enrollment decline since 2021-22: 23%, from 1,401 to 1,080 (March 2 workshop)
+- District-wide enrollment decline since 2015-16: 11%, from 3,085 to 2,744 (Dec 2025 workshop)
+- Per-pupil cost: $26,651 -- highest among local comparables (Dec 2025 workshop)
+- Multilingual learners: 17% of students, 40+ languages (Dec 2025 workshop)
+- Special education: 23% of enrollment (Dec 2025 workshop)
+- Status-quo tax increase would have been: 18-21% (budget documents)
+- State funding: 20% of actual costs, supposed to be 55% (March 9 presentation)
 
 ---
 
-## When Someone in the Chat Says...
+## Dates for Your Calendar
+
+**Mar 16** -- Open conversation with district leadership, 6 PM at SPHS. Informal Q&A. Good for live-posting.
+
+**Mar 23** -- Budget Workshop II, 6 PM at Redbank Community Center. First detailed numbers. THIS IS THE BIG INFO DROP.
+
+**Mar 30** -- Budget Workshop III. The board may vote here. Post-worthy regardless.
+
+**Jun 9** -- Referendum. Adults vote yes or no on the whole city/school budget.
+
+---
+
+## Quick Replies (When Someone Pushes Back)
 
 **"The teachers' raises are why we can't afford this"**
-Partly true, partly misleading. The base raise is 4.2% (CPI + 1.5%). With step and lane increases, actual cost is 6.3%. But these were negotiated in good faith. The union's argument: it's a revenue problem, not a wage problem. The state funds only 20% of actual costs (supposed to be 55%). Both things are true.
+Quick reply: Base raise is 4.2%. With step/lane increases, actual cost is 6.3%. But these were negotiated contracts. The state funds 20% of costs instead of the required 55%. Both things are true.
+
+If they push harder: The union president made the revenue argument at the Feb 9 board meeting and Feb 10 council session. The administration highlights the 6.3% number to frame it as a wage problem. The union says it's a revenue problem. The evidence supports both readings.
 
 **"They should cut administrators before teachers"**
-Director-level positions grew from 10.8 FTE (FY21) to 14 FTE (FY25). They've already been trimmed to 13 in FY26 and would drop to 11 under this proposal. Admin is getting cut -- but 80% of the budget is personnel, and most personnel are teachers and support staff.
+Quick reply: Admin IS getting cut. Director-level positions went from 14 FTE to 11 under this proposal. But 80% of the budget is personnel, mostly teachers and support staff. You can't close $8.4M by cutting admin alone.
 
-**"Why don't they just close Skillin instead? It saves more money"**
-It does save more ($19.6M vs $12.8M over 5 years). The board chair argued Skillin serves the most vulnerable immigrant families and shouldn't be the one to close. The superintendent agreed and pivoted to Dyer.
+**"Why don't they just close Skillin instead?"**
+Quick reply: It saves more ($19.6M vs $12.8M over 5 years), but Skillin serves the most immigrant families. Board chair argued against it on equity grounds. Superintendent agreed and switched to Dyer.
 
-**"Can we just vote no on the referendum and make them try again?"**
-You can. But if the budget fails, the district has to cut even more. There's no fund balance to fall back on. Voting no doesn't mean "find a different way" -- it means "cut deeper."
+**"Can we vote no and make them try again?"**
+Quick reply: You can. But if the budget fails, they cut deeper. There's zero savings to fall back on. Voting no = more cuts, not different cuts.
 
 **"This is the school board's fault"**
-The structural problem is: enrollment down 11%, staffing up 82 positions (for real needs -- multilingual learners, SPED, etc.), state funding covering 20% instead of 55%, and the savings account emptied over three years to avoid tax increases. It's systemic, not one person's fault.
+Quick reply: Enrollment down 11%, staffing up 82 positions (for real needs), state funding at 20% instead of 55%, savings account emptied over 3 years. It's systemic.
 
 ---
 
-## What We Still Don't Know
+## Watch for at March 23
 
-Post these as "things to watch for at the March 23 workshop":
+Post these as "things we still don't know" after the March 23 workshop:
 
-1. Which specific positions are being cut at which schools?
-2. Where do Dyer kids go? (No redistricting map yet)
-3. What do class sizes look like next year?
-4. What's the transportation plan for the closure?
-5. What would a 5% or 6% budget look like instead of 3.33%? How many positions come back?
+- Which specific positions are cut at which schools?
+- Where do Dyer kids go? (No redistricting map yet)
+- What do class sizes look like next year?
+- What's the bus plan for the closure?
+- What would a 5% or 6% budget look like? How many positions come back?
 
 ---
 
-*All numbers verified against budget documents and meeting transcripts through March 10, 2026. If someone questions a fact, the evidence is in `docs/evidence-pools/`.*
+## Source Documents (For When Someone Questions You)
+
+The main sources are on the district website (spsdme.org) under Board Meetings:
+- **March 9 regular meeting** -- superintendent's budget presentation (the primary source for most numbers above)
+- **March 2 budget workshop** -- elementary reconfiguration models and scoring matrix
+- **February 9 regular meeting** -- community school vote, union testimony
+- **February 10 city council joint workshop** -- council tax guidance, public testimony
+- **December 17 budget workshop** -- enrollment trends, per-pupil comparisons
+
+All meetings are recorded and available on the SPC-TV Vimeo channel if you need to find the exact moment someone said something.
+
+---
+
+*All numbers verified against budget documents and meeting transcripts through March 10, 2026.*

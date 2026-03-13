@@ -1,71 +1,58 @@
-# Budget Briefing for Amira (Middle School Student)
+# What's Changing at Memorial Next Year
 
-**What's changing at school next year -- and why**
+You probably already know something is up. Teachers are quieter than usual. There are rumors about people leaving. Here's what's actually happening -- starting with the things you'd notice.
 
 ---
 
-## The Short Version
+## Band and GT: What We Know
 
-The school district doesn't have enough money to keep everything the same next year. They need to save **$8.4 million**. To do that, they're planning to:
+The district is cutting **42 teacher positions** and **16 ed tech positions** across all schools. Nobody has published which positions at Memorial are affected.
 
-- Cut **78 jobs** across all the schools -- teachers, ed techs, custodians, office staff
-- Close **Dyer Elementary** and send those students to other schools
-- Make classes bigger at every level, including middle school
+That means: **we don't know yet whether band or gifted-and-talented are changing.** If someone tells you "they're cutting band" or "GT is gone," ask where they heard it. The district hasn't released building-level cuts yet. That detail is expected at the **March 23 budget workshop**.
 
-None of this is final yet. The school board hasn't voted. But this is what's being proposed.
+What you can do right now: **ask your band director and your GT teacher** what they've heard. They're closer to this than any announcement will be.
 
-## What Could Change at Memorial
+## What Will Probably Be Different
 
-The budget plan includes saving about **$1 million** from middle school and high school combined, through:
+Even without knowing exact positions, the budget is built on these assumptions for middle and high school:
 
-- **Bigger classes.** Fewer teachers means more students per class. The district hasn't said exactly how big classes will get at Memorial, but that's the direction.
-- **Fewer support staff.** Ed techs and counselors are being reduced across the district. If you rely on an ed tech in class or go to a counselor, those people might not be there next year -- or they'll be covering more students.
-- **Schedule changes considered but delayed.** The district looked at merging the two start times at the middle school (right now some students start at 7:55 and others at 8:45). They decided not to do it yet because it requires a traffic study and state permits. So your schedule stays the same for now, but it might change the year after.
-
-**What nobody has said yet:** Which specific positions at Memorial are being cut. Which programs might lose staff. Whether band, gifted-and-talented, or other programs you're in are affected. That detail hasn't been published.
+- **Bigger classes.** Fewer teachers = more kids per room. The district hasn't said how big, but that's the direction.
+- **Fewer support people.** Ed techs and counselors are being cut across the district. The people you go to when you need help may be stretched thinner or gone.
+- **Your schedule stays the same for now.** The district studied merging the two start times (7:55 and 8:45) but decided not to do it yet -- it needs a traffic study and state permits. So no schedule change next year. Maybe the year after.
 
 ## Why Is This Happening?
 
-You might be wondering why your school can't just keep things the way they are. Here's why:
+Here's the simplest way to understand it:
 
-- **Fewer students.** There are about 340 fewer kids in South Portland schools than 10 years ago. But the schools kept hiring more staff during that time because students' needs got more complex.
-- **The savings account is empty.** The district used to have almost $6 million saved up. They spent it over the last few years to avoid raising taxes. Now it's gone.
-- **The state doesn't pay its share.** Maine is supposed to fund 55% of school costs. It actually pays about 20%. The rest comes from local property taxes.
-- **Everything costs more.** Health insurance for staff is going up 12%. Wages are going up because of contracts that were agreed to. Electricity was underbudgeted. It adds up to $8.4 million more than the district can pay.
+Your school district has a certain amount of money each year. Over the last few years, that pile got smaller -- there are fewer students, but costs kept going up (health insurance, salaries, everything). For three years the district covered the gap with savings. Now the savings are gone -- completely, $0 -- and they still need $8.4 million more than they have.
 
-## The Thing About Dyer
+So they're cutting 78 jobs and closing Dyer Elementary to make the math work.
 
-You might hear about Dyer Elementary closing. That's a different school, but here's why it matters to you too:
+## The Memorial Community School Is Working
 
-The 42 teacher cuts are spread across the **whole district**, not just Dyer. And the community just voted to expand the Community School model -- the one at Memorial that brought in the health center, cut absences in half, and distributed thousands of pounds of food through the Locker Project. That program needs staff to run. Cutting 78 positions while trying to expand Community Schools is a real tension.
+You know the health center at school? The Locker Project? Those are part of the Community School program at Memorial. The results are real:
 
-## Things That Are True (And Things That Aren't)
+- Absences dropped by more than half since the program started
+- Almost 1,000 students used the health center
+- 7,000 pounds of food distributed
 
-**True:** 78 positions are being cut. That's real.
+The school board voted to expand this to every school. But expanding it needs staff, and 78 positions are being cut. Whether Memorial's program keeps growing is an open question.
 
-**True:** Classes will get bigger. The budget is built on that assumption.
+## It's OK to Feel Like This Isn't Fair
 
-**Not confirmed:** Which specific programs or teachers at Memorial are affected. If someone says "they're cutting band" or "they're cutting GT" -- ask where they heard that. The district hasn't published building-level cuts yet.
+You found out about a teacher leaving from a classmate, not from the school. You feel like decisions are made far away by people who don't know what your school day is actually like. You're right -- that's exactly what's happening. The budget process doesn't include students, even though students are the ones who live with the results.
 
-**True:** The Community School program at Memorial has been working. Chronic absenteeism dropped from 22% to 10.5%. Nearly 1,000 students used the health center. That's your school.
+That doesn't mean your voice doesn't matter. You wrote a letter to the principal when library hours were cut. That took courage, even if the response was disappointing. Here's what might help more:
 
-**Not clear:** Whether the Community School program will have the staff it needs to keep growing.
+- **Ask your teachers** what they know. They'll tell you more than official announcements.
+- **Ask your parents** to go to the March 23 budget workshop (6 PM, Redbank Community Center). That's when the detailed list of cuts is supposed to come out. If band or GT are affected, that's when we'd find out.
+- **Talk to your friends** about what you're noticing at school. When a favorite teacher leaves or class sizes jump, that's the budget showing up in your life. Naming it helps.
 
-## Why Your Voice Matters
+---
 
-You wrote a letter to the principal when library hours were cut. You notice when things change at school. You're the person the budget is supposed to serve -- even though nobody asked you what you think.
+### For parents reading this with your child
 
-If you want to know more:
-- **Ask your teachers** what they've heard. They're closer to this than official announcements suggest.
-- **Ask your parents** to go to the March 23 budget workshop (6 PM, Redbank Community Center) -- that's where the details come out.
-- **Talk to your friends** about what you're noticing at school. When a favorite teacher leaves or class sizes jump, that's the budget showing up in your life.
-
-## Key Dates
-
-- **Mar 16:** Adults can ask the superintendent questions directly (6 PM, SPHS)
-- **Mar 23:** Budget Workshop -- first detailed numbers
-- **Mar 30:** School board might vote on the budget
-- **Jun 9:** Referendum -- adults vote yes or no on the whole budget
+The school board is the group that decides how the school budget works. They meet twice a month. Right now they're figuring out where to make $8.4 million in cuts. The community gets a final vote on the whole budget on **June 9** -- that's called the referendum. The March 23 workshop at Redbank Community Center (6 PM) is the best upcoming opportunity to hear the specific details and ask questions. Meetings are also streamed on SPC-TV if you can't attend in person.
 
 ---
 
