@@ -1,9 +1,3 @@
-# Specwatch log — repo: 2026-south-portland-school-budget
-# Scanned: 2026-03-12T03:22:16Z
-
-STALE_REF docs/bug/Verified/(BUG-001)-Pipeline-Partial-Failure-Exit-Code/(BUG-001)-Pipeline-Partial-Failure-Exit-Code.md:13 (frontmatter)
-  field: fix-ref
-  target: SPEC-013, EPIC-006
-  resolved: NONE
-  issue: unresolvable artifact ID
+# Specwatch log — repo: south-portland-school-budget-FY27
+# Scanned: 2026-03-13T00:11:04Z
 

@@ -4,7 +4,7 @@
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
-| SPIKE-007 | Docsify Vendoring and GitHub Pages | 2026-03-13 | _pending_ |
+| SPIKE-007 | Docsify Vendoring and GitHub Pages | 2026-03-13 | 1e48d39 |
 
 ## Active
 

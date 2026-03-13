@@ -9,7 +9,7 @@
 | EPIC-009 | Per-Meeting Interpretation Engine | 2026-03-12 | 7207791 |
 | EPIC-010 | Cumulative Narrative Fold | 2026-03-12 | 7207791 |
 | EPIC-011 | Upcoming-Event Brief Generation | 2026-03-12 | 7207791 |
-| EPIC-012 | Docsify Static Site for Briefing Presentation | 2026-03-13 | _pending_ |
+| EPIC-012 | Docsify Static Site for Briefing Presentation | 2026-03-13 | 1e48d39 |
 
 ## Active
 

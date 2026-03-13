@@ -57,4 +57,4 @@ Publish the pipeline's interpretation outputs — per-meeting briefings, cumulat
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Proposed | 2026-03-13 | _pending_ | Initial creation |
+| Proposed | 2026-03-13 | 1e48d39 | Initial creation |
