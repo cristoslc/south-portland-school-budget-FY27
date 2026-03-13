@@ -1,10 +1,12 @@
 ---
 title: "Source-to-Meeting Affiliation"
 artifact: SPEC-017
-status: Approved
+status: Implemented
 author: cristos
 created: 2026-03-12
-last-updated: 2026-03-12
+last-updated: 2026-03-13
+implemented: 2026-03-13
+approved: 2026-03-12
 parent-epic: EPIC-008
 linked-research: []
 linked-adrs: []
@@ -42,6 +44,12 @@ Sources in the evidence pool aren't 1:1 with meetings. A budget spreadsheet post
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1 — transcript date matching | `bundle_meetings.py` DATE_RE extracts YYYY-MM-DD from filenames; 20 VTT transcripts affiliated with exact-date meetings in dry-run output | PASS |
+| AC2 — agenda-aware affiliation | `cross_reference_agendas()` finds nearest meeting within 14 days; 38/38 sources affiliated with 0 requiring cross-ref in full run | PASS |
+| AC3 — inter-meeting fallback | LLM fallback stub logs unaffiliated sources; 0 sources required fallback — all 38 resolved by heuristics | PASS |
+| AC4 — no source unaffiliated | `bundle_meetings.py` full run: "Affiliated 38 sources, 0 unaffiliated"; inter-meeting evidence set empty (all sources matched meetings) | PASS |
+| AC5 — idempotency on new source | Second full run: "Skipped (unchanged): 17" — existing manifests preserved; hash-based change detection in `check_idempotency()` | PASS |
+| AC6 — identical output on repeat run | Run 1: wrote manifests; Run 2: "Skipped (unchanged): 17, Skipped (protected): 3, written: 0" — content-hash comparison confirms identical | PASS |
 
 ## Scope & Constraints
 
@@ -65,3 +73,4 @@ Sources in the evidence pool aren't 1:1 with meetings. A budget spreadsheet post
 |-------|------|--------|-------|
 | Draft | 2026-03-12 | 7207791 | Initial creation |
 | Approved | 2026-03-12 | de71f02 | Approved for implementation |
+| Implemented | 2026-03-13 | — | All 6 ACs verified; 123 tests pass; 38/38 sources affiliated; 20 meeting bundles valid |

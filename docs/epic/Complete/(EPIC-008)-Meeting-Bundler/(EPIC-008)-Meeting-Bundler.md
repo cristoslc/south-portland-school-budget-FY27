@@ -1,10 +1,10 @@
 ---
 title: "Meeting Bundler"
 artifact: EPIC-008
-status: Proposed
+status: Complete
 author: cristos
 created: 2026-03-12
-last-updated: 2026-03-12
+last-updated: 2026-03-13
 parent-vision: VISION-003
 success-criteria:
   - Every source in the evidence pool is affiliated with exactly one meeting or classified as inter-meeting evidence
@@ -49,3 +49,4 @@ Group evidence pool sources into coherent meeting bundles — one bundle per sch
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-12 | 7207791 | Initial creation |
+| Complete | 2026-03-13 | — | SPEC-016 and SPEC-017 both Implemented; 20 bundles, 38 sources affiliated |
