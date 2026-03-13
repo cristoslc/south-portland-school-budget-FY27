@@ -1,6 +1,6 @@
 pool: fy27-budget-documents
 created: 2026-03-09
-refreshed: '2026-03-11'
+refreshed: '2026-03-13'
 tags:
 - budget
 - fy27
@@ -174,3 +174,15 @@ sources:
   path: data/school-board/budget-fy27/documents/2026-03-02-models-and-matrix.xlsx
   hash: sha256:82715073464a832d76db54f7e37521ef0699769fa154d8817d0489341827ef9f
   file: sources/025-budget-models-and-cost-matrix-2026-03-02.md
+- source-id: '026'
+  title: Edit
+  type: document
+  path: data/school-board/budget-fy27/documents/edit.pdf
+  hash: sha256:2bed84e9189a6a06c7a4f21d9b7b2ebdd7abb2ca6f837ade6d8e498973d0af11
+  file: sources/026-edit.md
+- source-id: '027'
+  title: Edit
+  type: spreadsheet
+  path: data/school-board/budget-fy27/documents/edit.xlsx
+  hash: sha256:04dc0295f53c9329c201e7ed3541949a2eb516ba54e358a51e1820c72bf0eb58
+  file: sources/027-edit.md

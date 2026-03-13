@@ -1,0 +1,958 @@
+City Council Meeting
+2026-03-19
+Council Chambers
+
+Source: https://southportland-gov.community.diligentoneplatform.com/Portal/MeetingInformation.aspx?Id=1291
+
+City Council Meeting Agenda - March 19, 2026 - Agenda - Html html, body { margin: 0; padding 0; } img { max-width:100%; height: auto;} span > img { max-width: initial; } div[style*="-aw-headerfooter-type"] img { max-width: initial; } a[href], a[href]:hover, a[href]:visited { color: #5d7599; text-decoration: underline; } a:not([href]), a:not([href]):hover, a:not([href]):visited { color: inherit !important; text-decoration: none !important; } th { text-align:initial; } td h3, td p { white-space: normal !important; word-wrap: break-word; overflow-wrap: break-word; } 
+
+ 
+
+# CITY COUNCIL MEETING AGENDA
+Thursday, March 19, 2026 at 5:45 PM (Executive Session), Regular Meeting Begins at 6:30 PM
+
+City Hall
+
+ 
+
+ 
+
+-  
+
+A.
+
+## EXECUTIVE SESSION
+ 
+
+-  
+
+1.
+
+### Executive Session Pursuant to 1 M.R.S.A. § 405(6)(C) to Discuss a Real Estate Matter. Three-Fifths (3/5s) Vote of Councilors Present and Voting Required to Enter Executive Session.
+
+-  
+
+B.
+
+## OPENING OF THE MEETING
+ 
+
+-  
+
+1.
+
+### Pledge & Roll Call
+
+-  
+
+2.
+
+### Acceptance of Minutes
+3.5.26 City Council Minutes
+
+City Council Meeting - Mar 05 2026 - Minutes - Html
+
+ 
+
+ 
+
+-  
+
+C.
+
+## PETITIONS AND COMMUNICATIONS
+ 
+
+-  
+
+1.
+
+### Annual Municipal Stormwater Permit Update
+POSITION PAPER OF THE CITY MANAGER
+
+Aubrey Strause (WRP Stormwater Program Coordinator) will provide a brief update to Council members on key elements of the Maine DEP Municipal Stormwater Permit (MS4) that applies to South Portland and 29 other municipalities in Maine. This annual update is a requirement of the City's MS4 permit.
+
+ 
+
+Staff Memo - Municipal Stormwater Permit - Stormwater Coordinator.pdf
+
+ 
+
+ 
+
+-  
+
+2.
+
+### Presentation: Pearl Street Pump Station Project
+POSITION PAPER OF THE CITY MANAGER
+
+As noted in the attached memo from Finance Director Ellen Sanborn, the City is planning to finance approximately $50 million in wastewater infrastructure improvements, including the $38 million Pearl Street Pump Station project and $12 million in plant dewatering upgrades, through the issuance of revenue bonds. Unlike general obligation bonds, revenue bonds are repaid through user fee revenues, requiring financial analysis to ensure sufficient revenue to cover debt service.
+
+ 
+
+To support the bond issuance and obtain a favorable bond rating, the City engaged CDM Smith for a feasibility study, working alongside financial advisor Moors & Cabot and bond counsel from Pierce Atwood.
+
+ 
+
+Preliminary analysis indicates that sewer user fees may need to increase by approximately 22% annually in FY27, FY28, and FY29 to support the bond debt service, in addition to typical operating increases of about 4% per year. For the average residential customer, the FY27 increase is estimated at about $9.70 per month ($116 annually), with an additional $11.80 per month ($141 annually) projected in FY28. However, there are options the City is looking into to mitigate the impact to sewer rate payers, include a $12 million request of our federal delegation for a federal "earmark", along with utilizing TIF revenues.
+
+ 
+
+Final rate recommendations will depend on project bid results, interest rates, bond rating outcomes, and other sources of revenues (grants, TIF, etc.). This information will be presented to the City Council as part of the FY27 rate-setting process in June and when Council is asked to approve a revenue bond ordinance in the coming months.
+
+ 
+
+South Portland currently maintains one of the lowest sewer rates in the Greater Portland region. Based on typical residential wastewater usage (about 4,488 gallons per month), the approximate monthly sewer costs among nearby communities are:
+
+Community
+
+Approx. Monthly
+
+Sewer Cost
+
+Approx. Annual
+
+Sewer Cost
+
+Westbrook
+
+~$52
+
+$617
+
+South Portland
+
+~$56
+
+$670
+
+Windham
+
+~$62
+
+$734
+
+Gorham
+
+~$68
+
+$815
+
+Portland
+
+~$78
+
+$936
+
+Cumberland
+
+~$87
+
+$1,035
+
+Cape Elizabeth
+
+~$90
+
+$1,073
+
+This places South Portland in the lower tier of regional sewer rates today, with a typical residential bill roughly 40–45% lower than Cape Elizabeth and lower than nearly all surrounding suburban systems.
+
+ 
+
+However, the City is facing the same pressure seen across Maine as communities finance major wastewater infrastructure improvements. Recent examples in Maine include double-digit sewer rate increases in Richmond, Winthrop, and Bar Harbor, and even larger project-driven increases in Vassalboro, to name a few. South Portland’s projected increases are significant, but they reflect a broader statewide reality: aging wastewater systems - mostly built over 50 years ago in the mid-1970s - require substantial capital investment, and those costs are increasingly being borne through user rates.
+
+ 
+
+The proposed project financing would likely move the City closer to the top of the pack over the next three fiscal years. Even so, South Portland’s projected increases are consistent with what many Maine communities are experiencing as they fund major wastewater and sewer infrastructure projects, so their rate payers are expected to see significant increases as well.
+
+ 
+
+Finance Director Ellen Sanborn and representations from CDM Smith will provide a brief overview. Water Resource Protection Director Fred Dillon will also be present to discuss the project timeline.
+
+ 
+
+Memo - Sewer Revenue Bond - Finance Director Sanborn.pdf
+
+ 
+
+ 
+
+-  
+
+D.
+
+## APPOINTMENT CALENDAR
+The appointment calendar is to ensure fairness and transparency by listing current vacant positions and positions that are currently filled with a term expiring within the next 90 days, regardless of whether or not the incumbent wishes to continue.* This allows the City Council to maintain control over the schedule; essentially, treating each appointment as a "motion" that needs to be considered in an orderly manner.
+
+The vacancies that do not have a nominee(s) may be postponed as a group by majority vote of the Council and the City Clerk shall not be required to read each appointment Order. Nominations made by an individual Councilor shall be placed on the Consent Calendar.*
+
+*City Council Standing Rules, Section 14 Order of Business
+
+Qualified and interested persons are encouraged to apply at: https://onboard.southportland.org/apply/
+
+ 
+
+-  
+
+1.
+
+### ORDER #118-21/22 - Transit Advisory Committee, District Five (Tipton), for an unexpired term that expires September 30, 2028. Postponed since January 4, 2022. Passage requires majority vote.
+
+-  
+
+2.
+
+### ORDER #52-23/24 - Board of Assessment Review, District Five (Tipton), for an unexpired term that expires December 31, 2026. Passage requires majority vote.
+
+-  
+
+3.
+
+### ORDER #157-24/25 - Comprehensive Plan Committee, Member, District Three (Pride), for an unexpired term that expires September 30, 2026. Passage Requires Majority Vote.
+
+-  
+
+4.
+
+### ORDER #22-25/26 Open Space Acquisition Committee, District Three (Pride) for a term that expires September 30, 2028. Passage Required Majority Vote.
+
+-  
+
+5.
+
+### ORDER #24-25/26 - Transit Advisory Committee, At-Large (Matthews), for a term that expires September 30, 2028. Passage Requires Majority Vote.
+
+-  
+
+6.
+
+### ORDER #32-25/26 - Historic Preservation Committee, (Tipton), for an unexpired term that expires January 31, 2028. Passage requires majority vote.
+Current vacancy: On July 24, 2025 the City Clerk was notified by Jessica Brakenwagen of her resignation from the Historic Preservation Committee.
+
+-  
+
+7.
+
+### ORDER #54-25/26 - Transit Advisory Committee, District Two (Coleman), for an unexpired term that expires September 30, 2027. Passage Requires Majority Vote.
+Current vacancy:On September 9, 2025 the City Clerk was notified of Mark Noyes resignation from Transit Advisory Committee.
+
+-  
+
+8.
+
+### ORDER #56-25/26 - Board of Health, Physician (City Council Appointment), for a term which expires December 2, 2028. Passage requires majority vote.
+Board of Health vacancy shall be a physician if available in the community. Appointees must have significant knowledge and experience in either a medical or scientific field related to public health.
+
+-  
+
+9.
+
+### ORDER#70-25/26 Affordable Housing Committee, Owner , District Four (Walker), for an term that expires December 30, 2028. Passage requires majority vote.
+
+-  
+
+10.
+
+### ORDER #94-25/26 - Landcare Management Advisory Committee, Resident, District Two (Coleman) unexpired term ending January 30, 2028. Passage Requires Majority Vote.
+
+-  
+
+11.
+
+### ORDER #95-25/26 - Landcare Management Advisory Committee, MBPC Licensed Landscape Professional member, District At Large (West) for a term that expires January 30, 2029. Passage requires majority vote.
+
+-  
+
+12.
+
+### ORDER #99-25/26 - Historic Preservation Committee, District Three (Pride), for a term that expires January 31, 2029. Passage requires majority vote.
+
+-  
+
+13.
+
+### ORDER #114-25/26 - Conservation Commission, District At Large (Matthews), for a term that expires March 3, 2029. Passage requires majority vote.
+
+-  
+
+14.
+
+### ORDER #131-25/26 - Planning Board, District Four (Scott), for a term that expires March 31, 2029. Passage requires majority vote.
+Anticipated vacancy: Term ending March 31st Incumbent has not confirmed if seeking reappointment.
+
+-  
+
+15.
+
+### ORDER #132-25/26 - Planning Board, District Five (Tipton), for a term that expires March 31, 2029. Passage requires majority vote.
+Anticipated vacancy: Term ending March 31st Incumbent has not confirmed if seeking reappointment.
+
+-  
+
+16.
+
+### ORDER #133-25/26 - Conservation Commission, District Four (Walker), for an unexpired term that expires March 2, 2028. Passage requires majority vote.
+Current vacancy: Allison Springer resigned January 20, 2026
+
+-  
+
+17.
+
+### ORDER #136-25/26- Mahoney City Center Committee, Neighborhood Representative, (Mayoral Appointment) to fill vacancy. Passage Requires Majority Vote.
+Current Vacancy: Lisa Maxfield resigned January 22, 2026
+
+-  
+
+18.
+
+### ORDER #137-25/26- Affordable Housing Committee, District Three (Pride) Landlord's Association/ South Portland Landlord for an unexpired term that expires December 30, 2026. Passage Requires Majority Vote.
+Current vacancy: Michael Duvernay resigned on January 17, 2026
+
+-  
+
+19.
+
+### ORDER #183-24/25 - Transit Advisory Committee, District One (Scott), for an unexpired term that expires October 1, 2026. Passage Requires Majority Vote.
+
+-  
+
+20.
+
+### ORDER #158-25/26 - Waste Reduction Committee, District One (Scott), for a term that expires May 4, 2029. Passage Requires Majority Vote.
+Anticipated vacancy: Term ending May 4, 2026 Incumbent has not confirmed if seeking reappointment.
+
+-  
+
+21.
+
+### ORDER #159-25/26 - Waste Reduction Committee, District Five (Tipton), for a term that expires May 4, 2029. Passage Requires Majority Vote.
+Anticipated vacancy: Term ending May 4, 2026 Incumbent has not confirmed if seeking reappointment.
+
+-  
+
+22.
+
+### ORDER #160-25/26 - Waste Reduction Committee, District At Large (Matthews), for a term that expires May 4, 2029. Passage Requires Majority Vote.
+Anticipated vacancy: Term ending May 4, 2026 Incumbent has not confirmed if seeking reappointment.
+
+Postpone the Appointment Calendar (Items 1-22) to April 7, 2026 City Council Meeting.
+
+ 
+
+-  
+
+E.
+
+## CONSENT CALENDAR
+ 
+
+-  
+
+1.
+
+### PROCLAMATION - Recognizing Miss South Portland.
+The City of South Portland thrives when our students lead with heart, and we are absolutely thrilled to celebrate Savannah Johnson, as our newly crowned Miss South Portland!
+
+A Business Administration major right here at SMCC, Savannah is hitting the books and building the networking skills necessary to take the marketing world by storm, proving that beauty, brains, and business savvy go hand-in-hand. Savannah’s journey is fueled by the Miss Maine Scholarship Program, which is opening doors to incredible educational opportunities, ensuring our local leaders have the resources to achieve their highest professional goals.
+
+ 
+
+PROCLAMATION COMMENDING SAVANNAH JOHNSON.pdf
+
+ 
+
+ 
+
+-  
+
+2.
+
+### PROCLAMATION - Recognizing Jetport Noise Advisory Committee Member.
+Councilor West brings forth a Proclamation to recognize Julie Shane for her dedication to serving the community. She collaborated with the Jetport to develop a system that tracks flights, weather conditions, and determine which flight deviate from approved flight paths. This has improved noise reduction for surrounding neighborhoods.
+
+ 
+
+PROCLAMATION COMMENDING JULIE SHANE.pdf
+
+ 
+
+ 
+
+-  
+
+3.
+
+### ORDER #98-25/26 - Landcare Management Advisory Committee, Marcuus Houston, Resident member, District One (Scott) for a term that expires February 27, 2028. Passage requires majority vote.
+ORDER #98 25-26.pdf
+
+ 
+
+ 
+
+-  
+
+4.
+
+### ORDER #112-25/26 - Public Arts Committee, Allison Dale, District One (Scott), term that expires January 31, 2029. Passage requires majority vote.
+ORDER #112 25-26.pdf
+
+ 
+
+ 
+
+-  
+
+5.
+
+### ORDER #161-25/26 - Setting the Date for the Fiscal Year 2027 Budget Public Hearing. Passage Requires Majority Vote.
+POSITION PAPER OF THE CITY MANAGER
+
+Sec. 502 of the City's charter requires the City Manager to submit the annual budget proposal no later than the third Monday in March. This year that is March 16, 2026. In addition, Sec. 504 of the charter requires the Council to set a public hearing on the budget at the meeting where the budget and budget message are submitted. Since the Council does not meet on Mondays, this means that Council must vote on a hearing date at its meeting on March 19, 2026. Traditionally, Council has set the hearing for its first meeting in April. As such, the attached Order would set April 7, 2026, at the public hearing date for the FY27 budget.
+
+The workshop schedule for departments to discuss their operating and capital budgets before Council is as follows:
+
+April 14, 2026 - Budget Workshop #1.
+
+         School
+
+         City Clerk
+
+         Human Resources/Benefits
+
+         Social Services/GA
+
+         Police
+
+         Fire
+
+         Library
+
+         Sustainability
+
+         Public Works
+
+         Facilities
+
+         Parks, Rec, Waterfront & Golf Course
+
+April 28, 2026 - Budget Workshop #2.
+
+         City Council/Committees
+
+         SPCTV
+
+         Information Technology
+
+         Assessing
+
+         Water Resource Protection
+
+         Code Enforcement
+
+         Planning
+
+         Economic Development
+
+         Finance
+
+         Executive
+
+         Legal
+
+         Other
+
+A third and final budget workshop will be held on May 12, 2026 to discuss all items in the "Parking Lot". The Council votes on the School portion of the budget on May 5, 2026, with the School budget referendum held on June 9, 2026. Council votes on the remainder of the budget on June 16, 2026.
+
+ORDER #161 25-26- Setting Public Hearing Date.pdf
+
+ 
+
+ 
+
+-  
+
+6.
+
+### ORDER #162-25/26 Authorizing the Agreement with Maine Department of Transportation for Construction Permit for State Pavement Overlay Projects. Passage requires majority vote.
+POSITION PAPER OF THE CITY CLERK
+
+The Maine Department of Transportation (MDOT) seeks an agreement that a construction overlimit permit will be issued to the Contractor for the their Route 9, Route 22, and Maine Mall Road (Project Nos: 28344.00 and 29664.00).
+
+ 
+
+DOT Agreement.pdf
+
+ORDER #162 25-26.pdf
+
+ 
+
+ 
+
+-  
+
+7.
+
+### ORDER #163-25/26 - Authorizing the Temporary Street Closure of Hinckley Drive on May 16, 2026, for the Springfest from 9:00 A.M. to 4:00 P.M. Passage Requires Majority Vote.
+POSITION PAPER OF THE CITY CLERK
+
+South Portland Parks, Recreation and Waterfront is requesting the temporary road closure of Hinckley Drive between 9:00 A.M. and 4:00 P.M. on May 16, 2026 to all vehicle traffic (with the exception of emergency vehicles). The event application and street closure request has been circulated to city department staff and there are no objections.
+
+Springfest 2026.pdf
+
+Road Closure-Hinckley Dr Springfest.jpg
+
+ORDER #163 25-26.pdf
+
+ 
+
+ 
+
+ 
+
+-  
+
+8.
+
+### ORDER #164-25/26 - Approving Sale of Land Identified on Tax Assessor's Map 26 as parts of Lots 16B and 16G at Elm St & Forest Ave. Passage requires majority vote.
+POSITION PAPER OF THE CITY MANAGER
+
+In March 2023, the City Council approved the purchase of two small parcels of land in the Pleasantdale neighborhood located at the intersection of Elm Street and Forest Avenue. The City had owned the small strip of land bisecting both parcels, which had previously served as a rail line to the shipyards on the eastern waterfront during World War II.
+
+ 
+
+With adjacent parcels now under common City ownership, the plan is to create a small park and open space in the neighborhood. As part of that process, there is a need to address a known boundary issue with the neighboring lot at 100 Elm Street, where the driveway and side yard encroach onto City land. City staff have worked with the owners of 100 Elm Street on a solution to square off the parcel for a modest fee. This is essentially a "clean up" of lot lines that resulted from a legacy industrial activity. Please see the attached memo from Assistant City Manager Joshua Reny for more details. The draft Purchase & Sale Agreement has been reviewed by Corporation Counsel.
+
+ 
+
+Council is being asked to approve the sale of land as specified on the attached order to achieve this boundary line clean up.
+
+ 
+
+Asst. Manager Reny will be present should Council remove this item from the Consent Calendar.
+
+ 
+
+Staff Memo - Land Sale Elm Street
+
+PS Agreement - City Baldwin - 2-9-2026.pdf
+
+ORDER - Sale of Property at Elm & Forest.pdf
+
+ 
+
+ 
+
+Motion for passage of the Consent Calendar.
+
+ 
+
+-  
+
+F.
+
+## CITIZEN DISCUSSION (PART I)
+Members of the public will be given up to 3 minutes to speak on any item on or off the agenda during Citizens Discussion Part I. Members of the public who spoke on any agenda item (including workshops) will not be able to speak on that item again during this time. Members who spoke during Citizen Discussion Part I will not be able to speak during Citizen Discussion Part II.
+
+ 
+
+-  
+
+G.
+
+## PUBLIC HEARINGS AND ACTION
+ 
+
+-  
+
+1.
+
+### ORDER #165-25/26 Granting Willows Pizza, 740 Broadway Unit 100, a Coin Operated Machine Game license. Passage requires majority vote.
+POSITION PAPER OF THE CITY CLERK
+
+This public hearing is for a Coin Operated Machine Game license for Willows Pizza. This is an existing establishment that seeks approval to add a coin operated game machine to the premises.
+
+A legal ad has been placed in the Portland Press Herald, and there have been no objections from the Public. The application has been reviewed and there are no objections by Police, Fire, or Code Enforcement. The standards for licensing applicable to this license (Chapter 14, Sec.14-8) are attached for reference.
+
+Willows Pizza Coin Operated Game Machine Application.pdf
+
+Abutters Form- Willows Pizza.pdf
+
+Legal Ad- Willows Pizza.docx (1).pdf
+
+Ch 14-8 Standards for Denial.pdf
+
+ORDER #165 25-26.pdf
+
+ 
+
+ 
+
+Motion for passage.
+
+ 
+
+-  
+
+2.
+
+### ORDER #166-25/26- Granting Makoto LLC, dba Makoto Sushi Bar and Grill, 448 Cottage Road, a Food Establishment with Liquor License. Passage Requires Majority Vote.
+POSITION PAPER OF THE CITY CLERK
+
+Makoto, LLC is an new business in the community, located at 448 Cottage Road (former Elsmere BBQ location).
+
+The attached application for food and alcoholic beverage license was received by the City Clerk's office. The license application has been circulated and there are no objections from Police, Fire, and Code Enforcement. A notice of the public hearing has been placed as required by ordinance. No objections have been received by the public at this time.
+
+Makoto LLC Application.pdf
+
+Legal Ad- Makoto LLC.docx.pdf
+
+Ch 14-8 Standards for Denial.pdf
+
+ORDER #166 25-26.pdf
+
+ 
+
+ 
+
+Motion for passage.
+
+ 
+
+-  
+
+H.
+
+## WORKSHOP DISCUSSION
+ 
+
+-  
+
+1.
+
+### Discussion About City Facilities/Mahoney Project
+POSITION PAPER OF THE CITY MANAGER
+
+On February 17, 2026, the City Council provided guidance to City staff and the design team to provide a cost estimate for a revised project at the Mahoney property which blended presented Option A1 as well as some elements included in Option B1, such as geothermal technology to reduce energy use, and number of elevators. This project would create a city service center at Mahoney and enable public use of the theater and current gym space for community events, but would not include the library and would essential leave the third floor vacant.
+
+ 
+
+As will be discussed further at the meeting, and as detailed in the attached document, the City's design team estimates even with this reduced scope, the total project will cost $70 - $76 million. The design team will also present various options for how the building space could be utilized.
+
+ 
+
+It is estimated that a new combined City Hall could be built for just under half this amount, around $38-$45 million.
+
+ 
+
+Council is being asked to provide guidance on the following:
+
+ 
+
+- Does Council wish to proceed with the scaled down project as proposed, or does Council wish to look at other locations for a City Hall?
+- Is the Council interested in engaging with a developer via an RFP process to see if a public/private partnership at Mahoney is feasible?
+ 
+
+If Council proceeds with the plan as proposed, it would be ready for a November 2026 bond ask of voters, which could run concurrent with the bond ask for the public safety facilities. If Council wishes to locate a new site and/or explore what a public/private partnership might look like, a referendum would need to be pushed to at least November 2027. NOTE: if maintaining the theater and/or gym for community use is important to the Council, the Mahoney property could be sold to a developer with the proviso that one or both spaces be maintained in some fashion for public use.
+
+ 
+
+3. How does Council wish to address facility needs at the Library?
+
+ 
+
+Council current guidance is to not include the Library as part of the renovations project, although at Council's last meeting some Councilors indicated a willingness to revisit this topic. If Library is not part of a project, there will be investments the City will need to make into the current facility. Is Council interested in a bond request to make those renovations. Or, does the Council wish to proceed with a full renovation of the Library on site or at another location?
+
+ 
+
+Facilities Director Don Hopkins, Library Director Kevin Davis, and representatives from the City's design team will be present for this discussion.
+
+ 
+
+260319 SoPo City Facilities Council Meeting Draft.pdf
+
+ 
+
+ 
+
+-  
+
+I.
+
+## ACTION ON OLD AND NEW BUSINESS
+ 
+
+-  
+
+1.
+
+### ORDER #155-25/26 - Amending Order #34-24/25 to Eliminate Reference to the Library Being Part of the Mahoney Project. Postponed from March 5, 2026. Passage Requires Majority Vote.
+POSITION PAPER OF THE CITY MANAGER
+
+NOTE: This item was postponed from the March 3, 2026 Council meeting.
+
+ 
+
+On September 3, 2024, the City Council approved an Order that, among other things, included a new public library in the redevelopment of the Mahoney School property. However, following recommendations from the Mahoney City Center Committee and subsequent Council discussion during a February 10, 2026 workshop, guidance was given to staff and the design team to exclude the Library from the redesign process.
+
+ 
+
+This Order serves to formally remove the Library from all further consideration for the Mahoney School property redevelopment. The original Order is attached for your reference.
+
+ 
+
+Library Director Kevin Davis, Facilities Director Don Hopkins, and members of the City's design team will be present should Councilors have questions.
+
+ 
+
+AMENDED ORDER #142-24/25.pdf
+
+ORDER #155 25/26
+
+ 
+
+ 
+
+Motion for Passage
+
+ 
+
+-  
+
+2.
+
+### ORDER #156-25/26 - Amending Order #212-24/25 to Direct Staff and the Design Team to Seek Locations Other than Mahoney for a New Police Station. Postponed from March 5, 2026. Passage Requires Majority Vote.
+POSITION PAPER OF THE CITY MANAGER
+
+NOTE: This item was postponed from the March 3, 2026 Council meeting.
+
+ 
+
+On June 17, 2025, the City Council approved an Order that included a new Police Station as part of the redevelopment of the Mahoney School property. However, following recommendations from the Mahoney City Center Committee and subsequent Council discussion during a February 10, 2026 workshop, guidance was given to staff and the design team to exclude the Police Station from the Mahoney property.
+
+ 
+
+This Order serves to formally remove the Police Station from all further consideration for the Mahoney School property redevelopment and instead directs staff to look for other locations. The original Order is attached for your reference.
+
+ 
+
+Police Chief Dan Ahern, Facilities Director Don Hopkins, and members of the City's design team will be present should Councilors have questions.
+
+ 
+
+ORDER #212-24/25.pdf
+
+ORDER #156-25/26. pdf
+
+ 
+
+ 
+
+ 
+
+ 
+
+Motion for Passage
+
+ 
+
+-  
+
+3.
+
+### ORDER #157-25/26 - Amending Order #135-24/25 to Update the Charge of the Mahoney City Center Committee. Postponed from March 5, 2026. Passage Requires Majority Vote.
+POSITION PAPER OF THE CITY MANAGER
+
+NOTE: This item was postponed from the March 3, 2026 Council meeting.
+
+ 
+
+On February 18, 2025, the City Council approved an Order that created the Mahoney City Center Committee (M3C). Following recommendations from the Mahoney City Center Committee and subsequent Council discussion during a February 10, 2026 workshop, guidance was given to staff and the design team to exclude the Library from the project, and to find a location for the Police Station other than the Mahoney property.
+
+ 
+
+This Order serves to formally remove the Library from the Mahoney project and purview of the M3C, and to remove references to the Police Station. The Order has also been amended to remove reference to presenting Council with a "70% design" in July and instead replaces it with "schematic design". This is less than what a 70% design would be, but is less costly and still able to produce an accurate cost amount to present to voters. The original Order is attached for your reference.
+
+ 
+
+Facilities Director Don Hopkins, and members of the City's design team will be present should Councilors have questions.
+
+ 
+
+AMENDED ORDER #134-24/25.pdf
+
+ORDER #157-25/26 .pdf
+
+ 
+
+ 
+
+Motion for Passage
+
+ 
+
+-  
+
+4.
+
+### ORDER #167-25/26 - Appropriating $100,000 from Undesignated Fund Balance to Project Home for Rental Assistance to South Portland Residents Impacted by Federal Immigration Enforcement Activities. Passage Requires Majority Vote.
+POSITION PAPER OF THE CITY MANAGER
+
+At a March 10, 2026 City Council workshop, a majority of Council directed staff to prepare an Order appropriating $100,000 from the City's undesignated fund balance to assist South Portlanders who were experiencing economic hardship as a result of the recent surge in federal immigration enforcement activities. Council specified that this amount should be awarded to Project Home, run by the Quality Housing Coalition, which is currently providing assistance to impacted renters through private donations. Council also wished for these funds to be provided on a reimbursement basis as assistance was provided, not as a lump sum grant.
+
+ 
+
+The attached Order makes $100,000 available from the City's undesignated fund balance for Project Home, with a deadline of June 1, 2026 to have expended the funds. Any unused amount would be returned to the City's fund balance.
+
+ORDER - Appropriating Funds for Project Home.pdf
+
+ 
+
+ 
+
+Motion for passage.
+
+ 
+
+-  
+
+5.
+
+### ORDER #168-25/26 - Authorizing the City Manager to Enter Into a Purchase and Sale Agreement for the 279 Main Street Property and Appropriate Funds to Execute the Transaction. Passage Requires Majority Vote.
+POSITION PAPER OF THE CITY MANAGER
+
+In early February, the City Council directed the City Manager in executive session to make an offer to purchase the property at 279 Main Street, where Walgreens is currently located. Walgreens had announced it was closing, and the property was listed for $2.85 million.
+
+ 
+
+Working with broker Tom Moulton of The Dunham Group, the City submitted an offer of $2.525 million, which was accepted. The City is currently in a 40-day due diligence period to confirm the site is suitable for the construction of a new Police Station. Preliminary findings indicate that it is.
+
+ 
+
+Council is being asked to authorize the City Manager to enter into a formal purchase and sale agreement so that the City can eventually close on this sale if everything turns up satisfactory during the review period.
+
+ 
+
+No property tax increase or budget impact will be required to complete the Walgreens property purchase. The City plans to use $1.5 million in Police Asset Forfeiture funds - which can only be spent for Police purposes - and $1 million in TIF funds, both previously earmarked for city facilities. Voter approval will still be required to construct a Police Station at this location, which would replace the current Walgreens building. The Council previously provided guidance to staff at a March 3, 2026 workshop discussion to pursue a public safety bond referendum before voters this November, which would include the new Police Station and rebuilding the Central Fire Station on site. The City’s design team and staff are currently working to determine the estimated construction cost.
+
+ 
+
+Previously, a new Police Station had been proposed as part of the larger Mahoney City Center project, which included a combined City Hall, Hamlin Building, and Main Library. The initial City Center plan included a renovated theater, gym and community space in the Mahoney building, a new Police Station on the Mahoney field, and a new Central Fire Station on its existing site. Due largely to the $194 million estimated cost, the Council chose not to pursue that proposal and instead reassessed the City’s facility plans.
+
+ORDER - 279 Main Street Purchase.pdf
+
+ 
+
+ 
+
+Motion for passage.
+
+ 
+
+-  
+
+6.
+
+### ORDINANCE #18-25/26 - Amending Chapter 14, "Licensing" regarding Article XVI. Marijuana Establishments. First reading. Passage requires majority vote.
+Rosebud, LLC dba Beach Boys Cannabis Company is seeking a Text Amendment to update the definitions within Article XVI., Sec. 14-772. Definitions, along with Sec. 14-780, License Expiration and Renewal, to extend the license renewal expiry restriction to 90 days after a license lapses. A companion amendment to Chapter 27 – Zoning (Ordinance 19-26/27) has also been submitted.
+
+Planning Director Milan Nevajda and Corporation Counsel Brandon Mazer will be available to respond to Council questions.
+
+ORD#18 25-26 CH 14 Marijuana_CityCouncil.pdf
+
+ 
+
+ 
+
+Passage of first reading.
+
+ 
+
+-  
+
+7.
+
+### ORDINANCE #19-25/26 - Amending Chapter 27, "Zoning" regarding Marijuana Performance Standards of Article XIX, Sec. 27-1902. First reading. Passage requires majority vote.
+Rosebud, LLC dba Beach Boys Cannabis Company is seeking a Zoning Text Amendment to change the Marijuana Performance Standards of Article XIX, Sec. 27-1902 to allow certain previously approved marijuana facilities to convert between medical and adult-use without having to meet the then-current separation distances in Sec. 27-1902 or the use limitations of the applicable Zoning District. A companion amendment to Chapter 14 – Licensing (Ordinance 18-26/27) has also been submitted and will be reviewed by the City Council.
+
+The Planning Board held a duly-noticed public hearing on Ordinance #19-26/27 on March 11, 2026 , and recommended to approve 5-0.
+
+Planning Director Milan Nevajda and Corporation Counsel Brandon Mazer will be available to respond to Council questions.
+
+ORD#19 25-26 CH 27 Marijuana_CityCouncil.pdf
+
+ 
+
+ 
+
+Passage of first reading.
+
+ 
+
+-  
+
+8.
+
+### ORDER #169-25/26 - Acceptance of Gifts & Donations. Passage Requires Majority Vote.
+POSITION PAPER OF THE CITY CLERK
+
+Accepting of Gifts and Donations made to the City of South Portland.
+
+         South Portland Library Donation from Jean Wilkie in the amount of $50.00
+
+MEMO - 3/2/2026 Donation - Library Director
+
+ORDER #169 25-26.pdf
+
+The City Council is required to accept donations or gifts of any kind (either monetary or not) under State law - M.R.S. 30-A § 5652 - 5654.
+
+ 
+
+ 
+
+Motion for passage.
+
+ 
+
+-  
+
+J.
+
+## CITIZEN DISCUSSION (PART II)
+Members of the public will be given up to 3 minutes to speak on any item on or off the agenda during Citizens Discussion Part II. Members of the public who spoke on any agenda item (including workshops) will not be able to speak on that item again during this time. Members who spoke during Citizen Discussion Part I will not be able to speak during Citizen Discussion Part II.
+
+ 
+
+-  
+
+K.
+
+## COMMUNICATION FROM THE CITY MANAGER
+ 
+
+-  
+
+L.
+
+## COUNCILOR'S ROUND ROBIN
+ 
+
+-  
+
+M.
+
+## ADJOURNMENT
+ 
+
+-  
+
+1.
+
+### Adjourn
+
+Motion to Adjourn.
+
+ 
+
+Items may only be introduced after 11:00 p.m. upon a majority vote of Councilors present and voting. Items on a regular meeting agenda not introduced pursuant to this rule shall be placed on the next regular meeting agenda.
