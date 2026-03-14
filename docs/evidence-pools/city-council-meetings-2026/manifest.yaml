@@ -1,6 +1,6 @@
 pool: city-council-meetings-2026
 created: 2026-03-09
-refreshed: '2026-03-13'
+refreshed: '2026-03-14'
 tags:
 - city-council
 - meetings
@@ -142,3 +142,10 @@ sources:
   path: data/city-council/meetings/2026-03-19/agenda.txt
   hash: sha256:4b47882538edf8ee3f7753684014a8ef785d122bae79953202a1665a7114ad9e
   file: sources/020-city-council-agenda-2026-03-19-2026-03-19.md
+- source-id: '021'
+  title: City Council Meeting — 2026-03-10
+  type: media
+  path: data/city-council/meetings/2026-03-10/transcript.en-x-autogen.vtt
+  hash: sha256:b90bd37af75f260f3aa87e00f5d82435186923d31ea19ef2fde99ac4b4a3b3f4
+  file: sources/021-city-council-meeting-2026-03-10-2026-03-10.md
+  duration: 03:56:32

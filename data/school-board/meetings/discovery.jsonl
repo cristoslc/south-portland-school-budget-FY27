@@ -1,0 +1,3 @@
+{"url": "https://vimeo.com/1172187121", "label": "school-board/2026-03-09 (Vimeo 1172187121)", "first_seen": "2026-03-14T01:40:57Z", "last_attempt": "2026-03-14T01:40:57Z", "status": "failed", "fail_count": 1, "last_error": "No VTT file produced for Vimeo ID 1172187121"}
+{"url": "https://vimeo.com/1169968145", "label": "school-board/2026-03-02 (Vimeo 1169968145)", "first_seen": "2026-03-14T01:41:02Z", "last_attempt": "2026-03-14T01:41:02Z", "status": "ok", "fail_count": 0, "last_error": null}
+{"url": "https://vimeo.com/1147746091", "label": "school-board/2025-12-17 (Vimeo 1147746091)", "first_seen": "2026-03-14T01:41:06Z", "last_attempt": "2026-03-14T01:41:06Z", "status": "failed", "fail_count": 1, "last_error": "No VTT file produced for Vimeo ID 1147746091"}
