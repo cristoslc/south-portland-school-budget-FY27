@@ -23,6 +23,14 @@ sources:
     evidence_pool: fy27-budget-documents
     hash: "sha256:48334750408d18a13cf5f347f8da1221a7fe1691f9f9a13a71c096140b0938da"
 
+  - source_id: "sb-presentation-2026-04-07-051"
+    source_type: presentation
+    title: "Board Slides 4.13.26"
+    path: data/school-board/budget-fy27/documents/Board-Slides-4.13.26.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/051-board-slides-4-13-26.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:8ef6ef1bbd6f020dca3504f3fe572c66f9ff8ad8d67f47b50806325e8482818c"
+
   - source_id: "sb-document-2026-04-07-050"
     source_type: document
     title: "Special Budget Meeting 4.7.26"
