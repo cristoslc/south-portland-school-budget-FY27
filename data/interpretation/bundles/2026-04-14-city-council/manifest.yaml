@@ -1,0 +1,17 @@
+schema_version: "1.0"
+
+meeting_date: "2026-04-14"
+meeting_type: regular
+body: city-council
+title: "City Council Regular Meeting — April 14, 2026"
+
+agenda_ref: data/city-council/meetings/2026-04-14/agenda.txt
+
+sources:
+  - source_id: "cc-agenda-2026-04-14-047"
+    source_type: agenda
+    title: "City Council Agenda — 2026-04-14"
+    path: data/city-council/meetings/2026-04-14/agenda.txt
+    normalized_path: docs/troves/city-council-meetings-2026/sources/047-city-council-agenda-2026-04-14-2026-04-14.md
+    evidence_pool: city-council-meetings-2026
+    hash: "sha256:890e017595f2789acabb622f0c8d70c0fb23b9098a212967d034f57f468f0e42"

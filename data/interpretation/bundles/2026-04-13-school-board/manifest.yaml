@@ -1,0 +1,24 @@
+schema_version: "1.0"
+
+meeting_date: "2026-04-13"
+meeting_type: regular
+body: school-board
+title: "School Board Regular Meeting — April 13, 2026"
+
+sources:
+  - source_id: "sb-transcript-2026-04-13-018"
+    source_type: transcript
+    title: "School Board Meeting — 2026-04-13"
+    path: data/school-board/meetings/2026-04-13/transcript.en-x-autogen.vtt
+    normalized_path: docs/troves/school-board-budget-meetings/sources/018-school-board-meeting-2026-04-13-2026-04-13.md
+    evidence_pool: school-board-budget-meetings
+    hash: "sha256:7020e1ed4eb28c4d6d30db3fca6742351ed81d4b878bc02c586f11081b3a7768"
+    duration: "02:59:28"
+
+  - source_id: "sb-presentation-2026-04-13-050"
+    source_type: presentation
+    title: "Board Slides 4.13.26"
+    path: data/school-board/budget-fy27/documents/Board-Slides-4.13.26.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/050-board-slides-4-13-26.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:8ef6ef1bbd6f020dca3504f3fe572c66f9ff8ad8d67f47b50806325e8482818c"

@@ -1,0 +1,32 @@
+schema_version: "1.0"
+
+meeting_date: "2026-04-07"
+meeting_type: regular
+body: school-board
+title: "School Board Regular Meeting — April 7, 2026"
+
+sources:
+  - source_id: "sb-transcript-2026-04-07-017"
+    source_type: transcript
+    title: "School Board Meeting — 2026-04-07"
+    path: data/school-board/meetings/2026-04-07/transcript.en-x-autogen.vtt
+    normalized_path: docs/troves/school-board-budget-meetings/sources/017-school-board-meeting-2026-04-07-2026-04-07.md
+    evidence_pool: school-board-budget-meetings
+    hash: "sha256:a83e4e27414ec90f614a195f64f96f274958d9b192eb5620854de18e861977d4"
+    duration: "03:49:14"
+
+  - source_id: "sb-agenda-2026-04-07-049"
+    source_type: agenda
+    title: "4.7.26 Special Budget Meeting Agenda"
+    path: data/school-board/budget-fy27/documents/4.7.26-Special-Budget-Meeting-Agenda.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/049-4-7-26-special-budget-meeting-agenda.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:48334750408d18a13cf5f347f8da1221a7fe1691f9f9a13a71c096140b0938da"
+
+  - source_id: "sb-document-2026-04-07-051"
+    source_type: document
+    title: "Special Budget Meeting 4.7.26"
+    path: data/school-board/budget-fy27/documents/Special-Budget-Meeting-4.7.26.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/051-special-budget-meeting-4-7-26.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:f52478d6d58344de5c017a877f4dc0c5a0312324629fbcf0b411f1a3fea17887"
