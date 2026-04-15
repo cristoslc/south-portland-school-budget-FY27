@@ -7,67 +7,70 @@ generated_date: "2026-03-31"
 source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC-065"]
 ---
 
-# Transportation Impact Brief — General Community
-
-**South Portland Elementary Reconfiguration | FY27 Budget Cycle**
+# Transportation Impact Brief
+## South Portland Elementary Reconfiguration — General Audience
 
 ---
 
 ## Executive Summary
 
-The South Portland School Board voted on elementary reconfiguration before transportation analysis was complete. The district's preferred option carries a total fiscal exposure of $946,000–$1,680,000 per year — potentially erasing 43–112% of the savings the reconfiguration is supposed to produce. That analysis was not in front of the board when it voted.
+The South Portland School Board is being asked to vote on a major elementary school reorganization before its transportation plan is complete. The district's own Operations Director confirmed at the March 30, 2026 board meeting that routing logistics will be worked out *after* the vote. This brief summarizes what independent analysis found — and what remains unknown.
 
 ---
 
 ## Key Finding
 
-**Option A's transportation costs could exceed the savings it is meant to generate.**
-
-At the high end of estimates, the combined district and family costs from Option A reach $1,679,845 per year — 112% of the administration's claimed savings figure. Even at the low end, $946,449 per year consumes 43% of those savings.
+**Every option on the table requires more bus drivers than the district currently has.** South Portland operates 17–20 drivers. The administration's recommended option (Option A) needs 30. Even the least disruptive option (Option B) needs 24. This shortfall exists before accounting for any staff cuts.
 
 ---
 
 ## Configuration Comparison
 
-| Metric | Option A *(Admin Rec.)* | Option B *(K–4 Proximity)* | Variant C *(Citizen Alt.)* |
+| | **Option A** (Admin Recommendation) | **Option B** (K–4 Proximity) | **Variant C** (Citizen Alternative) |
 |---|---|---|---|
-| Families split across buildings | 139–169 | 0 | 123–150 |
-| Families losing after-care access | 42–144 | 0 | 37–128 |
-| After-care cost shifted to families | $143,640–$803,520/yr | $0 | $126,540–$714,240/yr |
-| Driver shortage *(district has 17–20)* | 10–13 short | 4–7 short | 9–12 short |
-| Route expansion cost to district | $748,472/yr | $0 | $623,726/yr |
-| **Total fiscal exposure** | **$946K–$1.68M/yr** | **$30K–$80K/yr** | **$797K–$1.45M/yr** |
-| As % of claimed savings | 43–112% | 1–5% | 36–97% |
+| Drivers needed | 30 | 24 | 29 |
+| Drivers available | 17–20 | 17–20 | 17–20 |
+| Driver gap | 10–13 short | 4–7 short | 9–12 short |
+| Families split across two schools | 139–169 | 0 | 123–150 |
+| After-care disruption (families affected) | 42–144 | 0 | 37–128 |
+| Route expansion cost (district, annual) | $748,472 | $0 | $623,726 |
+| After-care cost (family-borne, annual) | $143,640–$803,520 | $0 | $126,540–$714,240 |
+| **Total fiscal exposure (annual)** | **$946K–$1.68M** | **$30K–$80K** | **$797K–$1.45M** |
+| As % of claimed budget savings | 43%–112% | 1.4%–5.3% | 36%–97% |
 
-**Important distinction:** "Total fiscal exposure" combines what the district pays and what families pay out of pocket. These are separate burdens — the after-care gap falls directly on working families, not the school budget.
+*District costs and family-borne costs are reported separately. "Total fiscal exposure" combines both.*
 
 ---
 
 ## What's Missing
 
-The district has not produced:
+The district has not published transportation analysis for any configuration. Specific gaps include:
 
-- A completed route map or bus timing model for any configuration. The Director of Operations confirmed at the 3/30/2026 board meeting that transport logistics will be "operationalized" *after* the vote, not before it.
-- A driver recruitment or retention plan. All three configurations require more drivers than the district currently employs — even before a 14% SEA staffing cut that was decided before anyone modeled the routes.
-- An after-care capacity audit. Four of five schools currently report full programs; only Kaler — the school closing — has open slots.
-- An explanation for South Portland's 50.2% increase in transportation costs between FY23 and FY25, versus a 10.5% state average rise over the same period.
+- **No route modeling.** The administration described costs as "not significant" (claim TC-005) without running numbers. Independent analysis puts route expansion at $623,726–$748,472 per year for grade-band options.
+- **No driver count reconciliation.** The SEA staffing reduction (14% cut to driver pool) was decided before anyone counted how many drivers each configuration requires.
+- **No after-care capacity analysis.** After-care is full at four of five current schools. Only Kaler — the school being closed — has open slots.
+- **No family cost estimate.** Families forced to cover before/after care privately could pay $143,640–$803,520 in aggregate annually under Option A. This cost does not appear in the district's budget documents.
+- **No explanation for rising costs.** South Portland's transportation costs rose 50.2% between FY23 and FY25. The state average was 10.5%. No cause has been identified.
 
 ---
 
 ## Limitations
 
-This analysis cannot tell you which specific families lose access, what the final route count will be, or whether the driver shortage can be resolved and at what cost. The route expansion figures ($748,472 for Option A; $623,726 for Variant C) are the most uncertain numbers here — they apply current per-route cost averages to projected route counts. Actual costs depend on negotiated labor rates, fuel prices, and route geometry none of which exist yet.
+This analysis uses FY25 budget data as its baseline. Driver availability is estimated from a single public statement (17–20 drivers, March 30 meeting). Family cost estimates depend on after-care enrollment assumptions that have not been confirmed by the district. The wide ranges in this brief reflect genuine uncertainty, not analytical error. Option B's zero split-family and zero after-care figures assume full neighborhood-proximity implementation — partial versions of Option B would produce different results.
 
 ---
 
 ## Invitation to Improve
 
-This analysis would sharpen considerably with:
+This analysis would be significantly more precise with the following district data:
 
-- The completed consultant transportation study (committed to at the 2/4/2026 forum)
-- School-level enrollment data by grade for each proposed configuration
-- Current after-care enrollment and waitlist counts at each school
-- The administration's full savings model, including transportation assumptions
-- SEA contract terms governing driver staffing minimums
+- Current driver headcount and contract terms under the SEA agreement
+- After-care enrollment numbers at each school, by grade
+- The transportation consultant's route modeling, once complete
+- The district's own assumptions behind the "not significant" cost claim
 
-The district is invited to provide any of this data for incorporation into a revised analysis.
+The district is invited to share any of this data for incorporation into a revised brief. This analysis makes no recommendation about which option the board should choose.
+
+---
+
+*Sources: FY27 budget documents, School Board meetings (2/4/2026, 3/2/2026, 3/30/2026), transportation claims catalog (TC-001 through TC-027), cumulative interpretation folds.*

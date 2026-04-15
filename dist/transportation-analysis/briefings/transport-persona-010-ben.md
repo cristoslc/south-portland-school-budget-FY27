@@ -1,4 +1,3 @@
-```yaml
 ---
 schema_version: "1.0"
 persona_id: "PERSONA-010"
@@ -11,22 +10,17 @@ source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC
 
 ---
 
-# Transportation Impact Brief
-**For: Ben (PERSONA-010) — Community Explainer, The Forecaster**
-
----
+# Transportation Impact Brief — Ben (Forecaster Writer, PERSONA-010)
 
 ## Executive Summary
 
-The FY27 school reorganization proposes to save money on transportation. What the district has not published — and what this analysis estimates for the first time — is the offsetting cost: a universal driver shortfall across every configuration, family-borne care expenses the district has never modeled, and a McKinney-Vento compliance burden triggered by any option that displaces students across buildings. Under Option A, the estimated total annual fiscal exposure ($946K–$1.68M) equals 43%–112% of the reorganization's claimed savings — meaning the plan may not save money at all, depending on which costs you count and who bears them.
+The district's transportation savings claim has not been stress-tested against its own operational data. Independent analysis across six specifications finds that Option A's total fiscal exposure — combining district costs and costs shifted to families — ranges from **$946,449 to $1,679,845 annually**, which equals 43–112% of the savings the consolidation is supposed to produce. More strikingly, the staffing cut that drove this restructuring was decided before anyone modeled how many drivers the new routes actually require. That sequencing is the story.
 
 ---
 
 ## Key Finding
 
-**Option A's total fiscal exposure is 43%–112% of the claimed savings.**
-
-That is the analytically derived range. At the low end, the reorganization captures roughly half its projected benefit. At the high end, costs exceed savings entirely. The district has published the savings figure. It has not published — or apparently modeled — the offsetting costs that generate this range.
+**Even the lowest-impact configuration (Option B) leaves a driver shortfall of 4–7 positions.** The district confirmed 20 active bus drivers on March 30, 2026 (Director of Operations Mike Natalie). Post-cut availability drops to 17–20. Option B requires 24 drivers; Option A requires 30. The 14% SEA staffing cut was finalized before route modeling was complete — not after.
 
 ---
 
@@ -34,58 +28,63 @@ That is the analytically derived range. At the low end, the reorganization captu
 
 | Metric | Option A | Option B | Variant C |
 |---|---|---|---|
-| Families split across buildings | 139–169 | 0 | 123–150 |
-| Bus drivers needed | 30 | 24 | 29 |
-| Confirmed drivers available | 20 | 20 | 20 |
-| Driver shortfall (post-SEA cut) | −10 to −13 | −4 to −7 | −9 to −12 |
-| Bus tiers required | 3–4 | 3 | 3–4 |
-| McKinney-Vento annual exposure | $54K–$128K | $30K–$80K | $46K–$112K |
-| Families facing care gap | 42–144 | 0 | 37–128 |
-| Family-borne care cost (annual) | $144K–$804K | $0 | $127K–$714K |
-| District annual cost | $803K–$876K | $30K–$80K | $670K–$736K |
-| **Total fiscal exposure (annual)** | **$946K–$1.68M** | **$30K–$80K** | **$797K–$1.45M** |
-| **As % of claimed savings** | **43%–112%** | **1.4%–5.3%** | **36%–97%** |
+| Drivers needed | 30 | 24 | 29 |
+| Driver shortfall (post-cut) | 10–13 | 4–7 | 9–12 |
+| Split families | 139–169 (18–24%) | 0 | 123–150 (16–21%) |
+| McKinney-Vento annual exposure | $54,337–$127,853 | $30,365–$79,908 | $46,347–$111,871 |
+| Care gap families | 42–144 | 0 | 37–128 |
+| Family care cost burden (annual) | $143,640–$803,520 | $0 | $126,540–$714,240 |
+| District annual cost | $802,809–$876,325 | $30,365–$79,908 | $670,073–$735,597 |
+| **Total fiscal exposure** | **$946,449–$1,679,845** | **$30,365–$79,908** | **$796,613–$1,449,837** |
+| **As % of claimed savings** | **43–112%** | **1.4–5.3%** | **36–97%** |
 
-*Sources: SPEC-060 through SPEC-065. Driver count confirmed by Director of Operations Mike Natalie, 3/30/2026 board meeting.*
+*Claimed savings baseline: FY25. Sensitivity run using FY23 baseline lowers Option A to $743K–$1.48M (34–98%).*
+
+---
+
+## Methodology Note (for sourcing)
+
+Split-family estimates (SPEC-060) derive from enrollment counts and building assignment modeling — not district-published figures. McKinney-Vento exposure (SPEC-061) uses the district's own 10% MV-eligibility rate (~274 students district-wide, ~108 elementary) applied to displacement counts. Care gap costs (SPEC-064) use a $285/month per-child rate, with low and high bounds reflecting enrollment uncertainty at Kaler closure. Driver gap (SPEC-062) uses the March 30 confirmed headcount of 20, not a projected figure. The route expansion cost of $748,472 (Option A) is an independent estimate; the district has not published its own.
 
 ---
 
 ## What's Missing
 
-The district has not published or presented the following analyses. Each gap is sourced from the transportation claims record (TC-001 through TC-027):
+The claims catalog documents 27 transport-related entries. Ten remain unanswered questions. The most material gaps:
 
-**Route modeling was sequenced after the vote.** The 14% SEA staffing cut — which removes drivers — was decided before anyone modeled the routes or counted available drivers. "Transport logistics underway with partner" (district statement, post-vote) confirms the operational analysis came after the governance decision, not before.
-
-**No published family cost estimate.** Survey data from March 2 shows 90% of parents worried about busing complications and 57% concerned about before/after care disruption. The administration's response was: "we would need to kind of look at the whole picture." No cost estimate for families has since been published.
-
-**After-care capacity is already exhausted.** Four of five elementary schools are at capacity for after-care. The only school with openings is Kaler — which is closing. Any configuration that creates a 4th bell tier produces a structural care gap with nowhere to absorb it.
-
-**Per-pupil transport costs rose 50.2% in two years** — from $709 (FY23) to $1,065 (FY25) — against a Maine state average increase of 10.5% over the same period. No explanation has been provided publicly. Diesel costs were flagged as "considerable" at the 3/30 meeting but left unquantified.
+- **No district route model has been published.** Transport logistics were described as "underway with partner" at the March 30 meeting — after the board voted.
+- **No before/after care capacity audit exists.** Four of five elementary schools have full after-care programs. The district has not analyzed how consolidation interacts with that constraint.
+- **The $25K DOT traffic study and 6–12 month permitting timeline** required for bell time changes (acknowledged February 4) has not been reconciled with the FY27 implementation schedule.
+- **Diesel cost increases** were flagged as "considerable" on March 30 but remain unquantified in any published document.
+- **Per-pupil transport costs** rose 50.2% from FY23–FY25 ($709 → $1,065), vs. a statewide average increase of 10.5% over the same period. The district has not explained this divergence.
 
 ---
 
 ## Limitations
 
-This analysis is an independent estimate, not a district projection. The cost ranges reflect genuine uncertainty in the underlying inputs:
+This analysis estimates what the district has not modeled. It cannot:
 
-- **Care gap cost** uses a $95/day market rate per child — the weakest link in the model. Actual rates vary by provider and subsidy eligibility.
-- **McKinney-Vento exposure** assumes ~10% MV-eligible students district-wide (~108 elementary). The district has not published its MV count.
-- **Driver shortfall** assumes the 3/30 confirmation of 20 drivers as the operational floor. The SEA contract determines which positions are cut; the exact post-cut number is 17–20.
-- **Sensitivity check**: Using FY23 as the cost baseline (instead of FY25) reduces Option A's total exposure to $743K–$1.48M — still 34%–98% of claimed savings.
-- This analysis **cannot** tell you the district's actual claimed savings figure, because that figure has not been published with a methodology.
+- Confirm final route counts (no published route model)
+- Verify contractor pricing (no RFP or vendor agreement on record)
+- Determine exactly how many MV students will be displaced (addresses not in public data)
+- Assess whether the care gap falls on low-income families disproportionately
+
+The wide ranges in the table reflect genuine uncertainty, not analytical imprecision. Narrowing them requires district data, not more estimation.
 
 ---
 
 ## Invitation to Improve
 
-Three district data releases would materially tighten every range in this analysis:
+This analysis would sharpen substantially with the following district disclosures:
 
-1. **The route model** — number of routes, estimated driver-hours, and tier assignments under each configuration. The consultant engagement is confirmed; the output has not been shared publicly.
-2. **The MV student count** — district-wide and by school. Required for compliance planning regardless of configuration chosen.
-3. **The FY27 transport line item with methodology** — what does the district project transportation will cost, and what assumptions does that projection use?
+1. The completed route model from the transportation consultant
+2. Current enrollment counts by school with MV-eligible flags
+3. Before/after care waitlist counts at each receiving school
+4. The diesel cost projection used in the FY27 transportation budget line
+5. The cost basis for the claimed savings figure — FY25 actuals vs. FY27 projection
 
-The district's business manager is the appropriate contact for all three. Each would allow this analysis to narrow its ranges substantially — and would allow voters to assess the claimed savings against a complete cost picture before the referendum.
+The district's business manager is the appropriate contact. The analysis above represents the best available estimate in the absence of that data, and any of these inputs would allow a direct revision.
 
 ---
 
-*Analysis based on SPEC-060 through SPEC-065. Driver count sourced from Director of Operations Mike Natalie, South Portland School Committee meeting, 3/30/2026. Per-pupil cost comparison sourced from Maine DOE public data.*
+*Sources: SPEC-060 through SPEC-065; Transportation Claims Catalog (TC-001–TC-027); Director of Operations testimony, 3/30/2026 board meeting.*

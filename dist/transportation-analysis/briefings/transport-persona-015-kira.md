@@ -1,4 +1,3 @@
-```yaml
 ---
 schema_version: "1.0"
 persona_id: "PERSONA-015"
@@ -11,28 +10,22 @@ source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC
 
 ---
 
-# Transportation Impact Brief: Kira (PERSONA-015)
-**Cross-Building Staff Advocate — System-Level Equity Insider**
+# Transportation Impact Brief — Kira (PERSONA-015)
+**Cross-Building Staff Advocate | System-Level Equity Insider**
 
 ---
 
 ## Executive Summary
 
-The district voted a 14% SEA cut before anyone modeled how many bus drivers each configuration actually requires. As of the March 30 board meeting, 20 drivers are confirmed. Every configuration on the table — including the least disruptive — requires at least 24. That gap is not a transportation detail; it is a staffing decision with direct consequences for every SEA member asked to absorb a broken routing system. For Kira, who sees across buildings and carries a dual stake as both staff and parent, this is the budget's unresolved operational contradiction.
+The SEA staffing cut — 14% of the workforce — was voted on before anyone modeled how many drivers each configuration requires. As of the March 30 board meeting, the district has 20 confirmed bus drivers; every option under consideration needs 24 to 30. That is a universal shortfall, not a configuration-specific edge case. Staff who already travel between buildings to patch inequitable specialist deployment are now being asked to absorb a logistics failure that was baked in before the vote.
 
 ---
 
 ## Key Finding
 
-**Every configuration produces a driver shortfall. The question is not whether — it is how large.**
+**The lowest-impact option still needs 4–7 more drivers than the district will have after SEA cuts.**
 
-At 20 confirmed drivers and a post-cut range of 17–20 available:
-
-- **Option A** requires **30 drivers** → shortfall of **10–13**
-- **Option B** requires **24 drivers** → shortfall of **4–7**
-- **Variant C** requires **29 drivers** → shortfall of **9–12**
-
-The 14% SEA cut was decided before this arithmetic was performed. *(Source: SPEC-062; Director of Operations Mike Natalie, 3/30/2026 board meeting)*
+Option B — which splits zero families and creates no new care gap — requires 24 drivers. Post-cut availability is 17–20. The gap exists in every scenario. No configuration in the current set is executable with the staffing level the district approved.
 
 ---
 
@@ -41,55 +34,49 @@ The 14% SEA cut was decided before this arithmetic was performed. *(Source: SPEC
 | Metric | Option A | Option B | Variant C |
 |---|---|---|---|
 | Drivers needed | 30 | 24 | 29 |
-| Driver shortfall (post-cut) | 10–13 | 4–7 | 9–12 |
+| Confirmed drivers (post-cut) | 17–20 | 17–20 | 17–20 |
+| **SEA staffing gap** | **–10 to –13** | **–4 to –7** | **–9 to –12** |
 | Bus tiers required | 3–4 | 3 | 3–4 |
 | Split families | 139–169 | 0 | 123–150 |
-| Families facing care gap | 42–144 | 0 | 37–128 |
+| Families facing new care gap | 42–144 | 0 | 37–128 |
 | Family care cost burden (annual) | $144K–$804K | $0 | $127K–$714K |
 | District transport cost (annual) | $803K–$876K | $30K–$80K | $670K–$736K |
-| Total fiscal exposure (annual) | $946K–$1.68M | $30K–$80K | $797K–$1.45M |
-| Exposure as % of claimed savings | 43–112% | 1.4–5.3% | 36–97% |
+| **Total fiscal exposure (annual)** | **$946K–$1.68M** | **$30K–$80K** | **$797K–$1.45M** |
+| As % of claimed savings | 43–112% | 1.4–5.3% | 36–97% |
 
-*Sources: SPEC-060 through SPEC-065. Family costs are not district-line items — they are real costs shifted onto families.*
-
-**4th-tier note:** Options A and Variant C may require a 4th bell tier to support grade-band routing. The confirmed driver idle window runs 9:30–1:30. A 4th tier cannot be added without overtime expenditure. This has not been costed. *(SPEC-063)*
+Option A's total fiscal exposure — at its midpoint — exceeds the savings it is supposed to generate. Option B does not create a care gap or split families, but it still requires 4–7 drivers the district does not have.
 
 ---
 
 ## What's Missing
 
-The district has not provided analysis on the following:
+The district has not produced analysis on the following, despite public requests at the February 4 and March 2 forums:
 
-1. **SEA route modeling before the cut was voted.** No evidence that the 14% SEA reduction was stress-tested against route requirements for any configuration. The driver count (20 confirmed) emerged *after* the cut was decided. *(TC-003; SPEC-062)*
-
-2. **Overtime and coverage cost for the driver shortfall.** If Option B still leaves a 4–7 driver gap, someone fills those routes. The cost of contracted coverage, overtime, or deferred routes has not been published.
-
-3. **Instructional time lost to specialist travel under each configuration.** Kira's daily cross-building travel already erodes student contact time. Reconfiguration changes route distances and bell schedules. No analysis quantifies this tradeoff. *(SPEC-063)*
-
-4. **Per-school MTSS access equity under each configuration.** After-care is full at 4 of 5 schools; only Kaler (proposed for closure) has openings. The district has not modeled how care access distributes under Options A or C for the families most likely to need MTSS services. *(SPEC-064)*
-
-5. **McKinney-Vento compliance cost by configuration.** Of ~274 MV-eligible students district-wide, approximately 108 are elementary. Annual MV transport cost ranges from $30K (Option B) to $128K (Option A). Displacement modeling has not been disaggregated by school. *(SPEC-061)*
+- **Route-level modeling per configuration.** Transportation logistics were described as "underway with a partner" at the March 30 meeting — meaning operational planning began *after* the board vote, not before. No route maps, stop counts, or ride-time estimates have been published. (TC-003, TC-009)
+- **SEA position-to-driver mapping.** The 14% cut is a headcount figure. The district has not disclosed which SEA classifications are affected or how many are current drivers. The post-cut range of 17–20 drivers is an analysis-derived estimate, not a district-confirmed number.
+- **Diesel cost projections.** The Director of Operations flagged diesel increases as "considerable" at the March 30 meeting. No dollar figure was provided. This omission directly affects route expansion cost estimates. (TC-002 context)
+- **Per-building before/after care capacity.** After-care is confirmed full at 4 of 5 schools. No enrollment ceiling data, waitlist lengths, or expansion feasibility studies have been shared with the public. The analysis care-gap estimates ($127K–$804K) are modeled from enrollment ratios, not program records.
+- **Specialist and itinerant staff travel impact.** Cross-building staff like Kira log daily inter-school mileage. No analysis has been done on how each configuration changes specialist travel time, instructional minutes lost to transit, or operational cost to the district for staff who drive themselves between buildings.
 
 ---
 
 ## Limitations
 
-This analysis is grounded in publicly available budget documents, board meeting testimony, and the district's own survey data (90% of parents worried about busing complications; March 2 forum). It does not have access to internal SEA deployment records, individual route maps, or contractor bid data. The driver shortfall ranges reflect the post-cut floor (17) and ceiling (20); actual availability depends on which SEA positions are eliminated, which has not been specified by role. Family cost estimates use a childcare market rate proxy — actual costs vary by provider and family income.
+- The 20-driver figure comes from a single source: Director of Operations Mike Natalie at the March 30, 2026 board meeting. It has not been corroborated by a published staffing report.
+- Route expansion cost estimates ($748K for Option A, $624K for Variant C) are the weakest figures in this analysis. They are modeled from per-route cost ratios, not from actual bidding or contractor quotes.
+- Family care-gap costs use per-child program rates applied to estimated affected households. Actual costs depend on which programs families can access, what sliding-scale subsidies apply, and whether any provider can add capacity.
+- This analysis uses FY25 as the baseline. An FY23 baseline reduces Option A's total fiscal exposure to $743K–$1.48M (34–98% of claimed savings) — directionally similar but materially lower at the high end.
 
 ---
 
 ## Invitation to Improve
 
-The district can close the most critical gaps with the following data:
+The district can sharpen every figure in this brief by releasing:
 
-- **Route manifests** for each configuration, showing required driver count per tier
-- **SEA position elimination list**, specifying which roles are cut and current driver headcount by name or FTE
-- **Overtime and contractor cost estimates** for the confirmed shortfall under each option
-- **Bell schedule proposals** for a 4th tier, if modeled, with associated cost
-- **Specialist travel time data** under each configuration — minutes per week per building
+1. The route-level deployment plan being developed with its transportation partner — including stop counts, ride times, and driver assignments per configuration
+2. The SEA position list affected by the 14% cut, with driver/non-driver classification
+3. Before/after care enrollment ceilings and current waitlist data for each building
+4. Actual diesel cost projections for FY27 under each configuration
+5. Inter-building travel logs or estimates for specialist and itinerant staff
 
-This analysis will incorporate any district-provided data. Refinements welcome at any point before the board vote.
-
----
-
-*This brief presents findings and gaps. It does not recommend a configuration.*
+This analysis will be updated immediately upon receipt of any of the above. Contact for data submission: [district budget analysis working group].

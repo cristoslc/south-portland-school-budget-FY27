@@ -6,96 +6,78 @@ topic: "transportation"
 generated_date: "2026-03-31"
 source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC-065"]
 ---
+```
 
-# Transportation Impact Brief: Priya (Equity-Focused Community Member)
+---
+
+# Transportation Impact Brief — Priya (Equity-Focused Community Member)
+
+**South Portland FY27 Budget | Configuration Analysis | SPEC-060 through SPEC-065**
+
+---
 
 ## Executive Summary
 
-The district's proposed transportation reorganization creates its steepest burdens for the
-students and families with the fewest resources to absorb them. Approximately 10% of district
-students (~274 total, ~108 elementary) qualify under McKinney-Vento, triggering federal
-transport continuity obligations worth $54,337–$127,853 annually under Option A alone. Beyond
-the federal exposure, a potential 4th bus tier under Options A and Variant C would shift up to
-$803,520 per year in childcare costs directly onto families — with no published analysis of
-which families, in which neighborhoods, carrying which work schedules, bear that cost.
+The FY27 school reconfiguration proposals create a layered equity risk: the district's most vulnerable students — those covered by McKinney-Vento (approximately 10% of enrollment, ~274 students) — face mandatory federal transport obligations that the district has not publicly costed, while 42–144 families under Option A face a care gap that shifts $144K–$804K annually onto households least equipped to absorb it. The SEA driver cut — a 14% reduction decided before route modeling was complete — leaves every proposed configuration short-staffed, with no configuration fully funded to serve current ridership.
+
+---
 
 ## Key Finding
 
-**Up to $803,520 per year in care costs would fall on families under Option A.** The district
-has not disaggregated this burden by income, English-learner status, race, or disability
-status. This is not a logistics gap. It is an equity gap.
+**Under Option A, the district's own survey shows 57% of parents are concerned about before/after care disruption. That concern maps directly to a quantified family cost burden of $143,640–$803,520 per year** — a cost that falls on families, not the budget, and is invisible in the district's claimed savings calculation. For families in poverty, this is not an inconvenience; it is a structural barrier.
+
+---
 
 ## Configuration Comparison
 
 | Metric | Option A | Option B | Variant C |
 |---|---|---|---|
-| Families split across buildings | 139–169 (18–24%) | 0 | 123–150 (16–21%) |
-| McKinney-Vento annual exposure | $54,337–$127,853 | $30,365–$79,908 | $46,347–$111,871 |
-| Families facing new care gap | 42–144 | 0 | 37–128 |
+| Split families | 139–169 | 0 | 123–150 |
+| MV annual exposure | $54,337–$127,853 | $30,365–$79,908 | $46,347–$111,871 |
+| Care gap families | 42–144 | 0 | 37–128 |
 | Family-borne care cost (annual) | $143,640–$803,520 | $0 | $126,540–$714,240 |
-| Total fiscal exposure (district + family) | $946K–$1.68M | $30K–$80K | $797K–$1.45M |
-| Exposure as % of claimed savings | 43–112% | 1.4–5.3% | 36–97% |
+| Driver shortfall | −10 to −13 | −4 to −7 | −9 to −12 |
+| Total fiscal exposure | $946K–$1.68M | $30K–$80K | $797K–$1.45M |
+| As % of claimed savings | 43%–112% | 1.4%–5.3% | 36%–97% |
 
-**Equity note:** Option B's $0 family care cost is structurally significant. The care gap
-burden is not a fixed feature of consolidation — it is a product of configuration choice.
-The question the district has not answered is: whose care gap is it?
+**Note:** Family-borne costs are excluded from the district's savings calculation. They are real costs to real households.
+
+---
 
 ## What's Missing
 
-The district has not produced any of the following:
+The analysis surfaces structural gaps directly relevant to equity accountability:
 
-1. **Demographic breakdown of split families.** Of the 139–169 families split under Option A,
-what share are low-income, English-learner, or families of color? Building assignment and
-neighborhood patterns determine who is most exposed — that distribution is not random.
+1. **No demographic disaggregation of split families.** The 139–169 families split across buildings under Option A are identified by count only. The district has not published whether these families are disproportionately lower-income, English-learning, or receiving Title I services. Without that breakdown, it is impossible to assess whether Option A concentrates burden on the most vulnerable. *(SPEC-060)*
 
-2. **McKinney-Vento routing plan.** Federal law requires transport continuity for students
-experiencing homelessness. No public plan exists for how MV-eligible students would be served
-under any configuration, or how the mandated cost ($54K–$128K annually under Option A) would
-be funded without displacing other budget lines.
+2. **No McKinney-Vento student routing plan.** ~108 MV-eligible elementary students have a federal right to transport to their school of origin. No routing plan, no staff capacity plan, and no cost estimate for serving these students under any configuration has been made public. Annual exposure ranges from $30K to $128K depending on configuration, but these figures are modeled estimates, not district calculations. *(SPEC-061)*
 
-3. **Care access analysis by school demographics.** After-care is already at capacity at 4 of
-5 elementary schools. The one school with openings — Kaler — is slated to close. The district
-has not published which schools serve which student populations, whether multilingual care
-options exist, or whether ELL families have access to culturally appropriate programs.
+3. **No care gap capacity analysis by school demographics.** After-care is full at 4 of 5 schools. The one school with openings (Kaler) is closing. The district has not analyzed which income brackets or student populations face the greatest exposure when 42–144 new families seek care placements that do not exist. *(SPEC-064)*
 
-4. **Disaggregated per-pupil transport cost by school or route.** District-wide per-pupil
-transport costs rose 50.2% from FY23 to FY25 ($709 → $1,065), against a state average
-increase of 10.5%. No breakdown exists by school or student population. Without it, cost
-concentration on specific routes or demographics cannot be assessed.
+4. **The SEA driver cut was decided before route modeling.** The 14% SEA reduction — eliminating drivers from the bargaining unit — was voted on before anyone counted how many drivers each configuration requires. Every option, including the lowest-impact Option B, runs a driver shortfall of at least 4–7. This is a governance sequencing failure with direct service implications for students who depend on the bus. *(SPEC-062)*
 
-5. **Driver shortfall impact by neighborhood.** Every configuration faces a driver shortfall:
-Option A is short 10–13 drivers, Option B 4–7, Variant C 9–12. When routes are cut under a
-shortage, no criteria have been published for which routes get deprioritized — and no analysis
-exists of which neighborhoods or student populations those routes serve.
+5. **No per-school spending disaggregation.** South Portland's per-pupil transport cost rose 50.2% from FY23–FY25 ($709 → $1,065), versus a statewide average increase of 10.5%. The district has not published whether this increase is distributed evenly across schools, or concentrated in routes serving higher-need populations.
+
+---
 
 ## Limitations
 
-This analysis draws on aggregate enrollment and cost data. It cannot determine the racial,
-linguistic, or income composition of split families, MV-eligible students, or care-gap
-families without district-provided demographic data linked to building assignments and route
-data. The care cost range ($143K–$803K annually under Option A) is wide because childcare
-utilization rates are unknown — the lower bound assumes minimal new enrollment demand; the
-upper bound assumes full take-up. Neither bound is verified against actual family demand data.
+This analysis can quantify the care gap and MV exposure ranges, but it cannot identify *who* bears them without demographic data the district has not released. Family cost figures are modeled from market-rate childcare and MV transport assumptions — they are plausible estimates, not audited actuals. The driver shortfall figures are arithmetic (routes ÷ available drivers), but the district has not confirmed how it intends to close the gap. Configuration definitions may shift before implementation; the analysis reflects proposals current as of the March 30, 2026 board meeting.
 
-The district's Director of Operations confirmed on March 30, 2026 that transportation
-logistics are being modeled with a partner — after the board vote. Route-level data may now
-exist that was not presented during public deliberation.
+---
 
 ## Invitation to Improve
 
-The district can substantially close these gaps with data it already holds or is now producing:
+The district can directly improve the equity foundation of this analysis by providing:
 
-- **Demographic profile of students** assigned to each proposed building configuration — by
-  free/reduced lunch eligibility, ELL status, race/ethnicity, and IEP status
-- **McKinney-Vento student count by school** and a proposed routing plan under each
-  configuration, with cost estimates attached
-- **Before/after care enrollment and demographic data** for each elementary school, including
-  current waitlists and language access information
-- **Route-level cost and demographic data** from the consultant engagement, once complete,
-  published before any configuration is finalized
-- **Driver assignment criteria** and an explicit prioritization framework for route cuts if the
-  staffing shortfall is not resolved before implementation
+- **Demographic profile of split families** — income level, ELL status, IEP/504 status, Title I eligibility — for each configuration
+- **McKinney-Vento routing and cost plan** — how many MV-eligible students are assigned to each building under each option, and what the transport obligation costs
+- **Before/after care capacity data by school** — confirmed enrollment, waitlist length, and available slots under each configuration
+- **Per-school transport cost data** — to assess whether the 50.2% cost increase is distributed equitably
+- **SEA staffing resolution plan** — how the driver shortfall will be resolved and at what cost
 
-The district has committed to a transportation logistics model. When that model is complete,
-it should answer these questions. The relevant question for equity advocates is whether it
-will be published in time for public review — or delivered only to the board.
+The district's equity commitments in its strategic plan are on record. The data above would allow the public to evaluate whether those commitments are reflected in this budget's transportation structure.
+
+---
+
+*Sources: SPEC-060 (split families), SPEC-061 (McKinney-Vento), SPEC-062 (SEA staffing), SPEC-063 (bell schedules), SPEC-064 (before/after care), SPEC-065 (net savings). Configuration data as of 3/30/2026 board meeting. MV enrollment estimate based on 10% district-wide eligibility rate applied to ~274 total MV-eligible students.*

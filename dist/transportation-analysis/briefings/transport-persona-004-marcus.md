@@ -1,3 +1,4 @@
+```yaml
 ---
 schema_version: "1.0"
 persona_id: "PERSONA-004"
@@ -10,76 +11,70 @@ source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC
 
 ---
 
-# Transportation Impact Brief: Marcus (High School Teacher)
-**PERSONA-004 | Frontline Educator | South Portland FY27 Budget Analysis**
+# Transportation Impact Brief: Marcus (PERSONA-004)
+**Frontline Educator — South Portland High School**
 
 ---
 
 ## Executive Summary
 
-The FY27 budget consolidation is being sold on the savings it generates — savings the district needs to protect programs, maintain staffing ratios, and avoid cutting the academic positions Marcus's union is watching closely. But transportation costs have not been fully modeled against those claimed savings. Under Option A, the total fiscal exposure from the proposed reconfiguration ranges from **$946,449 to $1,679,845 per year** — consuming between 43% and 112% of the claimed savings before a single position is protected. The district set its SEA staffing cuts **before** counting available drivers or modeling routes, meaning the budget's cost assumptions may not hold.
+The district's proposed school consolidation carries an unquantified transportation price tag that competes directly with academic program funding. Under Option A, total fiscal exposure runs $946,449–$1,679,845 annually — consuming between 43% and 112% of the consolidation's claimed savings before a single classroom benefit is realized. The 14% SEA staffing cut that includes bus drivers was decided before anyone modeled how many drivers each configuration actually requires. That sequencing gap is the structural problem Marcus needs to understand.
 
 ---
 
 ## Key Finding
 
-**Under Option A, total fiscal exposure reaches up to 112% of claimed savings.**
+**Under Option A, district transportation costs alone — before accounting for any family burden — run $802,809–$876,325 per year.**
 
-The district's consolidation plan was presented with a net savings figure. That figure does not appear to account for the full cost of operating the transportation system the plan requires. At the high end of the range, transportation costs under Option A would exceed the savings entirely — leaving nothing for the academic budget Marcus is trying to protect.
+That is the pool competing with Marcus's department budget. If the board adopts Option A and the claimed savings fail to materialize, the budget pressure lands on operating lines: staffing, sections, electives, ed techs. Option B produces district-side exposure of only $30,365–$79,908 — an order of magnitude smaller.
 
 ---
 
 ## Configuration Comparison
 
-| | **Option A** | **Option B** | **Variant C** |
+| Metric | Option A | Option B | Variant C |
 |---|---|---|---|
-| Drivers needed | 30 | 24 | 29 |
-| Confirmed drivers available | 17–20 | 17–20 | 17–20 |
-| **Driver shortfall** | **–10 to –13** | **–4 to –7** | **–9 to –12** |
-| Bus tiers required | 3–4 | 3 | 3–4 |
-| Route expansion cost (district) | $748,472 | $0 | $623,726 |
-| District annual cost | $802,809–$876,325 | $30,365–$79,908 | $670,073–$735,597 |
-| Family-borne annual cost | $143,640–$803,520 | $0 | $126,540–$714,240 |
-| **Total fiscal exposure** | **$946K–$1.68M** | **$30K–$80K** | **$797K–$1.45M** |
-| **As % of claimed savings** | **43%–112%** | **1.4%–5.3%** | **36%–97%** |
+| **District annual cost** | $802,809–$876,325 | $30,365–$79,908 | $670,073–$735,597 |
+| **Family annual cost** | $143,640–$803,520 | $0 | $126,540–$714,240 |
+| **Total fiscal exposure** | $946,449–$1,679,845 | $30,365–$79,908 | $796,613–$1,449,837 |
+| **% of claimed savings consumed** | 43%–112% | 1.4%–5.3% | 36%–97% |
+| **Route expansion cost (one-time)** | $748,472 | $0 | $623,726 |
+| **Drivers needed vs. available** | 30 needed / 17–20 available | 24 needed / 17–20 available | 29 needed / 17–20 available |
+| **Driver shortfall** | −10 to −13 | −4 to −7 | −9 to −12 |
+| **Bell tiers required** | 3–4 | 3 | 3–4 |
 
-*Source: SPEC-062 (staffing), SPEC-065 (net savings), SPEC-063 (bell schedules). Driver availability confirmed at 3/30/2026 Director of Operations meeting.*
+*Source: SPEC-062, SPEC-065. Driver availability based on 20 confirmed drivers (Director of Operations Mike Natalie, 3/30/2026), post-14% SEA cut.*
 
-**Every configuration shows a driver shortfall.** Even Option B, the lowest-cost scenario, is short 4–7 drivers against the 20 currently employed (of which 17–20 remain post-cut).
+At the high end of Option A's exposure range, the transportation system alone costs more than the consolidation saves. That arithmetic leaves no margin for program investment — and no buffer if diesel costs, now flagged as "considerable" but unquantified, continue their FY23–FY25 trajectory (+50.2% per-pupil, vs. +10.5% state average over the same period).
 
 ---
 
 ## What's Missing
 
-The district has not produced analysis on several cost factors that directly affect whether claimed savings are real:
+The district has not produced the analysis that would let Marcus evaluate the trade-off with confidence:
 
-- **No staffing cost model for the driver shortfall.** Adding 4–13 contracted or overtime drivers carries a cost that is not in the budget documents. What does it cost to fill a gap of 10 drivers?
-- **No reconciliation of route expansion cost methodology.** The $748,472 figure (Option A) is the single weakest number in the analysis — the derivation is not documented against confirmed route counts or per-route unit costs.
-- **No quantification of diesel cost increases.** The Director of Operations flagged diesel as "considerable" at the 3/30 meeting. No dollar figure was provided. This affects the baseline transport cost projection for all configurations.
-- **No analysis of 4th-tier scheduling feasibility.** Option A and Variant C may require a 4th bell tier. The current driver idle window (9:30 AM–1:30 PM) forecloses overtime-free 4th-tier operation. The cost of adding that capacity is unmodeled.
-- **No timeline for when logistics planning began.** Per TC-003, transport logistics were "underway with partner" but operationalized *after* the board vote — not before. The sequence matters: decisions that precede the analysis cannot rely on that analysis for their savings claims.
+1. **No staffing-cut sequencing rationale.** The 14% SEA cut (which includes drivers) was decided before route modeling was completed. No document explains how 17–20 drivers can cover 24–30 required routes without overtime or contracted services, and at what cost. *(SPEC-062)*
+
+2. **No diesel cost projection.** Transportation costs rose 50.2% per pupil FY23–FY25. The district flagged diesel as a driver at the 3/30/2026 meeting but provided no forward estimate. Without it, the $802K–$876K district cost figure may be understated. *(SPEC-065)*
+
+3. **No program-impact translation.** The board has not published what the unrecovered transport costs would displace in academic budget terms — how many FTEs, sections, or elective slots a $700K–$900K shortfall represents.
+
+4. **No contract cost for driver gap.** The analysis flags a universal driver shortfall across all three options but does not price the contracted or overtime labor needed to fill it. That cost is currently unaccounted for in all three exposure ranges.
 
 ---
 
 ## Limitations
 
-This analysis models fiscal exposure ranges — it cannot determine the *actual* cost without confirmed route counts, driver contract terms, and before/after care enrollment data. The family-borne cost range ($0–$804K for Option A) is wide because care gap utilization is unconfirmed. The district cost range is narrower but still depends on route expansion cost assumptions that have not been independently verified. These figures should be treated as bounds, not point estimates.
-
-This analysis does not model the impact on academic staffing, class size, or program offerings. That connection — transportation cost erosion of claimed savings, translated into FTE impact — requires a budget model the district has not published.
+This analysis models fiscal exposure — what the district and families could owe — not what will be appropriated. Actual costs depend on the contract vehicle used to fill the driver gap, how before/after care capacity is resolved, and whether the transportation consultant's route modeling (described as "underway with partner" as of 3/30/2026) produces lower-cost designs. The claimed savings baseline is drawn from FY25 budget documents; sensitivity testing against FY23 actuals reduces Option A's exposure to $743,440–$1,481,480 (34%–99% of claimed savings) — directionally the same conclusion. Family-borne costs (before/after care) are not district-line items but do represent real community fiscal stress that may return to the district through enrollment pressure or legislative action.
 
 ---
 
 ## Invitation to Improve
 
-The district can materially narrow these ranges with data it already holds:
+The district can resolve the core analytical gap with three disclosures:
 
-1. **Confirmed driver contract terms** — unit cost per driver per route, to validate the route expansion estimate
-2. **Diesel cost actuals and projections** — the FY23–FY25 per-pupil cost spike (50.2% vs. state average 10.5%) needs a cause-and-effect explanation
-3. **Before/after care waitlist data by school** — to confirm or refute the care gap family counts (42–144 under Option A)
-4. **The consultant's transport model** — the district budgeted for a transportation consultancy (TC-003); that analysis, if complete, would resolve the route expansion cost uncertainty
+- **Driver contract cost estimate:** What is the per-route cost to fill the 4–13 driver shortfall via overtime or contracted services under each option?
+- **Diesel and fleet projection:** What does the transportation department's own forward cost model show for FY27, given the 50.2% FY23–FY25 per-pupil trend?
+- **Route modeling output:** When the logistics partner completes route modeling, publish the route count, tier count, and estimated annual operating cost for each configuration before any board vote.
 
-*The district is invited to submit any of this data for incorporation into a revised analysis.*
-
----
-
-*This brief is an analytical memo. It presents missing analysis and known data gaps. It does not advocate for or against any configuration.*
+These are not supplemental documents. They are the prerequisite analysis for any savings claim to be credible.

@@ -6,79 +6,86 @@ topic: "transportation"
 generated_date: "2026-03-31"
 source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC-065"]
 ---
+```
+
+---
 
 # Transportation Impact Brief — David (PERSONA-002)
-**Pragmatic Elementary Parent | Data-Driven Realist**
+**South Portland FY27 Budget | Transportation Analysis | April 2026**
 
 ---
 
-## 1. Executive Summary
+## Executive Summary
 
-The district claims $1.5–2.2M in annual savings from school consolidation, but has not published a net savings figure that accounts for transportation offsets. Depending on the configuration chosen, transportation-related fiscal exposure ranges from $30K to $1.68M per year — before factoring in a universal driver shortfall that exists under every option on the table. The 14% SEA driver cut was decided before anyone modeled the routes or counted the drivers.
-
----
-
-## 2. Key Finding
-
-**Under Option A (the primary consolidation plan), total annual fiscal exposure from transportation alone reaches $946K–$1.68M — consuming 43% to 112% of the claimed savings.**
-
-At the high end of that range, Option A costs more than it saves. Option B, which eliminates split-family routing, reduces that exposure to $30K–$80K (1.4–5.3% of claimed savings). The district has not presented this comparison publicly.
+The district's proposed consolidation carries a claimed savings of $1.5–2.2M, but the configuration chosen to achieve it — Option A — generates $946K–$1.68M in combined district and family fiscal exposure, consuming 43–112% of that figure before a single dollar reaches the classroom. The net savings calculation the district has not published is the one that matters most: what actually remains after transportation costs are paid, by whom, and under what assumptions. That analysis is missing from the public record.
 
 ---
 
-## 3. Configuration Comparison
+## Key Finding
+
+**Option A's total fiscal exposure ($946K–$1.68M/year) equals or exceeds the claimed savings at the top of its range.**
+
+At $1.68M exposure against a $1.5M savings floor, the configuration most likely to be implemented carries a realistic scenario where it saves nothing — and may cost more than the status quo. This is not a rounding error. It is a structural gap in the budget analysis.
+
+---
+
+## Configuration Comparison
 
 | Metric | Option A | Option B | Variant C |
 |---|---|---|---|
+| **Split families** | 139–169 | 0 | 123–150 |
 | **Drivers needed** | 30 | 24 | 29 |
 | **Drivers available (post-cut)** | 17–20 | 17–20 | 17–20 |
-| **Driver shortfall** | −10 to −13 | −4 to −7 | −9 to −12 |
-| **Split families** | 139–169 | 0 | 123–150 |
+| **Driver shortfall** | −13 to −10 | −7 to −4 | −12 to −9 |
+| **Bus tiers required** | 3–4 | 3 | 3–4 |
+| **Care gap families** | 42–144 | 0 | 37–128 |
 | **District annual cost** | $803K–$876K | $30K–$80K | $670K–$736K |
-| **Family annual cost (care gap)** | $144K–$804K | $0 | $127K–$714K |
+| **Family annual cost** | $144K–$804K | $0 | $127K–$714K |
 | **Total fiscal exposure** | $946K–$1.68M | $30K–$80K | $797K–$1.45M |
-| **As % of claimed savings** | 43%–112% | 1.4%–5.3% | 36%–97% |
+| **Exposure as % of claimed savings** | 43–112% | 1.4–5.3% | 36–97% |
 
-*District costs reflect McKinney-Vento compliance and route expansion. Family costs reflect before/after care gaps for split-building households. Sources: SPEC-061, SPEC-062, SPEC-064, SPEC-065.*
-
-**Note on driver shortfall:** The shortfall is not configuration-specific — it is universal. Even Option B, the lowest-impact plan, requires 24 drivers against a confirmed fleet of 20. The district has 20 bus drivers on record (confirmed by Director of Operations Mike Natalie, 3/30/2026 meeting). No configuration closes this gap without hiring or contracting.
+*Driver availability based on 20 confirmed drivers (Director of Operations, 3/30/2026 meeting), minus SEA positions cut under the 14% reduction. MV exposure included in district cost. Route expansion cost for Option A: $748,472; Variant C: $623,726; Option B: $0.*
 
 ---
 
-## 4. What's Missing
+## What's Missing
 
-The district has not published analysis on four cost-bearing questions:
+The following analyses have not appeared in any public budget document or board presentation as of the date of this brief (sourced from the Transportation Claims Catalog, TC-001 through TC-027):
 
-1. **Net savings calculation.** No document reconciles gross claimed savings ($1.5–2.2M) against transportation offsets. The board voted before this arithmetic existed.
+1. **Published net savings calculation.** The district has stated a gross savings figure ($1.5–2.2M) but has not shown the offset math — transportation cost increases subtracted from that figure — in any public-facing document.
 
-2. **Driver gap resolution cost.** Hiring 4–13 additional drivers or contracting routes carries a cost that has not been estimated or disclosed. This is the single largest arithmetic gap in the analysis.
+2. **Driver count modeling done before the SEA cut.** The 14% SEA reduction was decided before anyone modeled routes or counted drivers. The shortfall (−4 to −13 depending on option) was identified post-decision, not as an input to it. (Source: Director of Operations, 3/30/2026 meeting; SPEC-062.)
 
-3. **Route expansion unit cost verification.** The $748K (Option A) and $624K (Variant C) route expansion figures are derived from the current per-route cost of $24,949. If diesel and labor costs continue their recent trajectory — South Portland per-pupil transport costs rose 50.2% from FY23 to FY25, vs. a state average of 10.5% — these figures are understated.
+3. **Operationalized route plan.** As of the board vote, transport logistics were "underway with partner" — meaning contracted analysis was initiated after the vote, not before it. No published route map, tier schedule, or driver assignment plan exists.
 
-4. **McKinney-Vento displacement headcount.** 274 MV-eligible students are enrolled district-wide (~108 at the elementary level). The district has not published which students are displaced under each option, making legal compliance exposure unquantifiable.
+4. **Before/after care capacity accounting.** After-care is at capacity at 4 of 5 elementary schools. The 42–144 families facing a care gap under Option A have no identified placement options in the public record. (SPEC-064.)
 
----
-
-## 5. Limitations
-
-This analysis works from the FY25 budget baseline and publicly available meeting records. It cannot:
-
-- Confirm the actual number of MV-eligible students by building (district records not public)
-- Verify before/after care utilization rates beyond what was stated at the 3/30/2026 board meeting
-- Model route costs under a 4th bus tier — the $748K figure assumes 3-tier structure; a 4th tier adds overtime exposure not yet estimated
-- Assess whether the Portland city busing agreement (committed, terms undisclosed) absorbs any of this exposure
-
-The $1.5–2.2M savings figure itself is a district claim. Independent verification against the FY25 actuals and FY26 projections has not been performed.
+5. **Per-pupil transport cost trend context.** South Portland's per-pupil transport cost rose 50.2% from FY23–FY25 ($709→$1,065) against a state average increase of 10.5%. No explanation has been provided in budget presentations. (SPEC-065.)
 
 ---
 
-## 6. Invitation to Improve
+## Limitations
 
-The following district data would resolve the largest uncertainties in this analysis:
+This analysis models costs from available evidence. Two figures carry meaningful uncertainty:
 
-- **Driver staffing plan:** How does the district intend to close the 4–13 driver shortfall? Hiring timeline, cost per driver, and whether any routes will be contracted out.
-- **MV-eligible student roster by building:** Which students are affected under each configuration, and what is the projected compliance cost?
-- **Net savings model:** A single table reconciling gross savings against all transportation offsets — district-borne and family-borne — by configuration.
-- **Portland agreement terms:** What is the scope and cost structure of the city busing partnership referenced at the 3/30/2026 meeting?
+- **Family care gap cost** ($144K–$804K for Option A) depends on the number of families unable to find alternative care and the market rate for that care. The $71.82/week rate used is based on current South Portland rates, but actual uptake is unknown.
+- **Route expansion cost** ($748,472 for Option A) assumes full SEA hiring to fill the driver gap. If the district contracts transportation instead, unit economics differ and are not yet public.
 
-This analysis will be revised when the district publishes route modeling or staffing plans. Refinements from district staff are welcome.
+This brief does not model multi-year scenarios, capital costs, or the compounding effect of enrollment decline on per-pupil cost ratios.
+
+---
+
+## Invitation to Improve
+
+The district can materially sharpen this analysis by publishing:
+
+1. A net savings table showing gross savings minus projected transportation cost increases, by configuration.
+2. The route modeling output from the transportation consultant engagement — specifically driver counts, tier assignments, and schedule assumptions.
+3. Current before/after care enrollment figures for each elementary school, with available capacity disclosed.
+4. A reconciliation of the FY23–FY25 per-pupil transport cost spike against state averages.
+
+This analysis will be updated when primary source data becomes available. The district is invited to submit corrections or supplemental data for incorporation.
+
+---
+
+*Sources: SPEC-060 through SPEC-065; Transportation Claims Catalog (TC-001–TC-027); Director of Operations testimony, 3/30/2026 school board meeting; Maine DOE per-pupil expenditure data FY23–FY25.*

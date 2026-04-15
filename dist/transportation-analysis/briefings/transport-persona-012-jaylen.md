@@ -1,4 +1,3 @@
-```yaml
 ---
 schema_version: "1.0"
 persona_id: "PERSONA-012"
@@ -11,80 +10,85 @@ source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC
 
 ---
 
-# Transportation Impact Brief: Jaylen (High School Student)
-**PERSONA-012 | FY27 Budget | South Portland Schools**
+# Transportation Impact Brief: Jaylen (PERSONA-012)
+**High School Student — South Portland FY27 Budget**
 
 ---
 
 ## Executive Summary
 
-The district is claiming transportation savings as part of the FY27 budget case. But depending on which school configuration is chosen, the unanalyzed costs of that transportation plan range from $30,000 to $1.68 million per year — and in the worst case, that's more than the savings the district claimed to be making. Every dollar absorbed by transportation complications is a dollar that isn't available for the programs this budget is supposedly protecting. The route math wasn't done before the board voted.
+The district says school consolidation saves money — but the transportation analysis suggests those savings may not exist. Under Option A (the highest-impact configuration), hidden costs eat between **43% and 112%** of the claimed savings before a single new program gets funded or protected. That's the budget gap that competes with theater, AP courses, and athletics. The analysis also found that the 14% cut to bus drivers was decided before anyone counted whether enough drivers existed — and every configuration, including the lowest-impact one, comes up short.
 
 ---
 
 ## Key Finding
 
-**Under Option A, total annual fiscal exposure reaches $946,449–$1,679,845 — that's 43% to 112% of the claimed savings, potentially erasing them entirely.**
+**Under Option A, the district's claimed transportation savings could be entirely wiped out — and then some.**
 
-That's not a rounding error. That's the district claiming a win on transportation costs before anyone counted the buses, the drivers, or the families who'd need to find new childcare arrangements.
+The district claims savings from consolidation. Total fiscal exposure under Option A runs **$946,449 to $1,679,845 per year** — equivalent to 43% to 112% of those claimed savings (SPEC-065). Option B, the lowest-disruption configuration, runs $30,365–$79,908 (1.4–5.3% of savings). The difference between picking Option A and Option B isn't just logistics. It's the difference between saving money and losing it.
 
 ---
 
 ## Configuration Comparison
 
-*How each option stacks up on the numbers that matter*
-
 | | **Option A** | **Option B** | **Variant C** |
 |---|---|---|---|
-| **Families with kids split across buildings** | 139–169 | 0 | 123–150 |
-| **Driver shortfall** | 10–13 short | 4–7 short | 9–12 short |
-| **Families potentially losing childcare coverage** | 42–144 | 0 | 37–128 |
-| **Cost families absorb (childcare gap)** | $144K–$804K/yr | $0 | $127K–$714K/yr |
-| **Total fiscal exposure (district + families)** | $946K–$1.68M/yr | $30K–$80K/yr | $797K–$1.45M/yr |
-| **That exposure as % of claimed savings** | 43%–112% | 1.4%–5.3% | 36%–97% |
+| Families with kids split across two buildings | 139–169 | **0** | 123–150 |
+| Bus drivers needed | 30 | 24 | 29 |
+| Drivers currently available (post-cut) | 17–20 | 17–20 | 17–20 |
+| **Driver shortfall** | **10–13** | **4–7** | **9–12** |
+| Families unable to find before/after care | 42–144 | **0** | 37–128 |
+| Extra childcare cost those families pay (per year) | $144K–$804K | **$0** | $127K–$714K |
+| Total fiscal exposure (district + families) | $946K–$1.68M | $30K–$80K | $797K–$1.45M |
+| As % of claimed savings | 43–112% | 1.4–5.3% | 36–97% |
 
-**One consistent fact across all three options:** there are not enough bus drivers. The district currently has 20 confirmed drivers. Option A needs 30. Option B — the least disruptive plan — still needs 24. The 14% cut to SEA positions (the union that includes drivers) was decided before anyone modeled the routes.
+*Sources: SPEC-060, SPEC-062, SPEC-064, SPEC-065. Driver figures based on 20 confirmed drivers (Director of Operations Mike Natalie, 3/30/2026 board meeting), post-14%-cut availability of 17–20.*
 
-**If you have younger siblings in elementary school:** under Option A or Variant C, there's a 16–24% chance your family ends up at two different buildings on two different schedules. That's not hypothetical — it's baked into the configuration math.
+**Translation:** If you have a younger sibling, Option A means a real chance they end up at a different school than their friends — or on a bus schedule that doesn't line up with yours. Option B avoids that entirely. But Option B wasn't the one the board voted on.
 
 ---
 
 ## What's Missing
 
-The district has not produced:
+The district has not publicly answered several questions that directly affect what next year looks like at SPHS:
 
-- **A route-by-route plan** for any configuration. "Transportation logistics are underway with a partner" — but the board voted before that work was finished (TC-003, TC-009).
-- **A program-level budget breakdown for SPHS.** The budget is presented in object codes (instruction, support services), not in terms students recognize — theater, AP courses, athletics, arts. There is no public analysis showing which specific programs gain or lose funding under each configuration.
-- **A student impact statement.** No official communication has been directed at students explaining what changes are proposed at South Portland High School specifically.
-- **An explanation of the 50.2% transport cost spike.** South Portland's per-pupil transportation costs rose from $709 to $1,065 between FY23 and FY25 — nearly five times the state average increase of 10.5%. Diesel costs were flagged as "considerable" at the March 30 meeting but not quantified. No root cause analysis has been published.
+1. **No driver count before the vote.** The 14% SEA staffing cut was decided before anyone modeled whether enough drivers would exist to run the routes. Even Option B — the easiest option — needs 4–7 more drivers than the district will have (SPEC-062). No public analysis of how this gets resolved has been released.
+
+2. **No program impact analysis.** The district has not published which specific programs, sections, or electives change at SPHS under each configuration. Budget categories like "instruction" and "support services" don't tell you whether AP Physics or theater gets cut (TC-009, board meeting pattern).
+
+3. **No explanation for the 50% cost spike.** South Portland's per-pupil transportation cost rose 50.2% from FY23 to FY25 ($709 → $1,065), while the state average rose 10.5%. No public explanation has been provided for what drove that gap (SPEC-065).
+
+4. **Transportation logistics started after the vote.** The district confirmed at the 3/30/2026 meeting that route planning was "underway with a partner" — meaning the operational details weren't done before the board voted. The analysis was sequenced backward (SPEC-062).
+
+5. **Before/after care availability.** After-care programs are full at 4 out of 5 elementary schools. The district has not published a plan for the 42–144 families (Option A) who would need care slots that don't currently exist (SPEC-064).
 
 ---
 
 ## Limitations
 
-This analysis covers transportation fiscal exposure only. It cannot tell you:
+This analysis works from budget documents, board meeting transcripts, and administrative testimony through 3/30/2026. It cannot tell you:
 
-- Which specific programs at SPHS are funded, reduced, or eliminated in FY27
-- Whether theater, AP offerings, or cross-country are directly affected by any configuration
-- What the district's transportation consultant has found — that work is not yet public
-- Whether Option B is operationally feasible, or why it isn't being seriously considered
+- Which specific classes, sections, or extracurriculars change at SPHS
+- Whether driver shortfalls will be resolved through hiring, overtime, or route cuts
+- How the district intends to close the before/after care gap
+- What the final configuration will be — the board voted, but operational details remain unresolved
 
-The family cost figures (childcare gap) reflect the cost burden shifted onto households, not district budget lines. They are real costs — just not costs the district is currently counting.
+The care gap and family cost estimates assume market-rate childcare ($35.85/day, Maine DHHS benchmark). Actual family costs vary by provider and availability.
 
 ---
 
 ## Invitation to Improve
 
-This analysis would be sharper with the following district data:
+This brief would be significantly stronger with the following data from the district:
 
-1. **Confirmed SEA staffing levels post-cut** — exactly how many drivers remain under each budget scenario
-2. **Route modeling outputs** from the transportation consultant
-3. **Program-level budget lines for SPHS** — what is funded at what level, by program, not by object code
-4. **Before/after care enrollment data** by school — current capacity vs. projected new demand
-5. **A student-facing summary** of what changes at SPHS specifically
+- **Driver recruitment plan:** How does the district intend to close the 4–13 driver gap, and at what cost?
+- **Program-level impact table for SPHS:** Which courses, sections, and activities change — and under which configuration?
+- **Before/after care capacity data:** Current enrollment vs. capacity at each school, and the district's plan for displaced families
+- **Route modeling output:** The transportation consultant's route maps and timing, by configuration
+- **FY23–FY25 cost explanation:** Why did South Portland's per-pupil transport cost rise 4.8× faster than the state average?
 
-The district has committed to transparency throughout this process. Publishing that data — before the referendum, not after — would make this analysis more precise and give students like Jaylen the facts they need to participate in the process that's supposedly about them.
+If the district has completed this analysis, publishing it would allow students, families, and community members to evaluate the configurations on their actual merits.
 
 ---
 
-*Sources: SPEC-060 through SPEC-065; Transportation Claims Catalog (TC-001 through TC-011); Director of Operations confirmed driver count, 3/30/2026 board meeting.*
+*This brief presents analysis only. It does not advocate for or against any configuration. All figures sourced from district budget documents, board meeting testimony (through 3/30/2026), and the SPEC-060 through SPEC-065 interpretation series.*

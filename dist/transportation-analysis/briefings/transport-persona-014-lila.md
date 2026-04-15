@@ -12,73 +12,84 @@ source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC
 ---
 
 # Transportation Impact Brief: Lila (PERSONA-014)
-**Elementary Student — Dyer Elementary (Proposed Closure)**
+**Elementary Student — Dyer Closure Cohort**
+*Prepared for the adults in her life: parents, teachers, and community advocates*
 
 ---
 
 ## Executive Summary
 
-Lila is 9. Her school is closing. The district has not yet modeled where she and her 1st-grade sibling will land, whether they will ride the same bus, or whether there will be before/after care at their receiving school. Every configuration under study requires more bus drivers than South Portland currently employs — including the least disruptive option — and that arithmetic was completed *after* the board voted to cut 14% of SEA positions, some of which are drivers.
+Lila is 9. Her school is closing, and she has a younger sibling in 1st grade at the same building. Under Options A and Variant C, between 139–169 and 123–150 families respectively would have children assigned to two different elementary buildings — meaning the odds are real that Lila and her sibling will not land at the same school. Separately, the district has confirmed it currently employs 20 bus drivers, and every configuration under consideration requires more drivers than that — including the least disruptive option. The logistics that will shape Lila's daily life next year have not been fully modeled, and the board voted before that modeling occurred.
 
 ---
 
 ## Key Finding
 
-**Under Option A, between 139 and 169 elementary families will be split across buildings — 18–24% of all elementary families.**
+**The district has a universal driver shortfall. Even Option B — the configuration with zero split families and zero new care costs — requires 24 drivers against a confirmed fleet of 20. That is a gap of 4–7 drivers under the best case, and 10–13 under Option A.**
 
-For Lila's family, "split" means this: her 1st-grade sibling may be assigned to a different school than she is. That's two drop-offs, two pick-ups, two bus schedules, and two before/after care arrangements — every day. The district has not published which grade bands go to which buildings under any configuration. Lila's family does not yet know if this applies to them.
+This is not a marginal risk. It means that under every configuration, the district must hire drivers it does not currently have before a single child boards a bus next fall. For Lila, who will be reassigned to an unfamiliar school regardless of which option passes, reliable transportation is the floor — and that floor is not yet built.
 
 ---
 
 ## Configuration Comparison
 
-| | **Option A** | **Option B** | **Variant C** |
-|---|---|---|---|
-| Families split across buildings | 139–169 | **0** | 123–150 |
-| Families facing care gap | 42–144 | **0** | 37–128 |
-| Family-borne care cost (annual) | $144K–$804K | **$0** | $127K–$714K |
-| Bus drivers needed | 30 | 24 | 29 |
-| Drivers currently employed | 20 | 20 | 20 |
-| Driver shortfall | **10–13** | **4–7** | **9–12** |
-| Potential 4th bus tier required | Yes | No | Yes |
-| Total fiscal exposure vs. claimed savings | 43–112% | 1.4–5.3% | 36–97% |
+The table below focuses on the factors most relevant to Lila's daily experience: sibling separation, bus schedule complexity, and before/after care availability.
 
-**Plain-language translation for Lila's situation:**
-Under Options A and Variant C, there is a roughly 1-in-5 chance Lila's family is split across buildings. Under Option B, there is no split. Under all options, there are not enough drivers today to run the routes as modeled. Under Options A and C, a 4th bus tier may be added — that tier creates a 30-minute scheduling gap that falls squarely on families who need before- or after-school care. Before/after care is already full at 4 of 5 elementary schools. The only school with openings is Kaler — which is also closing.
+| Factor | Option A | Option B | Variant C |
+|---|---|---|---|
+| **Split siblings (families)** | 139–169 | **0** | 123–150 |
+| **Bus tiers required** | 3–4 | 3 | 3–4 |
+| **Driver shortfall** | −10 to −13 | −4 to −7 | −9 to −12 |
+| **Families facing care gap** | 42–144 | **0** | 37–128 |
+| **Annual family care cost** | $144K–$804K | **$0** | $127K–$714K |
+| **District transport cost** | $803K–$876K | $30K–$80K | $670K–$736K |
+| **Total fiscal exposure as % of claimed savings** | 43–112% | 1.4–5.3% | 36–97% |
+
+**Notes on the 4-tier risk:** Options A and Variant C may require a 4th bus tier for grade-band routing. The confirmed driver idle window is 9:30 AM–1:30 PM. A 4th tier falls outside that window, requiring overtime. The 3/30/2026 meeting confirmed the 3-tier schedule operationally — a 4th tier has not been costed.
+
+**Notes on before/after care:** Before/after care is currently full at 4 of the 5 schools that would absorb displaced students. Only Kaler — one of the schools proposed for closure — has openings. Families using Dyer's current care arrangements cannot assume a slot will exist at their receiving school.
 
 ---
 
 ## What's Missing
 
-The district has not published the following, and none of it has been modeled:
+The following analytical gaps were documented in the Transportation Claims Catalog and have not been publicly addressed by the district:
 
-1. **Receiving school assignments for Dyer students.** We do not know where Lila goes. We do not know if she and her sibling are co-located. The administration confirmed at the March 30 meeting that transportation logistics are "underway with a partner" — but the board vote preceded that work, not the other way around. *(TC-003, TC-009)*
+1. **No per-route ride-time modeling.** Current data documents a 45-minute bus ride under the *existing* system (TC-008). No analysis has been published showing projected ride times for Dyer-cohort students under any proposed configuration. Lila's parents do not know how long her bus ride will be next year.
 
-2. **Before/after care capacity at receiving schools.** After care is confirmed full at 4 of 5 current schools. No analysis has been published showing whether receiving schools under any configuration can absorb displaced Dyer families. *(SPEC-064)*
+2. **No sibling-unit analysis.** The split-family count (139–169 under Option A) is an estimate based on enrollment patterns, not a roster-level analysis. The district has not published data on how many of those split families involve elementary siblings — the specific circumstance Lila is in.
 
-3. **Route-level modeling for displaced students.** Parents at the March 2 meeting described existing 45-minute bus rides. No route analysis has been published showing expected ride times for students displaced from Dyer to receiving buildings. *(TC-008)*
+3. **No receiving-school care capacity audit.** The district has not published a seat-count analysis of before/after care capacity at receiving schools. The claim that care will be available is unsubstantiated given that 4 of 5 sites are currently full.
 
-4. **Sibling co-location rates.** The split-family estimate (139–169 under Option A) is an aggregate. The district has not published how many of those families have siblings across the grade-band split — the exact situation Lila's family faces. *(SPEC-060)*
+4. **Driver recruitment timeline absent.** The 3/30/2026 meeting confirmed the shortfall exists. No timeline for resolving it has been published. Families cannot assess whether service will be operational by September.
+
+5. **McKinney-Vento displacement modeling incomplete.** Approximately 108 elementary students are MV-eligible. No analysis maps which of those students attend Dyer specifically or what their reassignment logistics look like under each option.
 
 ---
 
 ## Limitations
 
-This analysis establishes fiscal exposure ranges; it cannot tell you what happens to Lila specifically. Her receiving school assignment, her sibling's assignment, her family's care situation, and her bus ride length are all unknown pending district route modeling. The driver shortfall figures are based on confirmed staffing (20 drivers, Director of Operations, March 30 meeting) and modeled route counts — but route counts may shift as logistics are finalized. The care gap cost range ($0–$804K for families under Option A) is wide because individual care arrangements vary; the lower bound assumes families absorb the gap informally.
+This analysis cannot tell you:
+- Which specific school Lila would be assigned to under any configuration. Attendance zone maps have not been finalized or published.
+- Whether Lila and her sibling would actually be separated. The split-family range is a population estimate, not a roster assignment.
+- What Lila's bus ride time would be. Route-level modeling has not been made public.
+- Whether the driver shortfall will be resolved before school starts. That depends on recruitment outcomes not yet known.
+
+This analysis *can* tell you that the preconditions for a smooth transition — known routes, confirmed drivers, available care — are not documented as of the date of this brief.
 
 ---
 
 ## Invitation to Improve
 
-The district can reduce uncertainty substantially by publishing:
+The district can close the analytical gaps above with data it already holds or is actively developing. Specifically:
 
-- **Receiving school assignments** by current school and grade band, for all three configurations
-- **Before/after care capacity** at each receiving school, current enrollment vs. available slots
-- **Modeled bus routes** for displaced Dyer students, with estimated ride times
-- **Sibling co-location analysis** — how many split families also have siblings crossing the grade-band boundary
+- **Attendance zone draft maps** for each configuration, keyed to current enrollment rosters, would allow sibling-unit separation to be counted directly rather than estimated.
+- **Route-level timing models** from the transportation consultant ("underway with partner" as of 3/30/2026) would replace the current absence of ride-time data with actual projections.
+- **Before/after care seat inventories** from each receiving school would confirm or refute availability claims.
+- **Driver recruitment status and hiring timeline** would allow families to assess operational readiness.
 
-This brief will be revised when that data is available. The offer stands.
+This brief is built on the best available public evidence. Where the district's internal analysis goes further, publishing it would serve families like Lila's directly — and would allow this analysis to be revised accordingly.
 
 ---
 
-*Lila will not read this document. But the decisions it describes will shape her Monday mornings for the next two years. The numbers above are her commute, her care, and her sibling — rendered in ranges because the district hasn't counted them yet.*
+*Sources: SPEC-060 (split families), SPEC-061 (McKinney-Vento), SPEC-062 (SEA staffing), SPEC-063 (bell schedules), SPEC-064 (before/after care), SPEC-065 (net savings). Transportation Claims Catalog TC-001 through TC-011. Director of Operations Mike Natalie, 3/30/2026 board meeting (driver count confirmation).*

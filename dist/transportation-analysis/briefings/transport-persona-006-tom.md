@@ -4,90 +4,83 @@ persona_id: "PERSONA-006"
 persona_name: "Tom"
 topic: "transportation"
 generated_date: "2026-03-31"
-source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC-064", "SPEC-065"]
+source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC-065"]
 ---
 ```
 
 ---
 
-# Transportation Impact Brief — Tom (PERSONA-006)
-**Tax-Conscious Resident | Fiscal Watchdog**
+# Transportation Impact Brief: Tom (PERSONA-006 — Tax-Conscious Resident)
+
+## 1. Executive Summary
+
+The district's reconfiguration proposal claims savings but has not published a net savings figure that accounts for the transportation costs it creates. Under Option A — the most disruptive configuration — the total fiscal exposure (district-borne plus family-borne) runs $946,449 to $1,679,845 annually, consuming **43% to 112% of the claimed savings**. South Portland's per-pupil transportation cost already rose 50.2% between FY23 and FY25, versus a 10.5% state average — a structural cost problem that predates this reconfiguration and has not been explained.
 
 ---
 
-## Executive Summary
+## 2. Key Finding
 
-The school reconfiguration is framed as a cost-saving measure, but under Option A — the primary configuration — total fiscal exposure runs $946,449 to $1,679,845 annually, equal to 43% to 112% of the district's own claimed savings. More critically, a 14% cut to the SEA transportation unit was approved by the board *before* anyone counted the available drivers or modeled the required routes. The analysis that should have preceded the vote is still underway.
+**Option A's transportation fiscal exposure could wipe out the entire claimed savings — and then some.**
 
----
-
-## Key Finding
-
-**Under Option A, the reconfiguration's total fiscal exposure could equal or exceed 100% of claimed savings.**
-
-At the high end of the range — $1,679,845 — the district would be spending more on transportation-related costs than it saves. This figure combines district-borne costs ($802,809–$876,325) with family-borne costs ($143,640–$803,520) that do not appear in the district budget but represent real economic burden on South Portland households.
+At the high end of the range ($1,679,845), Option A costs more in transport-related exposure than the reconfiguration claims to save. The district has presented gross savings; it has not presented net savings inclusive of transport.
 
 ---
 
-## Configuration Comparison
+## 3. Configuration Comparison
 
 | Metric | Option A | Option B | Variant C |
 |---|---|---|---|
+| Driver shortfall (post-SEA cut) | 10–13 drivers | 4–7 drivers | 9–12 drivers |
+| Routes required | 30 | 24 | 29 |
+| Bus tiers needed | 3–4 | 3 | 3–4 |
 | Families split across buildings | 139–169 | 0 | 123–150 |
-| Bus drivers needed | 30 | 24 | 29 |
-| Confirmed available drivers | 17–20 | 17–20 | 17–20 |
-| Driver shortfall | −10 to −13 | −4 to −7 | −9 to −12 |
-| Route expansion cost (district) | $748,472 | $0 | $623,726 |
-| McKinney-Vento exposure (annual) | $54,337–$127,853 | $30,365–$79,908 | $46,347–$111,871 |
-| Before/after care gap (family cost) | $143,640–$803,520 | $0 | $126,540–$714,240 |
-| **Total annual fiscal exposure** | **$946,449–$1,679,845** | **$30,365–$79,908** | **$796,613–$1,449,837** |
-| **As % of claimed savings** | **43%–112%** | **1.4%–5.3%** | **36%–97%** |
+| McKinney-Vento annual exposure | $54,337–$127,853 | $30,365–$79,908 | $46,347–$111,871 |
+| Before/after care gap (families) | 42–144 | 0 | 37–128 |
+| Before/after care cost (families) | $143,640–$803,520 | $0 | $126,540–$714,240 |
+| **District annual cost** | **$802,809–$876,325** | **$30,365–$79,908** | **$670,073–$735,597** |
+| **Family annual cost** | **$143,640–$803,520** | **$0** | **$126,540–$714,240** |
+| **Total fiscal exposure** | **$946,449–$1,679,845** | **$30,365–$79,908** | **$796,613–$1,449,837** |
+| **As % of claimed savings** | **43%–112%** | **1.4%–5.3%** | **36.2%–96.7%** |
 
-**Option B** carries dramatically lower exposure. It has not been presented by the district as the primary option.
+**Note:** Family costs are real economic burdens on South Portland households — before/after care is not discretionary for working parents. These costs do not appear on the district's budget ledger but fall directly on the taxpayer base Tom shares a neighborhood with.
 
-Note: Family-borne costs (before/after care gap) do not appear in the district budget. They are real costs transferred from the district to South Portland households. They are invisible to taxpayers reviewing the published budget.
-
----
-
-## What's Missing
-
-The district has not produced the following analyses, which are necessary to evaluate whether reconfiguration delivers net taxpayer value:
-
-1. **Per-household mil rate impact.** No document translates any configuration's cost into a per-assessed-value figure. Taxpayers cannot connect this decision to their tax bill.
-
-2. **Full cost-benefit analysis across configurations.** The district presented Option A as the primary scenario. No board-facing document compares all three configurations against claimed savings before the vote was taken.
-
-3. **Driver count verified before the SEA cut.** The 20-driver confirmed count came from a March 30, 2026 operations meeting — *after* the board voted to cut 14% of SEA positions. Every configuration shows a universal driver shortfall (4–13 drivers short depending on option). This was not disclosed prior to the vote.
-
-4. **Explanation for the 50.2% per-pupil transport cost spike.** South Portland's per-pupil transportation cost rose from $709 to $1,065 between FY23 and FY25 — a 50.2% increase against a statewide average of 10.5%. No explanation has been provided. Diesel was flagged as "considerable" at the March 30 meeting but not quantified.
-
-5. **Route logistics finalized before the vote.** Transportation logistics are described as "underway with a partner" — operationalized after board approval, not before.
+**Note on driver shortfall:** This is not an Option A problem. Even Option B — the lowest-impact configuration — leaves the district 4–7 drivers short. The 14% SEA staffing cut was finalized before anyone modeled route counts or counted available drivers. The shortfall is structural across all configurations.
 
 ---
 
-## Limitations
+## 4. What's Missing
 
-This analysis models fiscal exposure using available enrollment estimates, SEA staffing data, and McKinney-Vento eligibility rates. Key constraints:
+The district has not produced:
 
-- The claimed savings figure itself has not been formally disclosed as a single auditable number. Percentages above are derived from the data as provided.
-- Family-borne care costs use market-rate estimates ($57/week/child) applied to gap enrollment ranges. Actual costs depend on provider availability and family income.
-- Driver shortfall is based on 20 confirmed drivers. The post-cut available count (17–20) depends on which specific SEA positions are eliminated — not yet finalized.
-- This analysis cannot determine whether claimed savings are gross or net, or which budget line they appear against.
-
----
-
-## Invitation to Improve
-
-The district can sharpen this analysis substantially by providing:
-
-- The specific budget line and dollar amount representing claimed transportation savings
-- Finalized SEA position cut list, with driver headcount impact
-- Completed route modeling for each configuration, with per-route cost
-- A per-mil-rate or per-assessed-value impact figure for each configuration
-- An explanation of the FY23–FY25 per-pupil transport cost increase
-
-This brief will be updated to reflect any data the district supplies. The goal is accuracy, not advocacy.
+- **A published net savings figure** for any configuration that offsets gross savings against transport-related district costs (SPEC-065). The "savings" figure in circulation appears to be gross.
+- **A driver gap remediation plan with cost.** The district confirmed 20 bus drivers on March 30, 2026. Every configuration requires more. Whether the gap is filled by overtime, contractor drivers, or new hires — each has a dollar cost that has not been disclosed.
+- **An explanation of the 50.2% per-pupil transport cost spike (FY23–FY25).** Diesel was flagged as "considerable" at the March 30 meeting but was not quantified. The state average over the same period was 10.5%. This gap deserves its own line.
+- **Route expansion cost methodology.** Option A's $748,472 route expansion figure is the weakest link in the analysis. The district has not confirmed or disputed this estimate. It was derived from external modeling, not district-supplied actuals.
+- **Family cost acknowledgment.** Before/after care displacement — up to $803,520 annually for Option A families — does not appear anywhere in district budget communications.
 
 ---
 
-*Sources: SPEC-060 through SPEC-065; Transportation Claims Catalog (TC-001 through TC-027); Director of Operations confirmed driver count, March 30, 2026 board meeting.*
+## 5. Limitations
+
+This analysis models fiscal exposure from publicly available data and confirmed meeting testimony (March 30, 2026). It does not have access to:
+
+- The district's actual transportation contract terms or unit costs
+- Confirmed route maps under any configuration
+- The consultant's transport logistics work (described as "underway" post-vote, not pre-vote)
+- FY27 diesel price projections
+
+The driver shortfall numbers (confirmed: 20 drivers; needed: 24–30 by configuration) are derived from Director of Operations testimony. If additional drivers are on seasonal or part-time contracts not referenced at the March 30 meeting, the shortfall estimates may be overstated.
+
+---
+
+## 6. Invitation to Improve
+
+This analysis would be materially stronger with:
+
+1. **The district's own net savings calculation** — gross savings minus transport-related costs, by configuration
+2. **Confirmed route counts and driver hours** needed under each configuration, from the transportation consultant's work
+3. **The FY23–FY25 transport cost breakdown** — what drove the 50.2% per-pupil increase, and whether FY27 projects further increases
+4. **Before/after care capacity data** by school, including current waitlists and expansion feasibility
+5. **Driver gap remediation cost estimate**, inclusive of overtime, contracting, or new hire scenarios
+
+The district is invited to submit correcting or supplementing data. Any updates will be incorporated and disclosed as revisions to this brief.
