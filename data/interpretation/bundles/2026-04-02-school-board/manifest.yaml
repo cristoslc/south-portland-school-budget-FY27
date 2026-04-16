@@ -23,6 +23,14 @@ sources:
     evidence_pool: fy27-budget-documents
     hash: "sha256:ccabcbff04f87ab3e4a9904340bb5908fba3a78a812327447eed8610992c1f8e"
 
+  - source_id: "sb-packet-2026-04-02-052"
+    source_type: packet
+    title: "April 2026 Regular Meeting Packet"
+    path: data/school-board/budget-fy27/documents/April-2026-Regular-Meeting-Packet.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/052-april-2026-regular-meeting-packet.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:fb3288c2a7f2b8c0298ad6ca4899101f0fb2228cd15a6559571fb444d33cdd1d"
+
   - source_id: "sb-document-2026-04-02-047"
     source_type: document
     title: "Fy27 Budget Book 4.2.26"
