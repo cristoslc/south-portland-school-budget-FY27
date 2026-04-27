@@ -1,6 +1,6 @@
 trove: fy27-budget-documents
 created: 2026-03-09
-refreshed: '2026-04-15'
+refreshed: '2026-04-16'
 tags:
 - budget
 - fy27
@@ -380,17 +380,23 @@ sources:
   hash: sha256:48334750408d18a13cf5f347f8da1221a7fe1691f9f9a13a71c096140b0938da
   file: sources/049-4-7-26-special-budget-meeting-agenda.md
 - source-id: '050'
+  title: Special Budget Meeting 4.7.26
+  type: document
+  path: data/school-board/budget-fy27/documents/Special-Budget-Meeting-4.7.26.pdf
+  hash: sha256:6e2c1bcc35a849c31512ea1591d4adb2c035465f47fcd1cd9a6a4b48c8f2020e
+  file: sources/050-special-budget-meeting-4-7-26.md
+- source-id: '051'
   title: Board Slides 4.13.26
   type: document
   path: data/school-board/budget-fy27/documents/Board-Slides-4.13.26.pdf
   hash: sha256:8ef6ef1bbd6f020dca3504f3fe572c66f9ff8ad8d67f47b50806325e8482818c
-  file: sources/050-board-slides-4-13-26.md
-- source-id: '051'
-  title: Special Budget Meeting 4.7.26
+  file: sources/051-board-slides-4-13-26.md
+- source-id: '052'
+  title: April 2026 Regular Meeting Packet
   type: document
-  path: data/school-board/budget-fy27/documents/Special-Budget-Meeting-4.7.26.pdf
-  hash: sha256:f52478d6d58344de5c017a877f4dc0c5a0312324629fbcf0b411f1a3fea17887
-  file: sources/051-special-budget-meeting-4-7-26.md
+  path: data/school-board/budget-fy27/documents/April-2026-Regular-Meeting-Packet.pdf
+  hash: sha256:fb3288c2a7f2b8c0298ad6ca4899101f0fb2228cd15a6559571fb444d33cdd1d
+  file: sources/052-april-2026-regular-meeting-packet.md
 history:
 - event: extended
   date: '2026-03-31'

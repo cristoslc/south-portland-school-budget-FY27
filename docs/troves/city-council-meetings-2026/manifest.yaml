@@ -1,6 +1,6 @@
 trove: city-council-meetings-2026
 created: 2026-03-09
-refreshed: '2026-04-15'
+refreshed: '2026-04-24'
 tags:
 - city-council
 - meetings
@@ -352,12 +352,38 @@ sources:
   title: City Council Meeting — 2026-04-07
   type: media
   path: data/city-council/meetings/2026-04-07/transcript.en-x-autogen.vtt
-  hash: sha256:c5f4bc5339221f347d8b80086142b4957f1c5e94a8608defbc4fadbbc6c55096
+  hash: sha256:f21559e6a749aa13d3fe348e4a2c309bd09beea74d8d840c9ab473796626e44e
   file: sources/046-city-council-meeting-2026-04-07-2026-04-07.md
-  duration: 01:48:04
+  duration: 03:46:11
 - source-id: '047'
   title: City Council Agenda — 2026-04-14
   type: local
   path: data/city-council/meetings/2026-04-14/agenda.txt
   hash: sha256:890e017595f2789acabb622f0c8d70c0fb23b9098a212967d034f57f468f0e42
   file: sources/047-city-council-agenda-2026-04-14-2026-04-14.md
+- source-id: 048
+  title: City Council Budget Workshop — 2026-04-14
+  type: media
+  path: data/city-council/meetings/2026-04-14-budget-workshop/transcript.en-x-autogen.vtt
+  hash: sha256:38a7b522776e676bda570a9a317230a4b0d09046bbe9ce80e7cfe358bc087087
+  file: sources/048-city-council-budget-workshop-2026-04-14-2026-04-14.md
+  duration: 05:00:11
+- source-id: 049
+  title: City Council Agenda — 2026-04-21
+  type: local
+  path: data/city-council/meetings/2026-04-21/agenda.txt
+  hash: sha256:f0f666ba9e7ff75cfdd97587004b33f3c09156485a7a6b554f8a49fe00a576af
+  file: sources/049-city-council-agenda-2026-04-21-2026-04-21.md
+- source-id: '050'
+  title: City Council Meeting — 2026-04-21
+  type: media
+  path: data/city-council/meetings/2026-04-21/transcript.en-x-autogen.vtt
+  hash: sha256:73ef8bed0c49ad74ef1de6ac7d5ce59481a4464470c1f077188e2d76e303ebc6
+  file: sources/050-city-council-meeting-2026-04-21-2026-04-21.md
+  duration: 04:56:21
+- source-id: '051'
+  title: City Council Agenda — 2026-04-28
+  type: local
+  path: data/city-council/meetings/2026-04-28/agenda.txt
+  hash: sha256:c8fcc04ffba6036946a24d69d307b61c60f633978b3ec8ce36e5a58dfeed8f75
+  file: sources/051-city-council-agenda-2026-04-28-2026-04-28.md
