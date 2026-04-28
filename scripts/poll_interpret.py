@@ -214,7 +214,7 @@ def run_script(script_name, args, description=""):
     try:
         result = subprocess.run(
             cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT),
-            timeout=600,  # 10 minutes per script call
+            timeout=1800,  # 30 minutes per script call (LLM calls take time)
         )
     except subprocess.TimeoutExpired:
         log.error("  [timeout] %s exceeded 10-minute limit", script_name)
