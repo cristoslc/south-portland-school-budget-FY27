@@ -27,6 +27,7 @@ import argparse
 import concurrent.futures
 import datetime
 import logging
+import os
 import re
 import shutil
 import subprocess
@@ -204,7 +205,10 @@ def detect_gaps(num_personas):
 
 def run_script(script_name, args, description=""):
     """Run a pipeline script as a subprocess."""
-    cmd = ["python3", str(SCRIPT_DIR / script_name)] + args
+    venv_python = str(PROJECT_ROOT / ".venv" / "bin" / "python3")
+    if not os.path.isfile(venv_python):
+        venv_python = "python3"
+    cmd = [venv_python, str(SCRIPT_DIR / script_name)] + args
     log.info("  [exec] %s %s", script_name, " ".join(args))
 
     try:
