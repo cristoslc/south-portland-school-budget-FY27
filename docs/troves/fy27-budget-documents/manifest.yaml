@@ -1,6 +1,6 @@
 trove: fy27-budget-documents
 created: 2026-03-09
-refreshed: '2026-04-16'
+refreshed: '2026-04-30'
 tags:
 - budget
 - fy27
@@ -397,6 +397,12 @@ sources:
   path: data/school-board/budget-fy27/documents/April-2026-Regular-Meeting-Packet.pdf
   hash: sha256:fb3288c2a7f2b8c0298ad6ca4899101f0fb2228cd15a6559571fb444d33cdd1d
   file: sources/052-april-2026-regular-meeting-packet.md
+- source-id: '053'
+  title: Fy27 Budget 4.29.26 Board Meeting
+  type: document
+  path: data/school-board/budget-fy27/documents/FY27-Budget-4.29.26-Board-Meeting.pdf
+  hash: sha256:911ba811d1a611c69a5dc749a7823cb2147677dd9cc3cbb3c6c04f685e3ebba3
+  file: sources/053-fy27-budget-4-29-26-board-meeting.md
 history:
 - event: extended
   date: '2026-03-31'

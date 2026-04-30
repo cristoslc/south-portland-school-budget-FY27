@@ -1,6 +1,6 @@
 trove: city-council-meetings-2026
 created: 2026-03-09
-refreshed: '2026-04-24'
+refreshed: '2026-04-30'
 tags:
 - city-council
 - meetings
@@ -387,3 +387,10 @@ sources:
   path: data/city-council/meetings/2026-04-28/agenda.txt
   hash: sha256:c8fcc04ffba6036946a24d69d307b61c60f633978b3ec8ce36e5a58dfeed8f75
   file: sources/051-city-council-agenda-2026-04-28-2026-04-28.md
+- source-id: '052'
+  title: City Council Budget Workshop — 2026-04-28
+  type: media
+  path: data/city-council/meetings/2026-04-28-budget-workshop/transcript.en-x-autogen.vtt
+  hash: sha256:6c4916179a09b9f385378fbefcf86171998a58ae209390432a34d0da4be45778
+  file: sources/052-city-council-budget-workshop-2026-04-28-2026-04-28.md
+  duration: 02:40:42
