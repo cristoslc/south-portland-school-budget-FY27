@@ -1,6 +1,6 @@
 trove: school-board-budget-meetings
 created: 2026-03-09
-refreshed: '2026-04-15'
+refreshed: '2026-05-01'
 tags:
 - school-board
 - meetings
@@ -161,3 +161,10 @@ sources:
   hash: sha256:7020e1ed4eb28c4d6d30db3fca6742351ed81d4b878bc02c586f11081b3a7768
   file: sources/018-school-board-meeting-2026-04-13-2026-04-13.md
   duration: 02:59:28
+- source-id: 019
+  title: School Board Meeting — 2026-04-29
+  type: media
+  path: data/school-board/meetings/2026-04-29/transcript.en-x-autogen.vtt
+  hash: sha256:9d9bca959e93da5cb55b35712d556182bc2fd83f5f8de5f8a22d3ce4dfc39d0d
+  file: sources/019-school-board-meeting-2026-04-29-2026-04-29.md
+  duration: 03:51:12
