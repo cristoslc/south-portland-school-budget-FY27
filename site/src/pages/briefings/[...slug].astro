@@ -62,6 +62,12 @@ const cat = briefing.data.persona_id
 
     <h1>{displayTitle}</h1>
 
+    {briefing.data.persona_id && (
+      <div class="persona-disclaimer">
+        <strong>Note:</strong> This persona is a representative composite, not a real person. It reflects common concerns and perspectives that a person in this role might have about the school budget.
+      </div>
+    )}
+
     <div class="briefing-meta">
       {briefing.data.generated_date && <span>Updated: {briefing.data.generated_date}</span>}
       {briefing.data.upcoming_meeting_date && <span>Next meeting: {briefing.data.upcoming_meeting_date}</span>}

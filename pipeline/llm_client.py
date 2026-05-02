@@ -1,89 +1,101 @@
-"""Shared LLM client using the Claude Code CLI (claude -p).
+"""Shared LLM client using opencode run --attach (ollama-cloud/deepseek-v4-pro:cloud high).
 
-Uses the Claude Max subscription (OAuth login) — never API credits.
-ANTHROPIC_API_KEY is explicitly stripped from the subprocess environment
-to prevent accidental billing against API credits.
+Uses opencode as the LLM backend, connected to the local opencode server.
+Never touches claude -p or Anthropic API credits.
 """
 
 import json
 import logging
 import os
 import subprocess
+import sys
+
+ENCODING = "utf-8"
 
 log = logging.getLogger(__name__)
 
-DEFAULT_MODEL = "claude-sonnet-4-6"
+DEFAULT_MODEL = "ollama-cloud/deepseek-v4-pro:cloud"
+DEFAULT_VARIANT = "high"
+
+OPENCODE_BIN = "/opt/homebrew/bin/opencode"
+OPENCODE_SERVER = os.environ.get("OPENCODE_SERVER", "http://localhost:4096")
+OPENCODE_PASSWORD = os.environ.get("OPENCODE_SERVER_PASSWORD", "Btjms3141")
 
 
-def call_llm(prompt: str, *, system_prompt: str = "", model: str = DEFAULT_MODEL) -> str:
-    """Call Claude via the `claude -p` CLI and return the text response.
+def call_llm(
+    prompt: str, *, system_prompt: str = "", model: str = DEFAULT_MODEL
+) -> str:
+    """Call opencode via `opencode run --attach` and return the text response.
 
     Prompts are passed via stdin to avoid shell argument length limits.
-    ANTHROPIC_API_KEY is stripped from the environment to force subscription
-    auth instead of API credits.
+    If a system_prompt is provided, it is embedded in the prompt as a
+    <system> ... </system> block since opencode has no --system-prompt flag.
 
     Args:
         prompt: The user prompt.
-        system_prompt: Optional system prompt.
-        model: Model alias or full name (default: claude-sonnet-4-6).
+        system_prompt: Optional system instructions (embedded in prompt).
+        model: Model ID in provider/model format (default: ollama-cloud/deepseek-v4-pro:cloud).
 
     Returns:
         The model's text response as a string.
 
     Raises:
         subprocess.CalledProcessError: If the CLI exits with a non-zero code.
-        ValueError: If the response JSON is missing the expected 'result' field.
-        FileNotFoundError: If the `claude` CLI is not installed or not on PATH.
+        ValueError: If the response JSON stream contains no text content.
+        FileNotFoundError: If the opencode binary is not found.
     """
-    cmd = [
-        "claude", "-p",
-        "--model", model,
-        "--output-format", "json",
-        "--no-session-persistence",
-        "--tools", "",
-    ]
     if system_prompt:
-        cmd.extend(["--system-prompt", system_prompt])
+        full_prompt = f"<system>\n{system_prompt}\n</system>\n\n{prompt}"
+    else:
+        full_prompt = prompt
 
-    # Strip ANTHROPIC_API_KEY to force subscription auth (ADR-002)
-    env = {k: v for k, v in os.environ.items() if k != "ANTHROPIC_API_KEY"}
+    cmd = [
+        OPENCODE_BIN,
+        "run",
+        "--attach",
+        OPENCODE_SERVER,
+        "--model",
+        model,
+        "--variant",
+        DEFAULT_VARIANT,
+        "--format",
+        "json",
+        "--password",
+        OPENCODE_PASSWORD,
+    ]
 
-    log.debug("Calling claude CLI: model=%s, prompt_len=%d", model, len(prompt))
+    log.debug("Calling opencode: model=%s, prompt_len=%d", model, len(full_prompt))
 
     result = subprocess.run(
         cmd,
-        input=prompt,
+        input=full_prompt,
         capture_output=True,
         text=True,
         check=True,
-        env=env,
+        env={k: v for k, v in os.environ.items()},
     )
 
-    try:
-        data = json.loads(result.stdout)
-    except json.JSONDecodeError as exc:
-        raise ValueError(
-            f"claude CLI returned non-JSON output: {result.stdout[:200]!r}"
-        ) from exc
+    text_parts = []
+    for line in result.stdout.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            event = json.loads(line)
+        except json.JSONDecodeError:
+            log.debug("Skipping non-JSON line: %s", line[:80])
+            continue
+        if event.get("type") == "text":
+            part = event.get("part", {})
+            txt = part.get("text", "")
+            if txt:
+                text_parts.append(txt)
+        elif event.get("type") == "result" and event.get("is_error"):
+            err_text = event.get("result", "")[:200]
+            raise ValueError(f"opencode returned error: {err_text}")
 
-    # Handle both response formats:
-    # - dict with "result" key (API-key auth)
-    # - list of event objects (subscription auth / streaming JSON)
-    if isinstance(data, list):
-        for event in data:
-            if event.get("type") == "result":
-                if event.get("is_error"):
-                    raise ValueError(
-                        f"claude CLI returned error: {event.get('result', '')[:200]}"
-                    )
-                return event["result"]
-        raise ValueError(
-            f"claude CLI response missing 'result' event in stream"
-        )
+    if not text_parts:
+        log.error("opencode stdout dump: %s", result.stdout[:2000])
+        raise ValueError("opencode response contained no text content")
 
-    if "result" not in data:
-        raise ValueError(
-            f"claude CLI response missing 'result' field: {list(data.keys())}"
-        )
-
-    return data["result"]
+    return "".join(text_parts)
